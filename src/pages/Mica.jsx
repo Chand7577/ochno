@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import Preloader from "../components/Preloader.jsx";
 
 // ── Gallery Images ──────────────────────────────────────────────────────────
-import micaGallery1 from "../assets/mica-gallery-1.png";
-import micaGallery2 from "../assets/mica-gallery-2.png";
-import micaGallery3 from "../assets/mica-gallery-3.png";
-import micaGallery4 from "../assets/mica-gallery-4.png";
+import micaGallery1 from "../assets/mica-gallery-1.jpg";
+import micaGallery2 from "../assets/mica-gallery-2.jpg";
+import micaGallery3 from "../assets/mica-gallery-3.jpg";
+import micaGallery4 from "../assets/mica-gallery-4.jpg";
 
 // ── Icons ──────────────────────────────────────────────────────────────────
 const Icons = {

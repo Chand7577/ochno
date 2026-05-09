@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Preloader from "../components/Preloader.jsx";
 
 // --- Gallery Images ----------------------------------------------------------
-import wGallery1 from "../assets/wollastonite-gallery-1.png";
+import wGallery1 from "../assets/wollastonite-gallery-1.jpg";
 import wGallery2 from "../assets/wollastonite-gallery-2.jpeg";
 import wGallery3 from "../assets/wollastonite-gallery-3.jpeg";
 import wGallery4 from "../assets/wollastonite-gallery-4.jpeg";

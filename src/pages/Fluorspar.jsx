@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import Preloader from "../components/Preloader.jsx";
-import heroImage from "../assets/fluorspar_hero.png";
+import heroImage from "../assets/fluorspar_hero.jpg";
 import fluorsparVideo from "../assets/fluorpsar.mp4";
 import fluorsparImage from "../assets/fluorspar.jpeg";
 

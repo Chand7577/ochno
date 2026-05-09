@@ -14,9 +14,9 @@ import {
 import heroImg from "../assets/calcined.jpeg";
 import rawImg from "../assets/images/products/calcined-bauxite/image_2.jpeg";
 import grainImg from "../assets/images/products/calcined-bauxite/image_6.jpeg";
-import chartTech from "../assets/images/products/calcined-bauxite/image_3.png";
+import chartTech from "../assets/images/products/calcined-bauxite/image_3.jpg";
 import compareTable from "../assets/images/products/calcined-bauxite/image_5.png";
-import globalSources from "../assets/images/products/calcined-bauxite/image_7.png";
+import globalSources from "../assets/images/products/calcined-bauxite/image_7.jpg";
 
 // ── Icons ──────────────────────────────────────────────────────────────────
 const Icons = {

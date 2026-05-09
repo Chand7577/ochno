@@ -4,9 +4,9 @@ import Preloader from "../components/Preloader.jsx";
 import { Card } from "../components/ui/card.jsx";
 
 // ── Asset Imports ───────────────────────────────────────────────────────────
-import micaImg from "../assets/mica-gallery-1.png";
+import micaImg from "../assets/mica-gallery-1.jpg";
 import bauxiteImg from "../assets/calcined.jpeg";
-import wollastoniteImg from "../assets/wollastonite-gallery-1.png";
+import wollastoniteImg from "../assets/wollastonite-gallery-1.jpg";
 
 // About Us Specific Assets
 import img1 from "../assets/aboutus/WhatsApp Image 2026-04-30 at 3.32.09 PM.jpeg";

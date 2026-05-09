@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import Preloader from "../components/Preloader.jsx";
 
 // Images
-import mica1 from "../assets/mica-gallery-1.png";
-import bauxite from "../assets/images/products/calcined-bauxite/image_3.png";
+import mica1 from "../assets/mica-gallery-1.jpg";
+import bauxite from "../assets/images/products/calcined-bauxite/image_3.jpg";
 import wollastonite from "../assets/wollastonite-gallery-3.jpeg";
 import dol1 from "../assets/dol-1 (1).jpeg";
 import fluorspar from "../assets/fluorspar.jpeg";
