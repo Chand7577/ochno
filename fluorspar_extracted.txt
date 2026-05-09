@@ -1,0 +1,158 @@
+1 . Heading 
+Above-the-fold headline + dual CTA
+Headline: "High-Grade Fluorspar Sourced from China, South Africa & Mexico — Reliable Supply for Indian Industry"
+Sub-headline: Acidspar (97%+ CaF₂), Metspar (85–95% CaF₂), Ceramic grade — bulk & bagged
+Two CTAs: "Get a Quote / Enquire Now" (Indian buyers) and "Offer Your Fluorspar Supply" (foreign exporters)
+Trust triggers: import volumes, years in business, industries supplied
+WhatsApp / phone visible — Indian B2B buyers call first, email second
+2.  Product grades catalogue
+Grade
+CaF₂ %
+SiO₂ max
+CaCO₃ max
+Fe₂O₃ max
+S max
+Primary use
+Acidspar (AHF grade)
+97% min
+1.0%
+0.5%
+0.15%
+0.03%
+HF / AHF manufacturing
+Acidspar (97.5%)
+97.5% min
+0.8%
+0.3%
+0.10%
+0.02%
+Refrigerants, fluoropolymers
+Metspar
+85–92%
+3.0%
+2.0%
+0.30%
+0.05%
+Steel, aluminium flux
+Ceramic grade
+90–95%
+2.5%
+1.5%
+0.25%
+—
+Enamel, glass, ceramic frit
+Optical / UV grade
+99%+ min
+0.1%
+—
+0.05%
+—
+Optical lenses, semiconductors
+Lump (25–75mm), gravel (6–25mm), and powder (200 mesh) forms available by grade
+Downloadable COA / typical test report for each grade as PDF
+Custom spec sourcing available: "Tell us your exact spec — we will source it"
+3.  Indian fluorspar — domestic specs, sources & limitations
+Why India needs to import high-grade fluorspar
+India's reserves: ~12–13 million tonnes, primarily in Gujarat (Ambadongar — largest deposit), Rajasthan (Dungarpur, Sirohi, Jalore), Madhya Pradesh, Chhattisgarh
+India's annual production: ~40,000–50,000 MT — far below domestic industrial demand
+Typical Indian fluorspar specs from Ambadongar (Gujarat):
+Parameter
+Typical Indian (Ambadongar)
+Import grade (China)
+CaF₂ %
+70–85%
+97%+
+SiO₂ %
+5–12%
+<1%
+CaCO₃ %
+3–8%
+<0.5%
+Fe₂O₃ %
+0.5–2%
+<0.15%
+Form
+Gravel/lump, inconsistent
+Sorted lump, consistent
+Indian fluorspar uses (where domestic grade is sufficient): flux in steel / iron foundries (metspar application), cement industry additive, glass batch use (lower purity acceptable)
+Where Indian grade falls short: HF / AHF manufacturing requires 97%+ CaF₂ — domestic material cannot meet this; refrigerant & fluoropolymer chain requires ultra-low SiO₂; optical grade is entirely import-dependent
+BIS specification for fluorspar: IS 1070 — mention compliance testing
+4.  Who in India buys fluorspar and why
+Fluorspar is used across 8+ Indian industries
+HF / AHF manufacturing (largest segment): SRF, Navin Fluorine, Gujarat Fluorochemicals — require 97%+ acidspar continuously; HF is the entry point for the entire fluorochemical chain
+Refrigerants & fluoropolymers: PTFE, PVDF, FKM manufacturers — India's fluoropolymer sector is growing rapidly post China+1 trend; needs consistent acidspar supply
+Steel & alloy industry: metspar as flux in EAF, BOF; lowers slag viscosity, improves desulphurisation — Tata Steel, JSW, SAIL type buyers; 85–92% CaF₂ sufficient
+Aluminium smelting: flux in electrolytic cells (Hall-Héroult process), reduces bath temperature
+Glass & ceramics: opacity agent, flux to lower melting point — architectural glass, opalescent glass, ceramic frit
+Cement industry: mineraliser in clinker formation, reduces kiln temperature, improves grindability
+Welding electrodes: flux coating component — mid-purity grade sufficient
+Optical & semiconductor: UV-grade CaF₂ for lens blanks, lithography windows — niche but high-value
+5.  Supply origins & sourcing map
+China: world's largest producer (~60% of global supply); Inner Mongolia, Hunan, Zhejiang deposits; consistent acidspar quality; your primary source for acidspar grades
+South Africa: Bushveld complex (SepFluor / Sallies deposits); high-purity acidspar, low impurities, consistent lump form; preferred for HF-grade supply
+Mexico: second-largest global producer; Coahuila and Durango deposits; competitive on metspar and mid-grade acidspar
+Mongolia: growing exporter; competitive pricing; Bor-Undur deposit; good acidspar quality
+Morocco, Namibia: emerging sources for diversification
+CTA for foreign exporters: "Are you a fluorspar mine, producer or export trading company? We are an active importer — send us your product specification and availability"
+What you need from a supplier: consistent CaF₂ %, COA per lot, SGS/Intertek pre-shipment inspection, 
+6. Why India's fluorspar demand is growing — and the supply gap
+ndia's fluorochemical sector: one of the fastest-growing globally — Atmanirbhar push on refrigerants (R-32, R-125), PTFE, lithium-ion battery electrolytes (LiPF₆ needs HF)
+HF demand in India: ~200,000+ MT/year of fluorspar equivalent needed for HF alone — domestic production only ~40,000–50,000 MT/year, creating a structural import gap of 150,000+ MT
+China+1 effect: global fluoropolymer supply chain diversifying to India — new PTFE and PVDF plants announced in Gujarat and Dahej SEZ — all need acidspar feed
+EV battery angle: LiPF₆ electrolyte salt requires ultra-pure HF → requires high-grade acidspar → India is building this capacity now
+Steel industry: India is world's 2nd largest steel producer — metspar demand growing with EAF capacity additions
+India's import dependency: ~70–75% of high-grade fluorspar consumed in India is imported — primarily from China
+7. FAQ
+1. What is the difference between acid grade and metallurgical grade fluorspar?
+Acid grade fluorspar typically contains ≥97% CaF₂ and is used in hydrofluoric acid and chemical production.Metallurgical grade fluorspar contains 80–90% CaF₂ and is primarily used in steelmaking as a flux to improve slag fluidity.
+2. What CaF₂ % can we consistently supply?
+We supply:
+Acid Grade: 97% minimum 
+Metallurgical Grade: 80–90% 
+Custom specifications can also be arranged based on specific application requirements.
+3. What are the key impurities to check in fluorspar?
+Key parameters include:
+SiO₂ (Silica) 
+Sulfur (S) 
+Phosphorus (P) 
+Calcium Carbonate (CaCO₃) 
+Maintaining low impurity levels is critical for both chemical and metallurgical applications.
+4. What is the typical size available for fluorspar?
+We supply:
+Lumps: 10–50 mm / 10–70 mm 
+Powder / fines for chemical applications 
+Sizes can be customized as per requirement.
+5. Do we provide samples before bulk order?
+Yes, we provide samples for testing and approval before confirming bulk shipments.
+6. What is our minimum order quantity (MOQ)?
+MOQ depends on grade and origin, but typically:
+1 container (20–25 MT) for trial orders 
+Bulk supply available for long-term contracts 
+7. Can we supply fluorspar regularly on a long-term basis?
+Yes, we work with multiple global suppliers, ensuring consistent and uninterrupted supply for long-term requirements.
+8. What payment terms do we accept when selling?
+We generally work with:
+LC (Letter of Credit) 
+TT (Advance / Partial Advance) 
+Terms can be discussed based on order size and relationship.
+9. Are we looking to collaborate with fluorspar exporters?
+Yes, we actively collaborate with global fluorspar miners and exporters for long-term supply to Indian buyers.
+10. What specifications do we look for from suppliers?
+We typically look for:
+Acid grade (≥97% CaF₂) 
+Metallurgical grade (80–90% CaF₂) 
+Consistent quality across shipments 
+11. Which countries are we sourcing from?
+Currently sourcing from:
+China 
+South Africa 
+We are open to collaboration with suppliers from:
+Mongolia 
+Mexico 
+Other regions 
+12. How can suppliers connect with us?
+Suppliers can share:
+Product specifications 
+Test reports 
+Company profile 
+We are open to long-term supply partnerships

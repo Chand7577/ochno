@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #002d52;
+  --color-wine: #bd1156;
+  --font-sans: "Mukta", sans-serif;
+}
