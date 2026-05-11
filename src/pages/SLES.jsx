@@ -504,40 +504,40 @@ const SLES = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                t: "Direct Import",
-                d: "We source directly from trusted Chinese manufacturers, bypassing middlemen to ensure authenticity.",
+                t: "Direct Sourcing",
+                d: "We directly source from China, ensuring authentic and reliable supply of SLES for the Indian market.",
                 i: <Icons.Factory />,
               },
               {
-                t: "End-to-End Logistics",
-                d: "We handle transportation, customs clearance, and documentation for a hassle-free delivery experience.",
+                t: "Hassle-Free Logistics",
+                d: "We handle the entire logistics process, including transportation, customs clearance, and documentation — so you get hassle-free delivery.",
                 i: <Icons.Droplets />,
               },
               {
-                t: "Quality Assured",
-                d: "Every batch undergoes strict quality checks to ensure consistent active matter and high purity.",
+                t: "Quality Checked",
+                d: "Every batch is carefully quality-checked before purchase, ensuring consistent and high-grade material.",
                 i: <Icons.Shield />,
               },
               {
-                t: "Competitive Pricing",
-                d: "Massive scale and direct network allow us to offer the most competitive rates in the market.",
-                i: <Icons.Check />,
+                t: "Trusted Manufacturers",
+                d: "We have strong and long-term relationships with trusted Chinese manufacturers, which helps us secure better deals.",
+                i: <Icons.Globe />,
               },
               {
-                t: "Reliable Offtake",
-                d: "Stable supply chains that meet your production schedules without unexpected delays.",
-                i: <Icons.Globe />,
+                t: "Competitive Pricing",
+                d: "Because of our direct sourcing and network, we offer competitive pricing with superior quality compared to other suppliers.",
+                i: <Icons.Check />,
               },
             ].map((item, i) => (
               <Reveal
                 key={i}
                 delay={i * 100}
                 variant="fadeUp"
-                className="bg-white/5 p-8 rounded-[2.5rem] border border-white/10"
+                className="bg-white/5 p-8 rounded-[2.5rem] border border-white/10 hover:bg-white/10 transition-colors"
               >
-                <div className="mb-4 text-wine">{item.i}</div>
-                <h4 className="text-xl font-bold mb-4">{item.t}</h4>
-                <p className="text-gray-400 text-sm leading-relaxed">
+                <div className="mb-6">{item.i}</div>
+                <h4 className="text-xl font-black mb-4 uppercase tracking-tight italic text-wine">{item.t}</h4>
+                <p className="text-gray-400 text-sm font-medium leading-relaxed">
                   {item.d}
                 </p>
               </Reveal>

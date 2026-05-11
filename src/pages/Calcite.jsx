@@ -387,90 +387,6 @@ const Calcite = () => {
         </div>
       </section>
 
-      {/* 🤝 Buyer Advantages */}
-      <section className="py-24 bg-navy text-white relative">
-        <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <Reveal className="text-center mb-16">
-            <h2 className="text-4xl font-black mb-4 uppercase tracking-tight">
-              Buyer <span className="text-wine">Advantages</span>
-            </h2>
-            <div className="w-24 h-1 bg-wine mx-auto rounded-full mb-8"></div>
-          </Reveal>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <Reveal variant="fadeLeft">
-              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full space-y-10">
-                <h3 className="text-2xl font-black text-white flex items-center gap-4">
-                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
-                    <Icons.Check />
-                  </div>
-                  Quality & Consistency
-                </h3>
-                <ul className="space-y-6 text-gray-300 text-base font-medium">
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>Fixed mine
-                    source (Rajasthan/Gujarat) for export grades — consistent
-                    CaCO₃ and whiteness.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>Fixed origin
-                    (Vietnam/Malaysia) for imported grades — consistent particle
-                    size lot to lot.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>Full COA per
-                    lot: CaCO₃%, whiteness, brightness, D50, D97, moisture, oil
-                    absorption.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>SGS / Intertek
-                    inspection available on request.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>MSDS and
-                    packing list with every consignment.
-                  </li>
-                </ul>
-              </div>
-            </Reveal>
-
-            <Reveal variant="fadeRight">
-              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full space-y-10">
-                <h3 className="text-2xl font-black text-white flex items-center gap-4">
-                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
-                    <Icons.Check />
-                  </div>
-                  Supply & Commercial
-                </h3>
-                <ul className="space-y-6 text-gray-300 text-base font-medium">
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>Both export
-                    (India GCC) and import (coated/PCC) grades from one
-                    supplier.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>MOQ 1 MT for
-                    trial orders.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>Ex-stock at
-                    JNPT / Mundra for standard imported grades.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>Competitive
-                    pricing for both domestic supply and export.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>Sample
-                    dispatched within 3–5 days.
-                  </li>
-                </ul>
-              </div>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-
       {/* 🔬 Understanding Grades */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -955,93 +871,167 @@ const Calcite = () => {
         </div>
       </section>
 
-      {/* 🤝 Supplier Partnerships */}
-      <section className="py-24 bg-[#f8f9fb]">
-        <div className="max-w-7xl mx-auto px-6">
+      {/* 🤝 Section 6: Why Buy From Us */}
+      <section className="py-24 bg-navy text-white relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-wine/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Reveal className="text-center mb-16">
-            <h2 className="text-4xl font-black text-navy mb-4 tracking-tight uppercase">
-              Supplier <span className="text-wine">Partnerships</span>
+            <span className="text-wine font-black uppercase tracking-widest text-sm mb-4 block">
+              Section 6
+            </span>
+            <h2 className="text-4xl md:text-5xl font-black mb-4 uppercase tracking-tight">
+              Why Buy <span className="text-wine">From Us?</span>
             </h2>
-            <div className="w-24 h-1 bg-wine mx-auto rounded-full mb-8"></div>
+            <div className="w-24 h-1.5 bg-wine mx-auto rounded-full mb-6"></div>
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto font-light leading-relaxed">
+              We provide unmatched technical expertise, dual business model advantages, and full quality assurance for both export and import markets.
+            </p>
           </Reveal>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <Reveal variant="fadeLeft">
-              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full">
-                <h3 className="text-2xl font-black text-navy mb-6">
-                  Foreign Suppliers Welcome
+              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full space-y-10">
+                <h3 className="text-2xl font-black text-white flex items-center gap-4">
+                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
+                    <Icons.Check />
+                  </div>
+                  Technical & Dual Model
                 </h3>
-                <p className="text-gray-500 mb-4 leading-relaxed">
-                  India is one of the world's largest importers of calcium
-                  carbonate — 10,495 shipments annually and growing at 34%.
-                  Vietnam, Malaysia and Egypt currently dominate supply. With
-                  India's PVC, plastics and paints industries expanding rapidly,
-                  this demand is only going to grow. If you produce coated GCC,
-                  PCC or specialty grades and are exploring the Indian market,
-                  we are a buyer worth knowing.
-                </p>
-                <p className="text-gray-500 mb-6 leading-relaxed">
-                  We are looking for suppliers who can work with us on
-                  credit-based payment terms{" "}
-                  <strong className="text-navy">(DA / Net 45–60 days)</strong> —
-                  if this matches how you work with established buyers, we would
-                  be glad to hear from you.
-                </p>
-                <div className="space-y-3">
-                  <div className="bg-gray-50 p-4 rounded-2xl">
-                    <div className="text-wine font-bold text-xs uppercase mb-2">
-                      What We Look For
-                    </div>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>
-                        • Coated GCC: CaCO₃ ≥98% · Whiteness ≥95 GE · D50 1–5 µm
-                        · Stearic acid coating ≥1% · COA per lot
-                      </li>
-                      <li>
-                        • PCC Scalenohedral: CaCO₃ ≥98% · Whiteness ≥96 GE · D50
-                        0.5–2 µm · COA per lot
-                      </li>
-                      <li>• Origin: Vietnam, Malaysia, Egypt preferred</li>
-                    </ul>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-2xl">
-                    <div className="text-wine font-bold text-xs uppercase mb-2">
-                      To Start a Conversation, Share
-                    </div>
-                    <p className="text-sm text-gray-600">
-                      Company · Country · Product (coated GCC / PCC / uncoated
-                      GCC) · D50 · Whiteness GE · Monthly capacity (MT) · FOB
-                      price · Payment terms · Contact
-                    </p>
-                  </div>
-                </div>
+                <ul className="space-y-6 text-gray-300 text-base font-medium">
+                  {[
+                    "Dual Expertise: We understand both GCC (natural) and PCC (synthetic) chemistry inside out",
+                    "Export & Import Specialists: We know what Indian mines produce best and what needs to be imported",
+                    "Single-Window Supply: Get standard Indian GCC and premium imported coated grades from one partner",
+                    "Technical Application Support: Helping you choose between GCC/PCC for PVC, masterbatches, or paper",
+                    "Dual-Port Logistics: Handling both export from Mundra and import through Nhava Sheva efficiently",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1.5 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p className="group-hover:text-white transition-colors">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </Reveal>
 
             <Reveal variant="fadeRight">
-              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full">
-                <h3 className="text-2xl font-black text-navy mb-6">
-                  Mine Owners & Processors
-                </h3>
-                <p className="text-gray-500 mb-6 leading-relaxed">
-                  We source GCC from Rajasthan (Udaipur, Alwar, Jodhpur) and
-                  Gujarat processors for export to Nepal, Bangladesh and other
-                  markets. If you have a calcite grinding unit with consistent
-                  quality and monthly output, we want to hear from you.
-                </p>
-                <div className="space-y-4">
-                  <div className="bg-gray-50 p-4 rounded-2xl">
-                    <div className="text-wine font-bold text-xs uppercase mb-1">
-                      What We Need
-                    </div>
-                    <ul className="text-sm text-gray-600 space-y-2">
-                      <li>• CaCO₃ ≥97% · Whiteness ≥88 GE</li>
-                      <li>• Consistent mesh size</li>
-                      <li>• Monthly capacity ≥50 MT</li>
-                      <li>• Contact number</li>
-                    </ul>
+              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full space-y-10">
+                <h3 className="text-2xl font-black text-white flex items-center gap-4">
+                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
+                    <Icons.Check />
                   </div>
+                  Quality & Commercial
+                </h3>
+                <ul className="space-y-6 text-gray-300 text-base font-medium">
+                  {[
+                    "Fixed Source Consistency: Rajasthan/Gujarat for export; Vietnam/Malaysia for imported grades",
+                    "Full COA per lot: CaCO₃%, Whiteness, D50, D97, Moisture, and Oil Absorption provided proactively",
+                    "Third-Party Inspection: SGS / Intertek inspection available on request for global consignments",
+                    "Low MOQ: Trial orders starting from 1 MT to help with grade qualification and testing",
+                    "Transparent Pricing: Competitive rates for domestic supply, global export, and fresh imports",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1.5 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p className="group-hover:text-white transition-colors">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* 🤝 Section 7: Partner With Us */}
+      <section className="py-24 bg-[#f8f9fb]">
+        <div className="max-w-7xl mx-auto px-6">
+          <Reveal className="text-center mb-16">
+            <span className="text-wine font-black uppercase tracking-widest text-sm mb-4 block">
+              Section 7
+            </span>
+            <h2 className="text-4xl md:text-5xl font-black text-navy mb-4 uppercase tracking-tight">
+              Partner <span className="text-wine">With Us</span>
+            </h2>
+            <div className="w-24 h-1.5 bg-wine mx-auto rounded-full mb-6"></div>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto font-light leading-relaxed">
+              Whether you are a foreign supplier looking for an Indian distributor or a domestic mine owner seeking export offtake, we offer a professional and reliable partnership.
+            </p>
+          </Reveal>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Card 1: Foreign Suppliers */}
+            <Reveal variant="fadeLeft">
+              <div className="bg-white p-12 rounded-[4rem] shadow-xl border border-gray-100 h-full flex flex-col">
+                <h3 className="text-3xl font-black text-navy mb-6">
+                  Foreign <span className="text-wine">Suppliers</span>
+                </h3>
+                <p className="text-gray-500 mb-8 leading-relaxed">
+                  We are a leading importer and distributor of premium calcium carbonate in India. We help Vietnam, Malaysia, and Egypt-based producers reach high-end Indian masterbatch and PVC manufacturers.
+                </p>
+                <div className="bg-gray-50 p-8 rounded-3xl mb-8 space-y-6 flex-grow">
+                  <div className="text-wine font-bold text-xs uppercase tracking-[0.2em]">What We Source</div>
+                  <ul className="space-y-4">
+                    <li className="flex gap-3 text-sm text-gray-600">
+                      <span className="text-wine font-bold">01.</span>
+                      Coated GCC (D50 1–3 µm) for premium PVC/Cable
+                    </li>
+                    <li className="flex gap-3 text-sm text-gray-600">
+                      <span className="text-wine font-bold">02.</span>
+                      PCC Scalenohedral (Whiteness ≥96 GE)
+                    </li>
+                    <li className="flex gap-3 text-sm text-gray-600">
+                      <span className="text-wine font-bold">03.</span>
+                      High-whiteness limestone lumps for grinding
+                    </li>
+                  </ul>
                 </div>
+                <Link to="/contact">
+                  <Button variant="navy" className="w-full py-8 text-lg rounded-2xl font-black">
+                    Register as Supplier
+                  </Button>
+                </Link>
+              </div>
+            </Reveal>
+
+            {/* Card 2: Mine Owners & Processors */}
+            <Reveal variant="fadeRight">
+              <div className="bg-white p-12 rounded-[4rem] shadow-xl border border-gray-100 h-full flex flex-col">
+                <h3 className="text-3xl font-black text-navy mb-6">
+                  Mine <span className="text-wine">Owners</span>
+                </h3>
+                <p className="text-gray-500 mb-8 leading-relaxed">
+                  We source GCC from Rajasthan and Gujarat processors for export to Nepal, Bangladesh, and beyond. If you have a grinding unit with consistent quality, we provide stable, year-round export orders.
+                </p>
+                <div className="bg-gray-50 p-8 rounded-3xl mb-8 space-y-6 flex-grow">
+                  <div className="text-wine font-bold text-xs uppercase tracking-[0.2em]">Minimum Criteria</div>
+                  <ul className="space-y-4">
+                    <li className="flex justify-between border-b border-gray-200 pb-2 text-sm">
+                      <span className="text-gray-500 font-medium">CaCO₃ Purity</span>
+                      <span className="text-navy font-black">≥97%</span>
+                    </li>
+                    <li className="flex justify-between border-b border-gray-200 pb-2 text-sm">
+                      <span className="text-gray-500 font-medium">Whiteness</span>
+                      <span className="text-navy font-black">≥88 GE</span>
+                    </li>
+                    <li className="flex justify-between border-b border-gray-200 pb-2 text-sm">
+                      <span className="text-gray-500 font-medium">Monthly Output</span>
+                      <span className="text-navy font-black">≥50 MT</span>
+                    </li>
+                  </ul>
+                </div>
+                <Link to="/contact">
+                  <Button variant="wine" className="w-full py-8 text-lg rounded-2xl font-black">
+                    Discuss Export Offtake
+                  </Button>
+                </Link>
               </div>
             </Reveal>
           </div>

@@ -445,49 +445,136 @@ const FuselOilIsoamylAlcohol = () => {
         </div>
       </section>
 
-      {/* 🤝 Sourcing & Partners */}
+      {/* 🤝 Section 5: Why buy from us */}
+      <section className="py-24 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-6">
+          <Reveal variant="fadeUp" className="text-center mb-16">
+            <h2 className="text-4xl font-black text-navy uppercase italic mb-4">Section 5 — Why <span className="text-wine">buy from us</span></h2>
+            <div className="w-24 h-1 bg-wine mx-auto"></div>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="bg-navy p-10 text-white rounded-[2.5rem] shadow-2xl relative overflow-hidden group">
+              <div className="absolute top-0 right-0 p-8 opacity-5 scale-150 group-hover:scale-110 transition-transform duration-700">
+                <Icons.Beaker />
+              </div>
+              <h4 className="text-wine font-black uppercase text-xs tracking-[0.2em] mb-8 border-b border-white/10 pb-4">Quality & consistency</h4>
+              <ul className="space-y-4">
+                {[
+                  "Fixed distillery origin — consistent GC assay lot to lot",
+                  "Full COA per lot: GC assay, specific gravity, water, flash point, acidity",
+                  "Food / pharma grade available with FSSAI documentation",
+                  "MSDS per IMDG / ADR hazmat format — every consignment"
+                ].map((item, i) => (
+                  <li key={i} className="flex gap-4 items-start text-sm font-medium text-gray-300 italic">
+                    <span className="text-wine">•</span> {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="bg-wine p-10 text-white rounded-[2.5rem] shadow-2xl relative overflow-hidden group">
+              <div className="absolute top-0 right-0 p-8 opacity-10 scale-150 group-hover:scale-110 transition-transform duration-700">
+                <Icons.Globe />
+              </div>
+              <h4 className="text-white font-black uppercase text-xs tracking-[0.2em] mb-8 border-b border-white/10 pb-4">Supply & commercial</h4>
+              <ul className="space-y-4">
+                {[
+                  "Both fusel oil and IAA from one supplier — simplified procurement",
+                  "MOQ 200L (1 drum) for trial orders — easy qualification",
+                  "200L drums, standard export packaging available",
+                  "Competitive FOB / CIF pricing to your port"
+                ].map((item, i) => (
+                  <li key={i} className="flex gap-4 items-start text-sm font-medium text-white/80 italic">
+                    <span className="text-white">•</span> {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 🤝 Section 6A & 7: Market Engagement */}
       <section className="py-24 bg-gray-50 border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <Reveal variant="fadeLeft" className="bg-white p-10 shadow-xl border-t-4 border-navy">
-              <h3 className="text-2xl font-black text-navy uppercase italic mb-6">For Indian Distilleries:</h3>
-              <p className="text-gray-600 mb-8 font-medium italic">"We help distilleries unlock better value by connecting them to premium export markets."</p>
-              <ul className="space-y-4">
-                {[
-                  "Handle all export documentation, MSDS, shipping, and customs",
-                  "Regular and consistent monthly off-take (Min 1,000L/month)",
-                  "Maintain full GST and excise compliance",
-                  "Value addition sharing for IAA refinement",
-                  "Pay export-market prices, not domestic scrap prices"
-                ].map((text, i) => (
-                  <li key={i} className="flex gap-4 items-start">
-                    <Icons.Check />
-                    <span className="text-gray-600 font-medium">{text}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-10 p-6 bg-navy text-white text-[10px] font-bold uppercase tracking-[0.2em] italic">
-                Distilleries in Maharashtra, UP, Karnataka, Gujarat, Punjab, Andhra & all states considered.
+            {/* Section 6A: Indian Distilleries */}
+            <Reveal variant="fadeLeft" className="bg-white p-10 shadow-xl border-t-4 border-navy rounded-b-[2rem]">
+              <div className="mb-6 flex items-center justify-between">
+                <h3 className="text-2xl font-black text-navy uppercase italic">Section 6A — Partner With Us</h3>
+                <span className="bg-navy text-white text-[8px] font-black px-3 py-1 rounded-full uppercase">For Distilleries</span>
+              </div>
+              <p className="text-gray-600 mb-8 text-sm font-medium leading-relaxed">
+                India's ethanol industry generates fusel oil as a consistent by-product — yet many distilleries treat it as waste. We help distilleries unlock better value by connecting them to premium export markets.
+              </p>
+              
+              <div className="space-y-8">
+                <div>
+                  <h5 className="text-[10px] font-black text-wine uppercase tracking-widest mb-4">Why partner with us:</h5>
+                  <ul className="space-y-3">
+                    {[
+                      "We pay export-market prices, not domestic scrap prices",
+                      "We handle all export documentation, MSDS, and shipping",
+                      "Consistent monthly off-take (Min 1,000L/month)",
+                      "Full excise and GST compliance maintenance",
+                      "Refinement value-addition sharing arrangements available"
+                    ].map((text, i) => (
+                      <li key={i} className="flex gap-3 items-start">
+                        <Icons.Check />
+                        <span className="text-gray-600 text-xs font-bold">{text}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 border-l-4 border-navy">
+                  <h5 className="text-[10px] font-black text-navy uppercase tracking-widest mb-2">To start a conversation:</h5>
+                  <p className="text-gray-400 text-[10px] font-medium leading-loose italic">
+                    Distillery name · State · Ethanol type (molasses / grain) · Approx monthly fusel oil available (litres) · Contact number
+                  </p>
+                </div>
               </div>
             </Reveal>
-            <Reveal variant="fadeRight" className="bg-white p-10 shadow-xl border-t-4 border-wine">
-              <h3 className="text-2xl font-black text-wine uppercase italic mb-6">Foreign Buyers & Distributors:</h3>
-              <p className="text-gray-600 mb-8 font-medium">We export to fragrance manufacturers, pharmaceutical companies, mining chemical suppliers and solvent distributors globally.</p>
-              <ul className="space-y-4">
-                {[
-                  "Consistent GC assay lot-to-lot (Fixed distillery origin)",
-                  "UN-certified 200L/210L HDPE Drums (with or without pallets)",
-                  "Competitive FOB / CIF pricing to your port",
-                  "MSDS provided with every export shipment",
-                  "Supply Arrangements: Ongoing or Spot consignments"
-                ].map((text, i) => (
-                  <li key={i} className="flex gap-4 items-start">
-                    <Icons.Check />
-                    <span className="text-gray-600 font-medium">{text}</span>
-                  </li>
-                ))}
-              </ul>
-              <Link to="/contact" className="inline-block mt-10 text-wine font-black uppercase tracking-widest border-b-2 border-wine hover:text-navy hover:border-navy transition-all">
+
+            {/* Section 7: Foreign Buyers */}
+            <Reveal variant="fadeRight" className="bg-white p-10 shadow-xl border-t-4 border-wine rounded-b-[2rem]">
+              <div className="mb-6 flex items-center justify-between">
+                <h3 className="text-2xl font-black text-wine uppercase italic">Section 7 — Foreign Buyers</h3>
+                <span className="bg-wine text-white text-[8px] font-black px-3 py-1 rounded-full uppercase">Global Distribution</span>
+              </div>
+              <p className="text-gray-600 mb-8 text-sm font-medium leading-relaxed">
+                We export fusel oil and isoamyl alcohol to fragrance manufacturers, pharmaceutical companies, and mining chemical suppliers in the Middle East, Southeast Asia, Europe and Africa.
+              </p>
+
+              <div className="space-y-8">
+                <div>
+                  <h5 className="text-[10px] font-black text-navy uppercase tracking-widest mb-4">Supply Highlights:</h5>
+                  <ul className="space-y-3">
+                    {[
+                      "Consistent GC assay lot-to-lot (Fixed origin)",
+                      "UN-certified 200L/210L HDPE Drums",
+                      "Competitive FOB / CIF pricing globally",
+                      "MSDS provided with every export shipment",
+                      "Ongoing supply or Spot consignments"
+                    ].map((text, i) => (
+                      <li key={i} className="flex gap-3 items-start">
+                        <Icons.Check />
+                        <span className="text-gray-600 text-xs font-bold">{text}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="bg-wine/5 p-6 border-l-4 border-wine">
+                  <h5 className="text-[10px] font-black text-wine uppercase tracking-widest mb-2">To Enquire:</h5>
+                  <p className="text-gray-400 text-[10px] font-medium leading-loose italic">
+                    Company · Country · Product (fusel oil / IAA 98% / IAA 99%) · Qty/month (MT or litres) · Application · Port of discharge · Contact
+                  </p>
+                </div>
+              </div>
+
+              <Link to="/contact" className="inline-block mt-8 text-wine font-black uppercase tracking-widest border-b-2 border-wine hover:text-navy hover:border-navy transition-all text-[10px]">
                 Enquire Now
               </Link>
             </Reveal>

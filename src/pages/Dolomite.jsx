@@ -36,7 +36,7 @@ import {
   AccordionTrigger,
 } from "../components/ui/accordion.jsx";
 
-// ── Icons ──────────────────────────────────────────────────────────────────
+//  Icons 
 const Icons = {
   Check: () => (
     <svg
@@ -136,7 +136,7 @@ const Icons = {
   ),
 };
 
-// ── Reveal Component ─────────────────────────────────────────────────────────
+//  Reveal Component 
 const VARIANTS = {
   fadeUp: {
     h: "opacity-0 translate-y-12 blur-sm",
@@ -210,7 +210,7 @@ const Dolomite = () => {
     <div className="bg-[#f8f9fb] min-h-screen text-navy font-sans overflow-x-hidden">
       <Preloader />
 
-      {/* 🚀 Hero Section */}
+      {/*  Hero Section */}
       <section className="relative w-full h-[75vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
@@ -224,7 +224,7 @@ const Dolomite = () => {
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center pt-20">
           <Reveal variant="fadeUp" delay={200}>
             <Badge variant="default" className="mb-6 mt-12">
-              Premium Grade · 98% Carbonate · Prompt Delivery
+              Premium Grade - 98% Carbonate - Prompt Delivery
             </Badge>
           </Reveal>
           <Reveal variant="fadeUp" delay={400}>
@@ -234,8 +234,8 @@ const Dolomite = () => {
           </Reveal>
           <Reveal variant="fadeUp" delay={600}>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto font-light leading-relaxed">
-              Agricultural, Glass, Refractory & Industrial Grades. MgO 18–40% ·
-              100 to 500 mesh · FOB Mundra / Kandla. High-quality deposits with
+              Agricultural, Glass, Refractory & Industrial Grades. MgO 18-40% -
+              100 to 500 mesh - FOB Mundra / Kandla. High-quality deposits with
               naturally bright white colour.
             </p>
           </Reveal>
@@ -247,7 +247,7 @@ const Dolomite = () => {
                 </Button>
               </Link>
               <a
-                href="https://wa.me/919258720699?text=Interested%20in%20Dolomite%20grades."
+                href="https://wa.me/919-258720-699?text=Interested%20in%20Dolomite%20grades."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
@@ -288,7 +288,7 @@ const Dolomite = () => {
         </div>
       </div>
 
-      {/* 📊 Trust Bar Stats */}
+      {/*  Trust Bar Stats */}
       <section className="py-16 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 divide-y divide-gray-200 md:divide-y-0 md:divide-x">
@@ -340,7 +340,7 @@ const Dolomite = () => {
         </div>
       </section>
 
-      {/* 🎥 Material Showcase Section */}
+      {/*  Material Showcase Section */}
       <section className="py-24 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
@@ -391,7 +391,7 @@ const Dolomite = () => {
         </div>
       </section>
 
-      {/* 🔬 Product Grades & Specifications */}
+      {/*  Product Grades & Specifications */}
       <section className="py-24 bg-[#f8f9fb]">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
@@ -411,7 +411,7 @@ const Dolomite = () => {
             {[
               {
                 t: "Agricultural Grade",
-                chem: "MgCO₃ 38–42% · SiO₂ <3.0%",
+                chem: "MgCO3 38-42% - SiO2 <3.0%",
                 mesh: "100/200 Mesh",
                 focus: "Soil pH Correction",
                 color: "wine",
@@ -419,7 +419,7 @@ const Dolomite = () => {
               },
               {
                 t: "Glass & Ceramic",
-                chem: "MgCO₃ 38–44% · Fe₂O₃ <0.15%",
+                chem: "MgCO3 38-44% - Fe2O3 <0.15%",
                 mesh: "200/300/400 Mesh",
                 focus: "Durability & Thermal Control",
                 color: "navy",
@@ -427,7 +427,7 @@ const Dolomite = () => {
               },
               {
                 t: "Animal Feed / Pharma",
-                chem: "MgCO₃ 40–44% · Fe₂O₃ <0.10%",
+                chem: "MgCO3 40-44% - Fe2O3 <0.10%",
                 mesh: "200 to 500 Mesh",
                 focus: "High Whiteness & Purity",
                 color: "gray-400",
@@ -435,25 +435,25 @@ const Dolomite = () => {
               },
               {
                 t: "Steel Flux / Industrial",
-                chem: "MgCO₃ 36–42% · SiO₂ <2.5%",
-                mesh: "0–50mm lumps / Crushed",
+                chem: "MgCO3 36-42% - SiO2 <2.5%",
+                mesh: "050mm lumps / Crushed",
                 focus: "Slag Regulation in BOF/EAF",
                 color: "navy",
                 tds: "#",
               },
               {
                 t: "Calcined Dolomite",
-                chem: "MgO 32–38% (Free) · Free CaO",
+                chem: "MgO 32-38% (Free) - Free CaO",
                 mesh: "Powder / 1-5mm Granules",
-                focus: "Fired at 800–900°C (CO₂ driven off)",
+                focus: "Fired at 800-900C (CO2 driven off)",
                 color: "wine",
                 tds: "#",
               },
               {
                 t: "Sintered / Dead Burnt",
-                chem: "MgO 35–40% · Bulk Density 3.0",
-                mesh: "1–25mm Clinker",
-                focus: "Fired at 1450–1550°C (Inert Clinker)",
+                chem: "MgO 35-40% - Bulk Density 3.0",
+                mesh: "125mm Clinker",
+                focus: "Fired at 145-01550C (Inert Clinker)",
                 color: "gray-700",
                 tds: "#",
               },
@@ -503,7 +503,7 @@ const Dolomite = () => {
             ))}
           </div>
 
-          {/* 📊 Full Technical Comparison Table (Shadcn UI style) */}
+          {/*  Full Technical Comparison Table (Shadcn UI style) */}
           <Reveal variant="fadeUp" delay={200} className="mt-20">
             <div className="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100 p-8 md:p-12">
               <Table>
@@ -535,47 +535,47 @@ const Dolomite = () => {
                 <TableBody>
                   {[
                     {
-                      label: "CaCO₃ / CaO",
+                      label: "CaCO3 / CaO",
                       vals: [
-                        "54–58%",
-                        "52–58%",
-                        "52–56%",
-                        "55–60%",
-                        "CaO 38–42%",
-                        "CaO 36–40%",
+                        "54-58%",
+                        "52-58%",
+                        "52-56%",
+                        "55-60%",
+                        "CaO 38-42%",
+                        "CaO 36-40%",
                       ],
                       highlight: true,
                     },
                     {
-                      label: "MgCO₃ / MgO",
+                      label: "MgCO3 / MgO",
                       vals: [
-                        "38–42%",
-                        "36–42%",
-                        "38–44%",
-                        "40–44%",
-                        "MgO 32–38%",
-                        "MgO 35–40%",
+                        "38-42%",
+                        "36-42%",
+                        "38-44%",
+                        "40-44%",
+                        "MgO 32-38%",
+                        "MgO 35-40%",
                       ],
                       highlight: true,
                     },
                     {
-                      label: "SiO₂ % Max",
+                      label: "SiO2 % Max",
                       vals: ["3.0%", "2.5%", "1.5%", "1.0%", "2.0%", "1.5%"],
                       highlight: false,
                     },
                     {
-                      label: "Fe₂O₃ % Max",
+                      label: "Fe2O3 % Max",
                       vals: ["0.5%", "0.5%", "0.15%", "0.10%", "0.5%", "0.5%"],
                       highlight: false,
                     },
                     {
                       label: "Whiteness (GE)",
                       vals: [
-                        "80–86",
-                        "75–84",
-                        "86–92",
-                        "88–94",
-                        "85–90",
+                        "8086",
+                        "7584",
+                        "8692",
+                        "8894",
+                        "8590",
                         "N/A",
                       ],
                       highlight: false,
@@ -583,10 +583,10 @@ const Dolomite = () => {
                     {
                       label: "LOI %",
                       vals: [
-                        "45–48%",
-                        "44–48%",
-                        "44–48%",
-                        "44–48%",
+                        "45-48%",
+                        "44-48%",
+                        "44-48%",
+                        "44-48%",
                         "<1.0%",
                         "<0.5%",
                       ],
@@ -618,15 +618,15 @@ const Dolomite = () => {
 
           <Reveal className="mt-16 text-center">
             <p className="max-w-4xl mx-auto text-gray-400 text-[10px] font-bold uppercase tracking-[0.2em] leading-relaxed">
-              COA Verification: CaO · MgO · SiO₂ · Fe₂O₃ · Al₂O₃ · LOI ·
-              Moisture · Whiteness (GE). Packaging: 50kg PP Bags · 1–1.2 MT
-              Jumbo Bags · Clinker Bulk.
+              COA Verification: CaO - MgO - SiO2 - Fe2O3 - Al2O3 - LOI -
+              Moisture - Whiteness (GE). Packaging: 50kg PP Bags - 11.2 MT
+              Jumbo Bags - Clinker Bulk.
             </p>
           </Reveal>
         </div>
       </section>
 
-      {/* 🚀 Industry Applications */}
+      {/*  Industry Applications */}
       <section className="py-24 bg-white relative">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
@@ -645,13 +645,13 @@ const Dolomite = () => {
             {[
               {
                 t: "Agriculture & Soil Health",
-                img: "https://twobrothersindiashop.com/cdn/shop/articles/DSC00110.jpg?v=1653467970&width=1500",
+                img: "https://twobrothersindiashop.com/cdn/shop/articles/DSC00110.jpg?v=165-3467970&width=1500",
                 desc: "Largest domestic application; used for pH correction and dual Ca+Mg nutrient supply.",
                 details: (
                   <div className="space-y-4">
                     <p className="text-gray-600 text-base leading-relaxed">
                       Dolomite powder corrects soil pH in acidic environments by
-                      neutralising excess H⁺ ions. Unlike standard lime, it
+                      neutralising excess H ions. Unlike standard lime, it
                       supplies both Calcium and Magnesium, which are critical
                       for sustainable crop yields.
                     </p>
@@ -660,7 +660,7 @@ const Dolomite = () => {
                         Industry Standard:
                       </span>
                       <p className="text-gray-600 text-sm italic">
-                        Ground to 100–200 mesh. Used extensively under India's
+                        Ground to 100-200 mesh. Used extensively under India's
                         Soil Health Card Scheme.
                       </p>
                     </div>
@@ -669,7 +669,7 @@ const Dolomite = () => {
               },
               {
                 t: "Glass Manufacturing",
-                img: "https://media.licdn.com/dms/image/v2/C5622AQHH3RN31p1YLQ/feedshare-shrink_800/feedshare-shrink_800/0/1592052976888?e=2147483647&v=beta&t=PDLRJRNUtF8oP4ceW-XWwZ-YY6b-oCbt04h_rVcqkPo",
+                img: "https://media.licdn.com/dms/image/v2/C5622AQHH3RN31p1YLQ/feedshare-shrink_800/feedshare-shrink_800/0/159-205297-6888?e=214-7483647&v=beta&t=PDLRJRNUtF8oP4ceW-XWwZ-YY6b-oCbt04h_rVcqkPo",
                 desc: "Float and container glass batch essential for durability and reducing thermal expansion.",
                 details: (
                   <div className="space-y-4">
@@ -682,7 +682,7 @@ const Dolomite = () => {
                         Iron Limits:
                       </span>
                       <p className="text-wine font-bold text-sm">
-                        Fe₂O₃ below 0.15%
+                        Fe2O3 below 0.15%
                       </p>
                       <p className="text-gray-500 text-[10px] mt-1 italic">
                         Critical to avoid colouration in high-grade float glass
@@ -732,7 +732,7 @@ const Dolomite = () => {
                         Large domestic poultry belt: AP, Telangana, Maharashtra.
                       </p>
                       <p className="text-wine font-black text-xs mt-2 uppercase tracking-tighter">
-                        Whiteness (GE) 88–94
+                        Whiteness (GE) 8894
                       </p>
                     </div>
                   </div>
@@ -751,10 +751,10 @@ const Dolomite = () => {
                     </p>
                     <ul className="grid grid-cols-1 gap-2">
                       <li className="bg-[#f8f9fb] p-2 rounded-lg text-[10px] font-bold text-navy border border-gray-100">
-                        • 300–500 Mesh for Exterior Emulsions
+                         300-500 Mesh for Exterior Emulsions
                       </li>
                       <li className="bg-[#f8f9fb] p-2 rounded-lg text-[10px] font-bold text-navy border border-gray-100">
-                        • Stearic Acid Coated Grade available for Rubber
+                         Stearic Acid Coated Grade available for Rubber
                       </li>
                     </ul>
                   </div>
@@ -767,13 +767,13 @@ const Dolomite = () => {
                 details: (
                   <div className="space-y-4">
                     <p className="text-gray-600 text-base leading-relaxed">
-                      Dead burnt dolomite (fired at 1550°C) produces dense,
+                      Dead burnt dolomite (fired at 1550C) produces dense,
                       inert CaO+MgO clinker for the most aggressive thermal
                       environments like steel furnace linings and ladle linings.
                     </p>
                     <div className="bg-navy p-3 rounded-xl text-center">
                       <p className="text-white text-[10px] font-black uppercase tracking-widest leading-loose">
-                        Bulk Density: 2.8–3.0 g/cc
+                        Bulk Density: 2.83.0 g/cc
                       </p>
                     </div>
                   </div>
@@ -813,7 +813,7 @@ const Dolomite = () => {
         </div>
       </section>
 
-      {/* 🤝 Why Buy From Us? */}
+      {/*  Why Buy From Us? */}
       <section className="py-24 bg-navy text-white relative">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Reveal className="text-center mb-16">
@@ -834,22 +834,24 @@ const Dolomite = () => {
                 </h3>
                 <ul className="space-y-6 text-gray-300 text-base font-medium">
                   <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
+                    <span className="text-wine shrink-0"></span>
                     Fixed Rajasthan source Quarry with identical chemistry
                     lot-to-lot.
                   </li>
                   <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    In-house XRF whiteness testing — every lot checked before
-                    dispatch.
+                    <span className="text-wine shrink-0"></span>
+                    In-house XRF and whiteness testing  every lot checked before dispatch.
                   </li>
                   <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    Grade-specific mesh screening to eliminate off-spec
-                    particles.
+                    <span className="text-wine shrink-0"></span>
+                    COA with every shipment  no chasing for documents.
+                  </li>
+                  <li className="flex gap-4">
+                    <span className="text-wine shrink-0"></span>
+                    Grade-specific mesh screening  no off-spec particle size in your bag.
                   </li>
                   <li className="flex gap-4 text-wine font-black uppercase text-xs tracking-widest">
-                    Sample + Full COA dispatched in 7 Days
+                    Sample + Full COA dispatched in 7 Days  fast qualification.
                   </li>
                 </ul>
               </div>
@@ -864,20 +866,23 @@ const Dolomite = () => {
                 </h3>
                 <ul className="space-y-6 text-gray-300 text-base font-medium">
                   <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    Multiple grades from one supplier — simplifying procurement.
+                    <span className="text-wine shrink-0"></span>
+                    Multiple grades from one supplier  simplify your procurement.
                   </li>
                   <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    LCL Export available from 500kg — no mandatory container
-                    fills for trials.
+                    <span className="text-wine shrink-0"></span>
+                    Flexible quantity  500kg trial to full container lots.
                   </li>
                   <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    Mundra / Kandla FOB for exports · Pan-India road delivery.
+                    <span className="text-wine shrink-0"></span>
+                    LCL Export available from 500kg  no need to fill a container for trials.
+                  </li>
+                  <li className="flex gap-4">
+                    <span className="text-wine shrink-0"></span>
+                    Mundra / Kandla FOB for exports - road delivery pan-India.
                   </li>
                   <li className="flex gap-4 text-wine font-black uppercase text-xs tracking-widest">
-                    Payment Terms: TT (Partial Advance) / LC at Sight
+                    Payment Terms: TT / LC at Sight
                   </li>
                 </ul>
               </div>
@@ -886,12 +891,12 @@ const Dolomite = () => {
         </div>
       </section>
 
-      {/* 🇮🇳 Partner With Us — Quarry Owners */}
+      {/*  Partner With Us  Quarry Owners */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
             <h2 className="text-4xl font-black text-navy mb-4 tracking-tight uppercase">
-              Partner With Us —{" "}
+              Partner With Us {" "}
               <span className="text-wine">Rajasthan Quarry Owners</span>
             </h2>
             <div className="w-24 h-1 bg-wine mx-auto rounded-full mb-8" />
@@ -911,15 +916,15 @@ const Dolomite = () => {
                   <ul className="space-y-3 text-gray-600 font-bold text-sm">
                     <li className="flex items-center gap-3">
                       <span className="w-1.5 h-1.5 bg-navy rounded-full"></span>{" "}
-                      MgO 18%+
+                      MgO 18%+ and SiO2 below 3%
                     </li>
                     <li className="flex items-center gap-3">
                       <span className="w-1.5 h-1.5 bg-navy rounded-full"></span>{" "}
-                      SiO₂ below 3%
+                      Grades: Lumps, Crushed, and Ground
                     </li>
                     <li className="flex items-center gap-3">
                       <span className="w-1.5 h-1.5 bg-navy rounded-full"></span>{" "}
-                      Consistency: 50 MT/month Min.
+                      Consistency: 50 MT/month minimum supply
                     </li>
                   </ul>
                 </div>
@@ -930,15 +935,19 @@ const Dolomite = () => {
                   <ul className="space-y-3 text-gray-600 font-bold text-sm">
                     <li className="flex items-center gap-3">
                       <span className="w-1.5 h-1.5 bg-wine rounded-full"></span>{" "}
-                      Regular Monthly Offtake
+                      Regular Monthly Offtake & Committed Timelines
                     </li>
                     <li className="flex items-center gap-3">
                       <span className="w-1.5 h-1.5 bg-wine rounded-full"></span>{" "}
-                      Highest Purity Premiums
+                      Grade-linked Pricing (Higher purity = Better rate)
                     </li>
                     <li className="flex items-center gap-3">
                       <span className="w-1.5 h-1.5 bg-wine rounded-full"></span>{" "}
-                      We handle Export & Processing
+                      Zero Burden: We handle processing, docs & export logistics
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 bg-wine rounded-full"></span>{" "}
+                      Transparent Payment with no arbitrary deductions
                     </li>
                   </ul>
                 </div>
@@ -972,7 +981,7 @@ const Dolomite = () => {
         </div>
       </section>
 
-      {/* 🇮🇳 Origin Insight — Rajasthan Dolomite Belt */}
+      {/*  Origin Insight  Rajasthan Dolomite Belt */}
       <section className="py-24 bg-[#f8f9fb]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -987,15 +996,19 @@ const Dolomite = () => {
                     <span className="text-wine font-black tracking-widest">
                       50%
                     </span>{" "}
-                    of India’s total dolomite production. The Ajmer, Udaipur,
+                    of Indias total dolomite production. The Ajmer, Udaipur,
                     and Beawar regions host the continent's highest-quality
                     deposits, known for their crystalline structure and
                     naturally low iron levels.
                   </p>
                   <p>
-                    Formed in Precambrian marine environments, this dolomite is
-                    ideal for float glass and white ceramics where GE Whiteness
-                    must exceed 86–90% without heavy metal tint.
+                    Formed in Precambrian marine sedimentary environments, Indian dolomite geology
+                    produces highly crystalline, low-iron material ideal for glass and ceramic
+                    applications where whiteness is critical (GE Whiteness 86-92%+).
+                  </p>
+                  <p className="text-sm border-l-4 border-wine pl-4 italic">
+                    Processing chain: Open quarry  Jaw crushing  Rod/ball mill grinding  Air
+                    classification  Screening  Packaging; Calcination available for refractory grades.
                   </p>
                   <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex gap-6 items-center">
                     <div className="w-16 h-16 bg-navy text-white rounded-2xl flex items-center justify-center shrink-0">
@@ -1006,7 +1019,7 @@ const Dolomite = () => {
                         Logistics Advantage:
                       </h5>
                       <p className="text-gray-400 text-xs font-bold uppercase tracking-tight">
-                        6–8 Hours from Mundra & Kandla Ports
+                        68 Hours from Mundra & Kandla Ports
                       </p>
                     </div>
                   </div>
@@ -1020,7 +1033,7 @@ const Dolomite = () => {
                   1.0%
                 </h4>
                 <h5 className="text-xs font-black uppercase tracking-[0.3em] text-wine mb-8">
-                  SiO₂ MAX (Food Grade)
+                  SiO2 MAX (Food Grade)
                 </h5>
                 <p className="text-gray-300 font-light text-base leading-relaxed max-w-sm mx-auto">
                   Proximity to major export hubs ensures low inland freight
@@ -1033,7 +1046,7 @@ const Dolomite = () => {
         </div>
       </section>
 
-      {/* ❓ FAQs */}
+      {/*  FAQs */}
       <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <Reveal className="text-center mb-16">
@@ -1047,15 +1060,15 @@ const Dolomite = () => {
             {[
               {
                 q: "What is the difference between dolomite and limestone?",
-                a: "Dolomite contains both calcium and magnesium (CaMg(CO₃)₂), while limestone is mainly calcium carbonate. Dolomite is preferred where magnesium is also required, such as agriculture, glass batch, and specialized feed applications.",
+                a: "Dolomite contains both calcium and magnesium (CaMg(CO3)2), while limestone is mainly calcium carbonate. Dolomite is preferred where magnesium is also required, such as agriculture, glass batch, and specialized feed applications.",
               },
               {
                 q: "Which dolomite grade is suitable for agriculture?",
-                a: "Agricultural dolomite typically requires MgO: 18–21% and mesh sizes between 100–200. We also supply specialized 1–5mm granules for automated field application.",
+                a: "Agricultural dolomite typically requires MgO: 18-21% and mesh sizes between 100-200. We also supply specialized 1-5mm granules for automated field application.",
               },
               {
-                q: "What Fe₂O₃ level is required for glass-grade dolomite?",
-                a: "For high-grade float glass manufacturing, iron levels (Fe₂O₃) must be strictly below 0.10–0.15%. This ensures clear glass output without any green or brown color tint.",
+                q: "What Fe2O3 level is required for glass-grade dolomite?",
+                a: "For high-grade float glass manufacturing, iron levels (Fe2O3) must be strictly below 0.100.15%. This ensures clear glass output without any green or brown color tint.",
               },
               {
                 q: "Can I get a sample before bulk ordering?",
@@ -1063,7 +1076,7 @@ const Dolomite = () => {
               },
               {
                 q: "What is the difference between calcined and sintered dolomite?",
-                a: "Calcined dolomite is light-burnt (800–900°C) and highly reactive, used in steel fluxing and water treatment. Sintered (Dead Burnt) dolomite is fired at 1550°C and is completely inert, used for high-temperature refractory linings.",
+                a: "Calcined dolomite is light-burnt (800-900C) and highly reactive, used in steel fluxing and water treatment. Sintered (Dead Burnt) dolomite is fired at 1550C and is completely inert, used for high-temperature refractory linings.",
               },
               {
                 q: "What documentation do you provide for exports?",
@@ -1087,7 +1100,7 @@ const Dolomite = () => {
         </div>
       </section>
 
-      {/* 🏁 CTA Section */}
+      {/*  CTA Section */}
       <section className="py-24 bg-[#f8f9fb]">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <Reveal variant="fadeUp">

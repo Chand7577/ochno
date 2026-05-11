@@ -635,62 +635,182 @@ const Talc = () => {
         </div>
       </section>
 
-      {/* 🤝 Partnership Advantages */}
+      {/* 💎 Why Buy From Us */}
+      <section className="py-24 bg-[#f8f9fb]">
+        <div className="max-w-7xl mx-auto px-6">
+          <Reveal className="text-center mb-16">
+            <span className="text-wine font-black uppercase tracking-widest text-sm mb-4 block">
+              Section 6
+            </span>
+            <h2 className="text-4xl font-black text-navy mb-4 uppercase tracking-tight">
+              Why Buy <span className="text-wine">From Us?</span>
+            </h2>
+            <div className="w-24 h-1 bg-wine mx-auto rounded-full mb-8"></div>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Reveal variant="fadeUp" delay={100}>
+              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full">
+                <h3 className="text-xl font-black text-navy uppercase mb-8 flex items-center gap-4">
+                  <div className="w-10 h-10 bg-wine/10 rounded-xl flex items-center justify-center text-wine shrink-0">
+                    <Icons.Check />
+                  </div>
+                  Quality & Consistency
+                </h3>
+                <ul className="space-y-4">
+                  {[
+                    "Fixed Udaipur belt source — same deposit, same whiteness, lot to lot",
+                    "In-house lab: XRF, laser diffraction particle size, whiteness meter — every lot tested",
+                    "COA with every shipment — no chasing for documents",
+                    "Asbestos-free XRD certificate available per lot — critical for EU/US cosmetic buyers",
+                    "Reference sample retained 12 months per lot — full traceability",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0"><Icons.Check /></div>
+                      <p className="text-gray-600 text-xs font-medium leading-relaxed">{item}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal variant="fadeUp" delay={200}>
+              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full">
+                <h3 className="text-xl font-black text-navy uppercase mb-8 flex items-center gap-4">
+                  <div className="w-10 h-10 bg-wine/10 rounded-xl flex items-center justify-center text-wine shrink-0">
+                    <Icons.Factory />
+                  </div>
+                  Pricing & Supply Reliability
+                </h3>
+                <ul className="space-y-4">
+                  {[
+                    "Direct mine access — no middleman margin built in",
+                    "Long-term supply contracts available — stabilise your raw material cost",
+                    "Ex-stock at Indian port for urgent orders — no 45-day wait",
+                    "Competitive vs Chinese talc — comparable quality, better supply chain transparency",
+                    "No surprise MOQ increases — 30-day prior notice always given",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0"><Icons.Check /></div>
+                      <p className="text-gray-600 text-xs font-medium leading-relaxed">{item}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal variant="fadeUp" delay={300}>
+              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full">
+                <h3 className="text-xl font-black text-navy uppercase mb-8 flex items-center gap-4">
+                  <div className="w-10 h-10 bg-wine/10 rounded-xl flex items-center justify-center text-wine shrink-0">
+                    <Icons.Beaker />
+                  </div>
+                  Technical Support
+                </h3>
+                <ul className="space-y-4">
+                  {[
+                    "Grade recommendation matched to your exact formulation or application",
+                    "Custom mesh, D50, surface treatment developed for MOQ 2 MT+",
+                    "Technical data sheets, SDS and application notes provided upfront",
+                    "Trial sample with full COA and heavy metals report before any bulk order",
+                    "Support for your R&D and formulation team — technical queries answered",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0"><Icons.Check /></div>
+                      <p className="text-gray-600 text-xs font-medium leading-relaxed">{item}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal variant="fadeUp" delay={400}>
+              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full">
+                <h3 className="text-xl font-black text-navy uppercase mb-8 flex items-center gap-4">
+                  <div className="w-10 h-10 bg-wine/10 rounded-xl flex items-center justify-center text-wine shrink-0">
+                    <Icons.Globe />
+                  </div>
+                  Logistics & Compliance
+                </h3>
+                <ul className="space-y-4">
+                  {[
+                    "Export from Mundra / Nhava Sheva / Chennai — all major trade lanes",
+                    "LCL from 500kg — no need to fill a container for trial orders",
+                    "Full compliance documentation ready: SDS, COA, asbestos-free",
+                    "Flexible incoterms: FOB, CIF, CFR, DDP for regular buyers",
+                    "Sample dispatch within 7 days — fast grade qualification",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0"><Icons.Check /></div>
+                      <p className="text-gray-600 text-xs font-medium leading-relaxed">{item}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* 🤝 Partner With Us */}
       <section className="py-24 bg-navy text-white overflow-hidden relative">
         <div className="absolute top-0 right-0 w-1/3 h-full bg-wine/5 skew-x-12 translate-x-20"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Reveal className="mb-16">
+            <span className="text-wine font-black uppercase tracking-widest text-sm mb-4 block">
+              Section 7
+            </span>
             <h2 className="text-4xl font-black mb-4 uppercase tracking-tight">
-              Why Partner <span className="text-wine">With Us</span>
+              Partner <span className="text-wine">With Us</span>
             </h2>
             <div className="w-24 h-1 bg-wine rounded-full mb-8"></div>
+            <p className="text-gray-400 max-w-2xl font-medium">
+              Are you a talc mine, crushing unit or grinding processor in Rajasthan or Uttarakhand? Partner with us for consistent, premium-priced export offtake.
+            </p>
           </Reveal>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div className="space-y-8">
-              <h3 className="text-2xl font-bold text-wine">
-                For Foreign Buyers
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {[
-                  "Direct mine access - No middleman",
-                  "Every lot lab-tested (XRF/XRD)",
-                  "Lead times: 12–20 days for bulk",
-                  "Flexible Incoterms (FOB, CIF, DDP)",
-                  "Custom mesh & surface treatments",
-                  "LCL shipments from 500kg",
-                ].map((item, i) => (
-                  <div key={i} className="flex items-center gap-3">
-                    <Icons.Check />
-                    <span className="text-sm font-medium text-gray-300">
-                      {item}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="space-y-8">
-              <h3 className="text-2xl font-bold text-wine">For Mine Owners</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {[
-                  "20-30% better price realization",
-                  "Consistent month-on-month buying",
-                  "Zero export documentation burden",
-                  "Prompt and structured payment",
-                  "Free lab testing for whiteness & %",
-                  "Technical guidance for export specs",
-                ].map((item, i) => (
-                  <div key={i} className="flex items-center gap-3">
-                    <div className="text-wine">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <Reveal variant="fadeUp" delay={100}>
+              <div className="space-y-8">
+                <h3 className="text-2xl font-bold text-wine">Reliable, Flexible Offtake</h3>
+                <ul className="grid grid-cols-1 gap-4">
+                  {[
+                    "Export market pricing — 20–30% above local rates",
+                    "Consistent month-on-month buying — no seasonal crashes",
+                    "Grade-based pricing — higher purity gets better rates",
+                    "No arbitrary deductions without lab evidence",
+                    "Monthly committed purchase quantity",
+                    "Trial supply welcome — start with one or two trucks",
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-center gap-3">
                       <Icons.Check />
-                    </div>
-                    <span className="text-sm font-medium text-gray-300">
-                      {item}
-                    </span>
-                  </div>
-                ))}
+                      <span className="text-sm font-medium text-gray-300">{item}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-            </div>
+            </Reveal>
+
+            <Reveal variant="fadeUp" delay={200}>
+              <div className="space-y-8">
+                <h3 className="text-2xl font-bold text-wine">Payment & Support</h3>
+                <ul className="grid grid-cols-1 gap-4">
+                  {[
+                    "Prompt and structured payment schedule",
+                    "Zero export documentation burden on you",
+                    "Free lab testing for whiteness & talc %",
+                    "Technical guidance for meeting export specs",
+                    "Support for ISO / asbestos-free certification",
+                    "No exclusivity demanded — supply others too",
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-center gap-3">
+                      <Icons.Check />
+                      <span className="text-sm font-medium text-gray-300">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
           </div>
         </div>
       </section>

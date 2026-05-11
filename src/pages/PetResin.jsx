@@ -34,42 +34,111 @@ import petPackaging from "../assets/images/pet_packaging.jpg";
 // ── Icons ──────────────────────────────────────────────────────────────────
 const Icons = {
   Check: () => (
-    <svg className="w-5 h-5 text-wine" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+    <svg
+      className="w-5 h-5 text-wine"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+    >
       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
     </svg>
   ),
   Globe: () => (
-    <svg className="w-6 h-6 text-wine" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+    <svg
+      className="w-6 h-6 text-wine"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+      />
     </svg>
   ),
   Box: () => (
-    <svg className="w-6 h-6 text-wine" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-14L4 7m8 4v10M4 7v10l8 4" />
+    <svg
+      className="w-6 h-6 text-wine"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-14L4 7m8 4v10M4 7v10l8 4"
+      />
     </svg>
   ),
   Truck: () => (
-    <svg className="w-6 h-6 text-wine" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1m-6 0a1 1 0 001-1m-6 0a1 1 0 001-1" />
+    <svg
+      className="w-6 h-6 text-wine"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1m-6 0a1 1 0 001-1m-6 0a1 1 0 001-1"
+      />
     </svg>
   ),
   Flask: () => (
-    <svg className="w-6 h-6 text-wine" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.022.547l-2.387 2.387a2 2 0 102.828 2.828l3.182-3.182a4 4 0 001.022-.547l2.387-.477a4 4 0 002.573-.345l.318-.158a4 4 0 002.573-.345l2.387.477a4 4 0 001.022.547l3.182 3.182a2 2 0 102.828-2.828l-2.387-2.387z" />
+    <svg
+      className="w-6 h-6 text-wine"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.022.547l-2.387 2.387a2 2 0 102.828 2.828l3.182-3.182a4 4 0 001.022-.547l2.387-.477a4 4 0 002.573-.345l.318-.158a4 4 0 002.573-.345l2.387.477a4 4 0 001.022.547l3.182 3.182a2 2 0 102.828-2.828l-2.387-2.387z"
+      />
     </svg>
   ),
 };
 
 // ── Reveal Component ─────────────────────────────────────────────────────────
 const VARIANTS = {
-  fadeUp: { h: "opacity-0 translate-y-12 blur-sm", v: "opacity-100 translate-y-0 blur-none" },
-  fadeLeft: { h: "opacity-0 -translate-x-12 blur-sm", v: "opacity-100 translate-x-0 blur-none" },
-  fadeRight: { h: "opacity-0 translate-x-12 blur-sm", v: "opacity-100 translate-x-0 blur-none" },
-  zoomIn: { h: "opacity-0 scale-95 blur-sm", v: "opacity-100 scale-100 blur-none" },
+  fadeUp: {
+    h: "opacity-0 translate-y-12 blur-sm",
+    v: "opacity-100 translate-y-0 blur-none",
+  },
+  fadeLeft: {
+    h: "opacity-0 -translate-x-12 blur-sm",
+    v: "opacity-100 translate-x-0 blur-none",
+  },
+  fadeRight: {
+    h: "opacity-0 translate-x-12 blur-sm",
+    v: "opacity-100 translate-x-0 blur-none",
+  },
+  zoomIn: {
+    h: "opacity-0 scale-95 blur-sm",
+    v: "opacity-100 scale-100 blur-none",
+  },
 };
 
-const Reveal = ({ children, variant = "fadeUp", delay = 0, duration = 800, threshold = 0.1, className = "" }) => {
+const Reveal = ({
+  children,
+  variant = "fadeUp",
+  delay = 0,
+  duration = 800,
+  threshold = 0.1,
+  className = "",
+}) => {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
 
@@ -83,7 +152,7 @@ const Reveal = ({ children, variant = "fadeUp", delay = 0, duration = 800, thres
           obs.disconnect();
         }
       },
-      { threshold }
+      { threshold },
     );
     obs.observe(el);
     return () => obs.disconnect();
@@ -94,7 +163,10 @@ const Reveal = ({ children, variant = "fadeUp", delay = 0, duration = 800, thres
   return (
     <div
       ref={ref}
-      style={{ transitionDuration: `${duration}ms`, transitionDelay: `${delay}ms` }}
+      style={{
+        transitionDuration: `${duration}ms`,
+        transitionDelay: `${delay}ms`,
+      }}
       className={`transition-all ease-out ${visible ? v : h} ${className}`}
     >
       {children}
@@ -124,7 +196,10 @@ const PetResin = () => {
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 text-center pt-20">
           <Reveal variant="fadeUp" delay={200}>
-            <Badge variant="default" className="mb-6 mt-12 bg-wine hover:bg-wine/90">
+            <Badge
+              variant="default"
+              className="mb-6 mt-12 bg-wine hover:bg-wine/90"
+            >
               Premium Bottle Grade · ADD-Free Vietnam & South Korea Origin
             </Badge>
           </Reveal>
@@ -135,14 +210,18 @@ const PetResin = () => {
           </Reveal>
           <Reveal variant="fadeUp" delay={600}>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto font-light leading-relaxed mb-12">
-              High-purity Polyethylene Terephthalate for Water, CSD, and Edible Oil packaging. 
-              IV 0.76–0.86 dl/g · Food Contact Compliant · Global Sourcing Expertise.
+              High-purity Polyethylene Terephthalate for Water, CSD, and Edible
+              Oil packaging. IV 0.76–0.86 dl/g · Food Contact Compliant · Global
+              Sourcing Expertise.
             </p>
           </Reveal>
           <Reveal variant="fadeUp" delay={800}>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6">
               <Link to="/rfq" className="w-full sm:w-auto">
-                <Button variant="wine" className="w-full px-8 py-6 text-lg rounded-full">
+                <Button
+                  variant="wine"
+                  className="w-full px-8 py-6 text-lg rounded-full"
+                >
                   Enquire for Supply
                 </Button>
               </Link>
@@ -152,8 +231,11 @@ const PetResin = () => {
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
               >
-                <Button variant="outline" className="w-full gap-3 px-8 py-6 text-lg rounded-full border-white text-white hover:bg-white hover:text-navy transition-all">
-                   Offer Your Supply
+                <Button
+                  variant="outline"
+                  className="w-full gap-3 px-8 py-6 text-lg rounded-full border-white text-white hover:bg-white hover:text-navy transition-all"
+                >
+                  Offer Your Supply
                 </Button>
               </a>
             </div>
@@ -186,15 +268,42 @@ const PetResin = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-y divide-gray-200 md:divide-y-0 md:divide-x">
             {[
-              { value: "5.5 Million", label: "Market Size", sub: "Annual demand in MT (India)" },
-              { value: "11% CAGR", label: "Market Growth", sub: "Driven by beverage & pharma" },
-              { value: "≤1 ppm", label: "AA Content", sub: "Beverage grade standard" },
-              { value: "ADD-Free", label: "Vietnam Origin", sub: "Preferred for cost-efficiency" },
+              {
+                value: "5.5 Million",
+                label: "Market Size",
+                sub: "Annual demand in MT (India)",
+              },
+              {
+                value: "11% CAGR",
+                label: "Market Growth",
+                sub: "Driven by beverage & pharma",
+              },
+              {
+                value: "≤1 ppm",
+                label: "AA Content",
+                sub: "Beverage grade standard",
+              },
+              {
+                value: "ADD-Free",
+                label: "Vietnam Origin",
+                sub: "Preferred for cost-efficiency",
+              },
             ].map((stat, idx) => (
-              <Reveal key={idx} delay={idx * 100} variant="fadeUp" className="text-center pt-8 md:pt-0 first:pt-0 px-4">
-                <div className="text-4xl font-black text-navy mb-2 tracking-tighter">{stat.value}</div>
-                <div className="text-wine font-black text-[10px] uppercase tracking-widest mb-1">{stat.label}</div>
-                <div className="text-gray-400 text-[10px] font-medium">{stat.sub}</div>
+              <Reveal
+                key={idx}
+                delay={idx * 100}
+                variant="fadeUp"
+                className="text-center pt-8 md:pt-0 first:pt-0 px-4"
+              >
+                <div className="text-4xl font-black text-navy mb-2 tracking-tighter">
+                  {stat.value}
+                </div>
+                <div className="text-wine font-black text-[10px] uppercase tracking-widest mb-1">
+                  {stat.label}
+                </div>
+                <div className="text-gray-400 text-[10px] font-medium">
+                  {stat.sub}
+                </div>
               </Reveal>
             ))}
           </div>
@@ -210,39 +319,55 @@ const PetResin = () => {
                 INDIA'S <span className="text-wine">PET LANDSCAPE</span>
               </h2>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                India is the world's largest importer of bottle grade PET resin, with a massive domestic consumption driven by the beverage and consumer goods sectors.
+                India is the world's largest importer of bottle grade PET resin,
+                with a massive domestic consumption driven by the beverage and
+                consumer goods sectors.
               </p>
-              
+
               <div className="space-y-6">
                 <div className="bg-white p-8 rounded-3xl shadow-sm border-l-4 border-wine">
-                  <h3 className="text-xl font-black text-navy mb-3">Sourcing Preference</h3>
+                  <h3 className="text-xl font-black text-navy mb-3">
+                    Sourcing Preference
+                  </h3>
                   <p className="text-gray-500">
-                    Vietnam dominates the import landscape (60% of shipments), followed by South Korea and Thailand. These origins are preferred due to being ADD-free.
+                    Vietnam dominates the import landscape (60% of shipments),
+                    followed by South Korea and Thailand. These origins are
+                    preferred due to being ADD-free.
                   </p>
                 </div>
-                
+
                 <div className="bg-white p-8 rounded-3xl shadow-sm border-l-4 border-navy">
-                  <h3 className="text-xl font-black text-navy mb-3">Sustainability & rPET</h3>
+                  <h3 className="text-xl font-black text-navy mb-3">
+                    Sustainability & rPET
+                  </h3>
                   <p className="text-gray-500">
-                    By 2030, major brand owners like PepsiCo and Coca-Cola plan to use 100% recycled PET. Food-grade rPET facilities are rapidly expanding in India.
+                    By 2030, major brand owners like PepsiCo and Coca-Cola plan
+                    to use 100% recycled PET. Food-grade rPET facilities are
+                    rapidly expanding in India.
                   </p>
                 </div>
               </div>
             </Reveal>
-            
-            <Reveal variant="zoomIn" className="relative h-[500px] rounded-[3rem] overflow-hidden shadow-2xl">
-               <img 
-                src={petGranules} 
-                alt="PET Granules" 
+
+            <Reveal
+              variant="zoomIn"
+              className="relative h-[500px] rounded-[3rem] overflow-hidden shadow-2xl"
+            >
+              <img
+                src={petGranules}
+                alt="PET Granules"
                 className="w-full h-full object-cover p-12 bg-white"
-               />
-               <div className="absolute inset-0 bg-navy/20"></div>
-               <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-md p-6 rounded-2xl max-w-xs shadow-lg">
-                  <p className="text-navy font-black text-sm mb-2 uppercase tracking-widest">Anti-Dumping Note</p>
-                  <p className="text-gray-600 text-xs leading-relaxed">
-                    India imposes ADD on China-origin PET. Vietnam origin is ADD-free and preferred for cost parity.
-                  </p>
-               </div>
+              />
+              <div className="absolute inset-0 bg-navy/20"></div>
+              <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-md p-6 rounded-2xl max-w-xs shadow-lg">
+                <p className="text-navy font-black text-sm mb-2 uppercase tracking-widest">
+                  Anti-Dumping Note
+                </p>
+                <p className="text-gray-600 text-xs leading-relaxed">
+                  India imposes ADD on China-origin PET. Vietnam origin is
+                  ADD-free and preferred for cost parity.
+                </p>
+              </div>
             </Reveal>
           </div>
         </div>
@@ -264,31 +389,40 @@ const PetResin = () => {
                 title: "Standard Bottle",
                 sub: "IV 0.76–0.80 dl/g",
                 desc: "The workhorse of the industry. Optimized for standard water and CSD bottles (500ml–2L).",
-                tags: ["Water", "Soft Drinks", "Edible Oil"]
+                tags: ["Water", "Soft Drinks", "Edible Oil"],
               },
               {
                 title: "High IV Grade",
                 sub: "IV 0.82–0.86 dl/g",
                 desc: "Superior molecular strength. Designed for large containers (5L+), hot-fill juices, and barrier bottles.",
-                tags: ["Large Jars", "Hot Fill", "Pressure Rated"]
+                tags: ["Large Jars", "Hot Fill", "Pressure Rated"],
               },
               {
                 title: "Food Grade rPET",
                 sub: "IV 0.80–0.84 dl/g",
                 desc: "Certified recycled content for sustainability-driven brands. Complies with FSSAI & FDA standards.",
-                tags: ["Sustainable", "Certified", "Brand Loyalty"]
-              }
+                tags: ["Sustainable", "Certified", "Brand Loyalty"],
+              },
             ].map((grade, i) => (
               <Reveal key={i} delay={i * 200} variant="fadeUp">
                 <div className="bg-[#f8f9fb] p-10 rounded-[2.5rem] h-full border border-gray-100 hover:shadow-xl transition-all group">
                   <div className="mb-6">
-                    <h3 className="text-3xl font-black text-navy group-hover:text-wine transition-colors">{grade.title}</h3>
-                    <p className="text-wine font-bold text-sm tracking-widest uppercase">{grade.sub}</p>
+                    <h3 className="text-3xl font-black text-navy group-hover:text-wine transition-colors">
+                      {grade.title}
+                    </h3>
+                    <p className="text-wine font-bold text-sm tracking-widest uppercase">
+                      {grade.sub}
+                    </p>
                   </div>
-                  <p className="text-gray-500 mb-8 leading-relaxed">{grade.desc}</p>
+                  <p className="text-gray-500 mb-8 leading-relaxed">
+                    {grade.desc}
+                  </p>
                   <div className="flex flex-wrap gap-2">
                     {grade.tags.map((tag, j) => (
-                      <span key={j} className="text-[10px] font-black uppercase tracking-widest bg-white px-3 py-1 rounded-full text-navy border border-gray-200">
+                      <span
+                        key={j}
+                        className="text-[10px] font-black uppercase tracking-widest bg-white px-3 py-1 rounded-full text-navy border border-gray-200"
+                      >
                         {tag}
                       </span>
                     ))}
@@ -301,31 +435,70 @@ const PetResin = () => {
           {/* Technical Comparison Table */}
           <Reveal variant="fadeUp">
             <div className="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100 p-8 md:p-12">
-              <h3 className="text-2xl font-black text-navy mb-8 border-l-4 border-wine pl-4">Technical Comparison — Premium Grades</h3>
+              <h3 className="text-2xl font-black text-navy mb-8 border-l-4 border-wine pl-4">
+                Technical Comparison — Premium Grades
+              </h3>
               <div className="overflow-x-auto">
                 <Table>
                   <TableHeader>
                     <TableRow className="bg-navy hover:bg-navy">
-                      <TableHead className="text-white font-black uppercase tracking-widest py-6">Parameter</TableHead>
-                      <TableHead className="text-white font-black uppercase tracking-widest text-center">Standard Bottle</TableHead>
-                      <TableHead className="text-white font-black uppercase tracking-widest text-center">High IV Grade</TableHead>
-                      <TableHead className="text-white font-black uppercase tracking-widest text-center">rPET Food Grade</TableHead>
+                      <TableHead className="text-white font-black uppercase tracking-widest py-6">
+                        Parameter
+                      </TableHead>
+                      <TableHead className="text-white font-black uppercase tracking-widest text-center">
+                        Standard Bottle
+                      </TableHead>
+                      <TableHead className="text-white font-black uppercase tracking-widest text-center">
+                        High IV Grade
+                      </TableHead>
+                      <TableHead className="text-white font-black uppercase tracking-widest text-center">
+                        rPET Food Grade
+                      </TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     {[
-                      { p: "Intrinsic Viscosity (IV) dl/g", v: ["0.76–0.80", "0.82–0.86", "0.80–0.84"] },
-                      { p: "Acetaldehyde (AA) ppm max", v: ["≤1.0", "≤1.0", "≤1.0"] },
-                      { p: "Diethylene Glycol (DEG) % max", v: ["1.5%", "1.2%", "1.5%"] },
-                      { p: "Colour b* (yellowness) max", v: ["≤2.0", "≤1.8", "≤3.0"] },
+                      {
+                        p: "Intrinsic Viscosity (IV) dl/g",
+                        v: ["0.76–0.80", "0.82–0.86", "0.80–0.84"],
+                      },
+                      {
+                        p: "Acetaldehyde (AA) ppm max",
+                        v: ["≤1.0", "≤1.0", "≤1.0"],
+                      },
+                      {
+                        p: "Diethylene Glycol (DEG) % max",
+                        v: ["1.5%", "1.2%", "1.5%"],
+                      },
+                      {
+                        p: "Colour b* (yellowness) max",
+                        v: ["≤2.0", "≤1.8", "≤3.0"],
+                      },
                       { p: "Moisture % max", v: ["≤0.2%", "≤0.2%", "≤0.2%"] },
                       { p: "CEG meq/kg", v: ["≤25", "≤20", "≤30"] },
-                      { p: "Origin", v: ["Vietnam / S. Korea", "Vietnam / S. Korea", "India (Certified)"] }
+                      {
+                        p: "Origin",
+                        v: [
+                          "Vietnam / S. Korea",
+                          "Vietnam / S. Korea",
+                          "India (Certified)",
+                        ],
+                      },
                     ].map((row, i) => (
-                      <TableRow key={i} className={i % 2 === 0 ? "bg-gray-50/50" : ""}>
-                        <TableCell className="font-bold text-navy py-4">{row.p}</TableCell>
+                      <TableRow
+                        key={i}
+                        className={i % 2 === 0 ? "bg-gray-50/50" : ""}
+                      >
+                        <TableCell className="font-bold text-navy py-4">
+                          {row.p}
+                        </TableCell>
                         {row.v.map((val, j) => (
-                          <TableCell key={j} className="text-center font-medium text-gray-600">{val}</TableCell>
+                          <TableCell
+                            key={j}
+                            className="text-center font-medium text-gray-600"
+                          >
+                            {val}
+                          </TableCell>
                         ))}
                       </TableRow>
                     ))}
@@ -351,45 +524,53 @@ const PetResin = () => {
             {[
               {
                 t: "Beverages (CSD & Water)",
-                img: "https://images.unsplash.com/photo-1544203379-e137fbf9d332?q=80&w=2070&auto=format&fit=crop",
-                desc: "Standard IV (0.76–0.80) is the market leader for packaged drinking water and carbonated drinks."
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKgDYUdPEFG39_pHaZmWoKGQnOf2zBVQQULw&s",
+                desc: "Standard IV (0.76–0.80) is the market leader for packaged drinking water and carbonated drinks.",
               },
               {
                 t: "Edible Oil & Ghee",
-                img: "https://images.unsplash.com/photo-1474979266404-7eaacbadcbaf?q=80&w=2070&auto=format&fit=crop",
-                desc: "Superior transparency and chemical resistance for healthy edible oil packaging."
+                img: "https://twobrothersindiashop.com/cdn/shop/articles/Desi_Ghee_Vs_Olive_Oil_2ce932aa-f33e-4e05-b969-42c9c6e6143c.jpg?v=1749201893&width=1024",
+                desc: "Superior transparency and chemical resistance for healthy edible oil packaging.",
               },
               {
                 t: "Personal & Home Care",
-                img: "https://images.unsplash.com/photo-1610461821840-2ff5ad124475?q=80&w=2070&auto=format&fit=crop",
-                desc: "Highly versatile for shampoo bottles, body wash, and liquid detergent containers."
+                img: "https://5.imimg.com/data5/SELLER/Default/2021/2/MP/DM/PI/43593316/personal-care-jpg-500x500.jpg",
+                desc: "Highly versatile for shampoo bottles, body wash, and liquid detergent containers.",
               },
               {
                 t: "Pharma Packaging",
-                img: "https://images.unsplash.com/photo-1587854692152-cbe660dbbb88?q=80&w=2070&auto=format&fit=crop",
-                desc: "Upgrading from glass to PET for syrup bottles and healthcare supplements."
+                img: "https://5.imimg.com/data5/SELLER/Default/2026/1/577453813/GA/YC/KF/3076446/product-printing-srvice.jpg",
+                desc: "Upgrading from glass to PET for syrup bottles and healthcare supplements.",
               },
               {
                 t: "Hot Fill & Large Jars",
                 img: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=2070&auto=format&fit=crop",
-                desc: "High IV (0.82–0.86) provides the thermal stability required for hot-fill juices and large water jars."
+                desc: "High IV (0.82–0.86) provides the thermal stability required for hot-fill juices and large water jars.",
               },
               {
                 t: "Sustainability (rPET)",
                 img: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=2070&auto=format&fit=crop",
-                desc: "Food-grade recycled PET resin to help brands meet EPR targets and sustainability goals."
-              }
+                desc: "Food-grade recycled PET resin to help brands meet EPR targets and sustainability goals.",
+              },
             ].map((app, i) => (
               <Reveal key={i} delay={i * 100} variant="zoomIn">
                 <Card className="group overflow-hidden rounded-[2.5rem] border-none shadow-sm hover:shadow-2xl transition-all h-full bg-white">
                   <div className="h-56 overflow-hidden relative">
-                    <img src={app.img} alt={app.t} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img
+                      src={app.img}
+                      alt={app.t}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
                   </div>
                   <CardHeader className="p-8 pb-0">
-                    <CardTitle className="text-xl font-black text-navy">{app.t}</CardTitle>
+                    <CardTitle className="text-xl font-black text-navy">
+                      {app.t}
+                    </CardTitle>
                   </CardHeader>
                   <CardContent className="p-8 pt-4">
-                    <p className="text-gray-500 text-sm leading-relaxed">{app.desc}</p>
+                    <p className="text-gray-500 text-sm leading-relaxed">
+                      {app.desc}
+                    </p>
                   </CardContent>
                 </Card>
               </Reveal>
@@ -398,63 +579,70 @@ const PetResin = () => {
         </div>
       </section>
 
-      {/* 🤝 Buyer Advantages */}
-      <section className="py-24 bg-navy text-white relative">
+      {/* 🤝 Section 8: Why buy from us */}
+      <section className="py-24 bg-navy text-white relative overflow-hidden">
+        {/* Background Decorative Elements */}
+        <div className="absolute inset-0 z-0 pointer-events-none opacity-10">
+          <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-wine rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"></div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <Reveal className="text-center mb-16">
-            <h2 className="text-4xl font-black mb-4 uppercase tracking-tight">
-              Sourcing <span className="text-wine">Advantages</span>
+          <Reveal className="text-center mb-20">
+            <h2 className="text-4xl md:text-6xl font-black mb-4 uppercase tracking-tight italic">
+              Why <span className="text-wine">buy from us</span>
             </h2>
-            <div className="w-24 h-1 bg-wine mx-auto rounded-full mb-8"></div>
+            <div className="w-32 h-1.5 bg-wine mx-auto rounded-full"></div>
           </Reveal>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <Reveal variant="fadeLeft">
-              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full space-y-10">
-                <h3 className="text-2xl font-black text-white flex items-center gap-4">
-                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
-                    <Icons.Check />
-                  </div>
-                  Quality Assurance
+            <Reveal variant="fadeLeft" className="h-full">
+              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full relative group hover:bg-white/[0.08] transition-all">
+                <div className="absolute top-0 right-0 p-8 opacity-5 scale-150 group-hover:scale-110 transition-transform duration-700">
+                  <Icons.Check />
+                </div>
+                <h3 className="text-2xl font-black text-wine uppercase tracking-[0.2em] mb-10 border-b border-white/10 pb-4 italic">
+                  Quality & consistency
                 </h3>
-                <ul className="space-y-6 text-gray-300 text-base font-medium">
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    Fixed origin supply from Vietnam and South Korea for consistent IV.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    Full COA per lot covering IV, AA, DEG, Colour, and Moisture.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    FSSAI & FDA documentation support for food-contact compliance.
-                  </li>
+                <ul className="space-y-6">
+                  {[
+                    "Fixed origin — Vietnam/South Korea primary, consistent IV lot to lot",
+                    "Full COA per lot: IV, AA, DEG, colour (b*), moisture, CEG",
+                    "FSSAI documentation for food contact compliance",
+                  ].map((item, i) => (
+                    <li
+                      key={i}
+                      className="flex gap-4 items-start text-gray-300 font-medium italic"
+                    >
+                      <span className="text-wine text-xl">•</span> {item}
+                    </li>
+                  ))}
                 </ul>
               </div>
             </Reveal>
 
-            <Reveal variant="fadeRight">
-              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full space-y-10">
-                <h3 className="text-2xl font-black text-white flex items-center gap-4">
-                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
-                    <Icons.Check />
-                  </div>
-                  Commercial Flexibility
+            <Reveal variant="fadeRight" className="h-full">
+              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full relative group hover:bg-white/[0.08] transition-all">
+                <div className="absolute top-0 right-0 p-8 opacity-5 scale-150 group-hover:scale-110 transition-transform duration-700">
+                  <Icons.Truck />
+                </div>
+                <h3 className="text-2xl font-black text-white uppercase tracking-[0.2em] mb-10 border-b border-white/10 pb-4 italic">
+                  Supply & commercial
                 </h3>
-                <ul className="space-y-6 text-gray-300 text-base font-medium">
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    MOQ of 1 MT for trial orders and testing purposes.
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    Ex-stock availability at major Indian ports (Nhava Sheva, Mundra).
-                  </li>
-                  <li className="flex gap-4">
-                    <span className="text-wine shrink-0">•</span>
-                    Competitive CIF / DAP pricing with ADD-free Vietnamese origin.
-                  </li>
+                <ul className="space-y-6">
+                  {[
+                    "MOQ 1 MT for trial — no large commitment needed",
+                    "Competitive CIF / DAP pricing to your plant",
+                    "Ex-stock at JNPT / Mundra for standard bottle grade",
+                    "Sample chips with COA dispatched within 3–5 days",
+                    "Fresh import 25–35 days from Vietnam / South Korea",
+                  ].map((item, i) => (
+                    <li
+                      key={i}
+                      className="flex gap-4 items-start text-gray-300 font-medium italic"
+                    >
+                      <span className="text-white text-xl">•</span> {item}
+                    </li>
+                  ))}
                 </ul>
               </div>
             </Reveal>
@@ -462,76 +650,268 @@ const PetResin = () => {
         </div>
       </section>
 
-      {/* 🌍 Logistics Section */}
-      <section className="py-24 bg-white text-navy">
-        <div className="max-w-7xl mx-auto px-6">
-          <Reveal className="text-center mb-16">
-              <h2 className="text-4xl font-black mb-4 tracking-tight uppercase">
-              Global <span className="text-wine">Logistics</span>
-            </h2>
-          </Reveal>
+      {/* 🌍 Section 9: Foreign Suppliers Welcome */}
+      <section className="py-32 bg-navy relative overflow-hidden border-t border-white/5">
+        <div className="absolute inset-0 z-0 pointer-events-none opacity-10">
+          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-wine rounded-full blur-[120px] -translate-x-1/2 -translate-y-1/2"></div>
+        </div>
 
-          <Reveal variant="zoomIn" className="mb-16">
-            <div className="relative h-[400px] rounded-[3rem] overflow-hidden shadow-xl border border-gray-100 bg-white">
-              <img src={petPackaging} alt="PET Resin Packaging" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-r from-navy/60 to-transparent flex items-center p-12">
-                <div className="max-w-md">
-                  <h4 className="text-3xl font-black text-white uppercase italic mb-4">Standard Export Packaging</h4>
-                  <p className="text-white/80 font-medium leading-relaxed">
-                    25kg PP/PE bags multi-layered and 1,000kg–1,100kg Jumbo bags with UV protection, optimized for sea transit and long-term storage.
-                  </p>
-                </div>
-              </div>
-            </div>
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
+          <Reveal variant="fadeUp" className="text-center mb-20">
+            <h2 className="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-tighter italic">
+              Foreign <span className="text-wine">Suppliers</span> Welcome
+            </h2>
+            <div className="w-32 h-1.5 bg-wine mx-auto rounded-full mb-8"></div>
+            <p className="text-white/60 text-lg md:text-xl font-medium max-w-4xl mx-auto leading-relaxed italic">
+              India is the world's largest importer of bottle grade PET resin —
+              317 active importers and growing. We provide a stable, long-term
+              channel for global producers.
+            </p>
           </Reveal>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <Reveal variant="fadeLeft" className="bg-[#f8f9fb] p-12 rounded-[3rem] border border-gray-100 shadow-sm">
-              <h3 className="text-2xl font-black text-wine mb-8 flex items-center gap-4">
-                <Icons.Truck /> Logistics Data
+            <Reveal
+              variant="fadeLeft"
+              className="bg-white/5 backdrop-blur-md border border-white/10 p-12 rounded-[3rem] h-full"
+            >
+              <h3 className="text-2xl font-black text-wine uppercase tracking-[0.2em] mb-10 border-b border-white/10 pb-4 italic">
+                The Partnership
               </h3>
-              <ul className="space-y-4 text-gray-500">
-                <li className="flex justify-between border-b border-gray-200 pb-2">
-                  <span>Standard Packaging</span>
-                  <span className="text-navy font-bold text-right">25kg Bag in 1MT Big Bags</span>
+              <div className="space-y-8">
+                <p className="text-white/80 text-sm font-medium leading-loose">
+                  If you are a PET resin producer or export trading company in
+                  Vietnam, South Korea, Thailand or Taiwan looking for a
+                  reliable Indian buyer, we are worth talking to.
+                </p>
+                <div className="bg-wine/10 p-8 border-l-4 border-wine">
+                  <p className="text-white font-black italic text-sm leading-relaxed">
+                    "✦ We are looking for suppliers who can work with us on
+                    credit-based payment terms (DA / Net 30–45 days) — aligned
+                    with repeat business."
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+
+            <Reveal
+              variant="fadeRight"
+              className="bg-white p-12 rounded-[3rem] shadow-2xl h-full"
+            >
+              <h4 className="text-navy font-black uppercase text-[10px] tracking-[0.3em] mb-10 border-b border-gray-100 pb-4 italic">
+                Technical & Onboarding
+              </h4>
+              <div className="space-y-10">
+                <div className="grid grid-cols-2 gap-8">
+                  <div>
+                    <h5 className="text-[10px] font-black text-wine uppercase mb-4">
+                      What we look for:
+                    </h5>
+                    <ul className="text-[10px] font-bold text-gray-500 space-y-2 uppercase tracking-wider">
+                      <li>• IV 0.76–0.86 dl/g</li>
+                      <li>• AA ≤1 ppm</li>
+                      <li>• DEG ≤1.5%</li>
+                      <li>• Vietnam / SK Origin</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="text-[10px] font-black text-navy uppercase mb-4">
+                      Packing:
+                    </h5>
+                    <ul className="text-[10px] font-bold text-gray-500 space-y-2 uppercase tracking-wider">
+                      <li>• 25kg Woven Bags</li>
+                      <li>• 1MT Big Bags</li>
+                      <li>• Sea-worthy Pallets</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-2xl">
+                  <h5 className="text-[9px] font-black text-navy uppercase mb-3">
+                    To Start a Conversation:
+                  </h5>
+                  <p className="text-[10px] text-gray-400 font-bold uppercase leading-relaxed tracking-widest italic">
+                    Company · Country · Grade · IV Range · Monthly Capacity (MT)
+                    · FOB Price · Payment Terms · Contact
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* 📈 Section 10: Market Considerations */}
+      <section className="py-24 bg-white relative">
+        <div className="max-w-7xl mx-auto px-6">
+          <Reveal className="mb-20">
+            <h2 className="text-4xl font-black text-navy uppercase italic tracking-tight">
+              Market <span className="text-wine">Considerations</span> for
+              Buyers
+            </h2>
+            <div className="w-24 h-1.5 bg-navy rounded-full mt-4"></div>
+          </Reveal>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <Reveal variant="fadeLeft" className="space-y-10">
+              <div>
+                <h3 className="text-xl font-black text-navy uppercase mb-6 flex items-center gap-3">
+                  <div className="w-8 h-1 bg-wine"></div> Seasonal Demand
+                  Pattern
+                </h3>
+                <p className="text-gray-600 text-sm leading-loose font-medium mb-8">
+                  India's PET demand peaks sharply{" "}
+                  <span className="text-navy font-black italic">
+                    March–June
+                  </span>{" "}
+                  (summer beverage season) and{" "}
+                  <span className="text-navy font-black italic">
+                    October–November
+                  </span>{" "}
+                  (festive season).
+                </p>
+                <div className="bg-navy p-8 rounded-3xl text-white shadow-xl">
+                  <p className="text-sm font-black uppercase tracking-widest text-wine mb-2 italic">
+                    Pro Tip for Buyers:
+                  </p>
+                  <p className="text-white/70 text-xs font-medium leading-relaxed italic">
+                    Smart buyers build inventory in January–February when prices
+                    are softer. Waiting until April creates supply tightness and
+                    price spikes.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+
+            <Reveal variant="fadeRight" className="space-y-10">
+              <div>
+                <h3 className="text-xl font-black text-wine uppercase mb-6 flex items-center gap-3">
+                  <div className="w-8 h-1 bg-navy"></div> Price Drivers to Watch
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {[
+                    {
+                      t: "Crude Oil",
+                      d: "PET feedstocks PTA and MEG are petroleum-derived; oil price moves feed through in 2–4 weeks.",
+                    },
+                    {
+                      t: "Capacity Utilisation",
+                      d: "Vietnam and China output cuts or restarts directly affect import availability and pricing.",
+                    },
+                    {
+                      t: "Domestic Parity",
+                      d: "Reliance and Dhunseri price movements set the ceiling for import parity in India.",
+                    },
+                    {
+                      t: "USD/INR Rate",
+                      d: "Rupee depreciation increases landed cost directly as all imports are priced in USD.",
+                    },
+                  ].map((item, i) => (
+                    <div
+                      key={i}
+                      className="p-6 border border-gray-100 rounded-2xl hover:border-wine transition-all group"
+                    >
+                      <h4 className="text-navy font-black uppercase text-[10px] mb-2 group-hover:text-wine transition-colors">
+                        {item.t}
+                      </h4>
+                      <p className="text-[10px] text-gray-400 font-bold leading-relaxed uppercase">
+                        {item.d}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* 📦 Section 11: Logistics */}
+      <section className="py-24 bg-gray-50 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-6">
+          <Reveal variant="fadeUp" className="mb-16">
+            <h2 className="text-4xl font-black text-navy uppercase italic">
+              Section 11 — <span className="text-wine">Logistics</span>
+            </h2>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            {[
+              {
+                t: "Packaging Options",
+                d: "25kg Kraft/Woven Bags · 1MT Big Bags (standard) · Bulk containers not common.",
+              },
+              {
+                t: "FCL Capacity",
+                d: "One 20-ft FCL: approximately 20–22 MT of bagged PET chips.",
+              },
+              {
+                t: "Port Coverage",
+                d: "JNPT / Nhava Sheva (primary) · Mundra · Chennai.",
+              },
+              {
+                t: "Lead Times",
+                d: "Ex-stock: 3–7 days | Fresh Import: 25–40 days.",
+              },
+            ].map((log, i) => (
+              <div
+                key={i}
+                className="p-8 bg-white border border-gray-100 rounded-3xl hover:shadow-xl transition-all"
+              >
+                <h4 className="font-black text-navy uppercase text-[10px] mb-4 tracking-widest border-b border-gray-100 pb-2">
+                  {log.t}
+                </h4>
+                <p className="text-xs text-gray-500 font-medium leading-relaxed italic">
+                  {log.d}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <Reveal
+              variant="fadeLeft"
+              className="bg-white p-12 rounded-[3rem] border border-gray-100 shadow-sm h-full"
+            >
+              <h3 className="text-2xl font-black text-wine mb-8 flex items-center gap-4">
+                <Icons.Truck /> Transit Estimates
+              </h3>
+              <ul className="space-y-4 text-gray-500 font-bold uppercase tracking-wider text-[10px]">
+                <li className="flex justify-between border-b border-gray-100 pb-2">
+                  <span>Vietnam</span>
+                  <span className="text-navy">10–14 Days</span>
                 </li>
-                <li className="flex justify-between border-b border-gray-200 pb-2">
-                  <span>FCL Capacity (20-ft)</span>
-                  <span className="text-navy font-bold text-right">20–22 MT</span>
+                <li className="flex justify-between border-b border-gray-100 pb-2">
+                  <span>South Korea</span>
+                  <span className="text-navy">12–16 Days</span>
                 </li>
-                <li className="flex justify-between border-b border-gray-200 pb-2">
-                  <span>Primary Entry Ports</span>
-                  <span className="text-navy font-bold text-right">Nhava Sheva, Mundra, Chennai</span>
-                </li>
-                <li className="flex justify-between border-b border-gray-200 pb-2">
-                  <span>Transit Time (Vietnam)</span>
-                  <span className="text-navy font-bold text-right">10–14 Days</span>
+                <li className="flex justify-between border-b border-gray-100 pb-2">
+                  <span>China</span>
+                  <span className="text-navy">12–18 Days</span>
                 </li>
               </ul>
             </Reveal>
 
-            <Reveal variant="fadeRight" className="bg-[#f8f9fb] p-12 rounded-[3rem] border border-gray-100 shadow-sm">
-              <h3 className="text-2xl font-black text-wine mb-8 flex items-center gap-4">
-                <Icons.Flask /> Procurement Data
+            <Reveal
+              variant="fadeRight"
+              className="bg-white p-12 rounded-[3rem] border border-gray-100 shadow-sm h-full"
+            >
+              <h3 className="text-2xl font-black text-navy mb-8 flex items-center gap-4">
+                <Icons.Box /> Market Reach
               </h3>
-              <ul className="space-y-4 text-gray-500">
-                <li className="flex justify-between border-b border-gray-200 pb-2">
-                  <span>HS Code</span>
-                  <span className="text-navy font-bold text-right">3907.61 (Bottle Grade)</span>
-                </li>
-                <li className="flex justify-between border-b border-gray-200 pb-2">
-                  <span>Sample Dispatch</span>
-                  <span className="text-navy font-bold text-right">3–5 Days with COA</span>
-                </li>
-                <li className="flex justify-between border-b border-gray-200 pb-2">
-                  <span>Lead Time (Import)</span>
-                  <span className="text-navy font-bold text-right">25–40 Days</span>
-                </li>
-                <li className="flex justify-between border-b border-gray-200 pb-2">
-                  <span>Inland Delivery</span>
-                  <span className="text-navy font-bold text-right">Pan-India Network</span>
-                </li>
-              </ul>
+              <div className="grid grid-cols-2 gap-4 text-[10px] font-black uppercase text-gray-400 italic">
+                <p>• Gujarat (Surat, Ahm)</p>
+                <p>• Maharashtra (Pune, Mum)</p>
+                <p>• Delhi NCR</p>
+                <p>• Chennai</p>
+                <p>• Hyderabad</p>
+              </div>
+              <div className="mt-8 pt-8 border-t border-gray-100">
+                <p className="text-wine font-black text-[10px] uppercase tracking-widest">
+                  HS Code: 3907.61
+                </p>
+                <p className="text-gray-400 text-[8px] font-bold mt-1">
+                  (Polyethylene terephthalate, viscosity ≥78 ml/g)
+                </p>
+              </div>
             </Reveal>
           </div>
         </div>
@@ -551,22 +931,26 @@ const PetResin = () => {
               {[
                 {
                   q: "What is IV in PET and why is it important?",
-                  a: "Intrinsic Viscosity (IV) indicates the molecular strength of the resin. A higher IV means stronger bottles. Standard water bottles use 0.76–0.80 IV, while hot-fill or large containers require 0.82–0.86 IV."
+                  a: "Intrinsic Viscosity (IV) indicates the molecular strength of the resin. A higher IV means stronger bottles. Standard water bottles use 0.76–0.80 IV, while hot-fill or large containers require 0.82–0.86 IV.",
                 },
                 {
                   q: "Why is acetaldehyde (AA) content important?",
-                  a: "AA can affect the taste of the contents. Beverage bottles require very low AA (≤1 ppm) to avoid any off-flavour, especially for packaged drinking water."
+                  a: "AA can affect the taste of the contents. Beverage bottles require very low AA (≤1 ppm) to avoid any off-flavour, especially for packaged drinking water.",
                 },
                 {
                   q: "Why import PET from Vietnam instead of China?",
-                  a: "India imposes anti-dumping duties on PET resin from China. Vietnam origin is ADD-free, resulting in a more competitive landed price for Indian manufacturers."
+                  a: "India imposes anti-dumping duties on PET resin from China. Vietnam origin is ADD-free, resulting in a more competitive landed price for Indian manufacturers.",
                 },
                 {
                   q: "When is the best time to buy PET resin in India?",
-                  a: "Prices usually dip in January–February before the summer beverage season peak (March–June). Strategic buyers build inventory early to avoid supply tightness."
-                }
+                  a: "Prices usually dip in January–February before the summer beverage season peak (March–June). Strategic buyers build inventory early to avoid supply tightness.",
+                },
               ].map((faq, i) => (
-                <AccordionItem key={i} value={`item-${i}`} className="border-b border-gray-200 py-4">
+                <AccordionItem
+                  key={i}
+                  value={`item-${i}`}
+                  className="border-b border-gray-200 py-4"
+                >
                   <AccordionTrigger className="text-left font-black text-navy hover:text-wine transition-colors text-lg">
                     {faq.q}
                   </AccordionTrigger>
@@ -583,20 +967,36 @@ const PetResin = () => {
       {/* 📞 Final CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <Reveal variant="zoomIn" className="bg-navy p-16 rounded-[4rem] relative overflow-hidden shadow-2xl">
-             <div className="absolute top-0 right-0 w-64 h-64 bg-wine/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-             <h2 className="text-4xl md:text-5xl font-black text-white mb-8">Secure Your Sourcing Strategy</h2>
-             <p className="text-gray-300 text-lg mb-12 max-w-2xl mx-auto">
-               From standard water bottles to specialty hot-fill applications, we provide the technical expertise and logistics support you need.
-             </p>
-             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-               <Link to="/rfq">
-                 <Button variant="wine" className="px-12 py-8 text-xl rounded-full w-full sm:w-auto">Request a Quote</Button>
-               </Link>
-               <a href="tel:+919258720699">
-                 <Button variant="outline" className="px-12 py-8 text-xl rounded-full border-white text-white hover:bg-white hover:text-navy w-full sm:w-auto">Call Our Experts</Button>
-               </a>
-             </div>
+          <Reveal
+            variant="zoomIn"
+            className="bg-navy p-16 rounded-[4rem] relative overflow-hidden shadow-2xl"
+          >
+            <div className="absolute top-0 right-0 w-64 h-64 bg-wine/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+            <h2 className="text-4xl md:text-5xl font-black text-white mb-8">
+              Secure Your Sourcing Strategy
+            </h2>
+            <p className="text-gray-300 text-lg mb-12 max-w-2xl mx-auto">
+              From standard water bottles to specialty hot-fill applications, we
+              provide the technical expertise and logistics support you need.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <Link to="/rfq">
+                <Button
+                  variant="wine"
+                  className="px-12 py-8 text-xl rounded-full w-full sm:w-auto"
+                >
+                  Request a Quote
+                </Button>
+              </Link>
+              <a href="tel:+919258720699">
+                <Button
+                  variant="outline"
+                  className="px-12 py-8 text-xl rounded-full border-white text-white hover:bg-white hover:text-navy w-full sm:w-auto"
+                >
+                  Call Our Experts
+                </Button>
+              </a>
+            </div>
           </Reveal>
         </div>
       </section>

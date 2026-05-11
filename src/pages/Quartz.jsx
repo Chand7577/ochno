@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Preloader from "../components/Preloader.jsx";
 import combinedImg from "../assets/combined.jpg";
 
-// â”€â”€ Icons â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+//  Icons 
 const Icons = {
   MapPin: () => (
     <svg
@@ -85,9 +85,20 @@ const Icons = {
       />
     </svg>
   ),
+  Check: () => (
+    <svg
+      className="w-5 h-5 text-wine"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+    </svg>
+  ),
 };
 
-// â”€â”€ Reveal Component â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+//  Reveal Component 
 const VARIANTS = {
   fadeUp: {
     h: "opacity-0 translate-y-12 blur-sm",
@@ -160,11 +171,11 @@ const Quartz = () => {
   return (
     <div className="bg-[#f8f9fb] min-h-screen text-navy font-sans overflow-x-hidden">
       <Preloader />
-      {/* ðŸš€ Hero Section */}
+      {/*  Hero Section */}
       <section className="relative w-full h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1625479610681-f789345a8157?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cXVhcnR6fGVufDB8fDB8fHww"
+            src="https://images.unsplash.com/photo-162-547961-0681-f789-345a8157?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cXVhcnR6fGVufDB8fDB8fHww"
             alt="Quartz Background"
             className="w-full h-full object-cover"
           />
@@ -203,7 +214,7 @@ const Quartz = () => {
         </div>
       </section>
 
-      {/* ðŸ’Ž Difference Section */}
+      {/*  Difference Section */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -227,7 +238,7 @@ const Quartz = () => {
                       Quartz (Pure Mineral)
                     </h3>
                     <p className="text-gray-600 text-sm">
-                      High chemical purity with SiOâ‚‚ levels ranging from{" "}
+                      High chemical purity with SiO2 levels ranging from{" "}
                       <strong>96% to 99.9%</strong>. Primary usage includes
                       glass manufacturing, electronics, and precision optics.
                     </p>
@@ -237,7 +248,7 @@ const Quartz = () => {
                       Quartzite (Metamorphic Rock)
                     </h3>
                     <p className="text-gray-600 text-sm">
-                      Stronger and highly heat-resistant with SiOâ‚‚ levels of{" "}
+                      Stronger and highly heat-resistant with SiO2 levels of{" "}
                       <strong>94% to 96%</strong>. Ideal for heavy-duty steel
                       smelting and refractory linings.
                     </p>
@@ -259,7 +270,7 @@ const Quartz = () => {
         </div>
       </section>
 
-      {/* ðŸ‡®ðŸ‡³ Quartz in India (Regional Grades) */}
+      {/*  Quartz in India (Regional Grades) */}
       <section className="py-24 bg-[#f8f9fb]">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
@@ -285,7 +296,7 @@ const Quartz = () => {
                     Andhra Pradesh / Telangana
                   </h4>
                   <p className="text-sm font-bold text-wine mb-3 uppercase tracking-wider">
-                    High Purity Quartz (99â€“99.9% SiOâ‚‚)
+                    High Purity Quartz (9999.9% SiO2)
                   </p>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     Produces premium export and glass grade material. Due to its
@@ -363,7 +374,7 @@ const Quartz = () => {
         </div>
       </section>
 
-      {/* ðŸ­ Industry Usage by Grade */}
+      {/*  Industry Usage by Grade */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
@@ -377,19 +388,19 @@ const Quartz = () => {
             {[
               {
                 title: "Steel & Ferro Alloys",
-                desc: "Quartzite lumps (95â€“98% SiOâ‚‚) are used as a fluxing agent in steel production to remove impurities.",
+                desc: "Quartzite lumps (95-98% SiO2) are used as a fluxing agent in steel production to remove impurities.",
                 icon: <Icons.Energy />,
                 img: "https://tiimg.tistatic.com/fp/2/004/371/ferrous-alloys-070.jpg",
-                spec: "Quartzite Lumps (95â€“98% SiOâ‚‚). We ensure hard, blocky lumps structurally stable enough to withstand severe blast furnace impacts without prematurely reducing to powder.",
+                spec: "Quartzite Lumps (95-98% SiO2). We ensure hard, blocky lumps structurally stable enough to withstand severe blast furnace impacts without prematurely reducing to powder.",
                 purpose:
                   "Serves as an essential metallurgical fluxing agent. Upon melting, the high silica binds with iron, aluminum, and other basic oxides to form easily removable slag, effectively purifying the base molten steel and forming high-quality ferro-silicon alloys.",
               },
               {
                 title: "Glass Industry",
-                desc: "High purity quartz (>99.5% SiOâ‚‚, low Fe) is the primary raw material for high-quality container and flat glass.",
+                desc: "High purity quartz (>99.5% SiO2, low Fe) is the primary raw material for high-quality container and flat glass.",
                 icon: <Icons.Grade />,
                 img: "https://www.filmingindo.com/wp-content/uploads/2020/07/Firozabad-the-City-of-Glass-3.jpg",
-                spec: "High Purity Quartz Sand (>99.5% SiOâ‚‚). The critical parameter here is ultra-low Iron Oxide (< 0.02% Feâ‚‚Oâ‚ƒ) and Aluminum traces.",
+                spec: "High Purity Quartz Sand (>99.5% SiO2). The critical parameter here is ultra-low Iron Oxide (< 0.02% Fe2O3) and Aluminum traces.",
                 purpose:
                   "High-grade silica acts as the fundamental network former and literal structural backbone for flat glass, container glass, and specialty optics. High SiO2 with low impurities ensures absolute transparency and extreme chemical durability of the final glass.",
               },
@@ -397,8 +408,8 @@ const Quartz = () => {
                 title: "Solar & Electronics",
                 desc: "Ultra-high purity quartz (>99.9%) is required for manufacturing semiconductors and photovoltaic cells.",
                 icon: <Icons.Energy />,
-                img: "https://images.unsplash.com/photo-1615630859219-0459703c34e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c29sYXIlMjBhbmQlMjBlbGVjdHJvbmljc3xlbnwwfHwwfHx8MA%3D%3D",
-                spec: "Ultra-High Purity Quartz Minerals (>99.9% SiOâ‚‚). Refined to the particle level containing absolute minimum to zero parts-per-million of trace transitional metals.",
+                img: "https://images.unsplash.com/photo-161-563085-9219-045-9703c34e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c29sYXIlMjBhbmQlMjBlbGVjdHJvbmljc3xlbnwwfHwwfHx8MA%3D%3D",
+                spec: "Ultra-High Purity Quartz Minerals (>99.9% SiO2). Refined to the particle level containing absolute minimum to zero parts-per-million of trace transitional metals.",
                 purpose:
                   "Melted down to manufacture highly sensitive monocrystalline silicon wafers, advanced semiconductors, and photovoltaic (solar) cells. Exceptional purity is non-negotiable, as microscopic trace elements drastically disrupt electrical conductivity and compromise solar panel efficiency.",
               },
@@ -406,17 +417,17 @@ const Quartz = () => {
                 title: "Refractories",
                 desc: "Used in furnace linings and ramming mass due to extreme thermal stability and resistance to chemical attack.",
                 icon: <Icons.Globe />,
-                img: "https://img2.exportersindia.com/product_images/bc-small/2022/11/10806544/img_202211-1667996110_6507208_1703344.jpg",
-                spec: "Hard Quartzite & Fine Quartz Ramming Mass (94-98% SiOâ‚‚). Strictly controlled high thermal parameters and refractoriness.",
+                img: "https://img2.exportersindia.com/product_images/bc-small/2022/11/108-06544/img_202-211-166-7996110_650-7208_170-3344.jpg",
+                spec: "Hard Quartzite & Fine Quartz Ramming Mass (94-98% SiO2). Strictly controlled high thermal parameters and refractoriness.",
                 purpose:
-                  "Heavily utilized to line induction furnaces, kilns, and create ramming mass matrices. Its tremendous thermal stability, volume expansion properties, and heat-resistance allow the furnace walls to survive operations at 1700Â°C+ without catastrophic structural melting or degradation.",
+                  "Heavily utilized to line induction furnaces, kilns, and create ramming mass matrices. Its tremendous thermal stability, volume expansion properties, and heat-resistance allow the furnace walls to survive operations at 1700C+ without catastrophic structural melting or degradation.",
               },
               {
                 title: "Foundry & Casting",
                 desc: "Silica sand and quartz grains provide the necessary structural integrity for high-precision molds.",
                 icon: <Icons.Document />,
                 img: "https://akpferrocast.com/wp-content/uploads/2024/08/castiron.webp",
-                spec: "Premium Silica Sand & Micro-Quartz Grains (96-98% SiOâ‚‚). Must feature uniform grain size, sub-angular grain shapes, and high thermal resistance.",
+                spec: "Premium Silica Sand & Micro-Quartz Grains (96-98% SiO2). Must feature uniform grain size, sub-angular grain shapes, and high thermal resistance.",
                 purpose:
                   "Packed tightly around industrial metal patterns alongside binding agents to create high-precision, heat-resistant casting molds for molten metal pouring. The uniform quartz size allows built-up gases to safely escape during pouring while preventing the mold from prematurely fusing with the molten metal.",
               },
@@ -424,8 +435,8 @@ const Quartz = () => {
                 title: "Chemicals",
                 desc: "Used as a raw material for silicon-based chemical production and performance fillers.",
                 icon: <Icons.Grade />,
-                img: "https://plus.unsplash.com/premium_photo-1661432575489-b0400f4fea58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlbWljYWxzfGVufDB8fDB8fHww",
-                spec: "Micronized Quartz Powder / Industrial Silica Powder (98%+ SiOâ‚‚). Inert and flawlessly milled to specific micron particle sizes.",
+                img: "https://plus.unsplash.com/premium_photo-166-143257-5489-b0400f4fea58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlbWljYWxzfGVufDB8fDB8fHww",
+                spec: "Micronized Quartz Powder / Industrial Silica Powder (98%+ SiO2). Inert and flawlessly milled to specific micron particle sizes.",
                 purpose:
                   "Serves inherently as a foundational raw material component to produce sodium silicate, high-grade silica gels, silicone formulas, and specialized fertilizers. It also acts as an inert reinforcing filler enhancing density in paints, advanced rubber, and industrial epoxies.",
               },
@@ -463,7 +474,7 @@ const Quartz = () => {
         </div>
       </section>
 
-      {/* ðŸ“¦ Forms & Sizing Section */}
+      {/*  Forms & Sizing Section */}
       <section className="py-24 bg-navy text-white overflow-hidden relative">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-wine/20 rounded-full blur-[120px] -mr-64 -mt-64"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -511,12 +522,12 @@ const Quartz = () => {
             <Reveal variant="fadeRight" className="md:w-1/2">
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="https://plus.unsplash.com/premium_photo-1692592468351-5f63fa1e62a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cXVhcnR6fGVufDB8fDB8fHww"
+                  src="https://plus.unsplash.com/premium_photo-169-259246-8351-5f63fa1e62a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cXVhcnR6fGVufDB8fDB8fHww"
                   alt="Quartz 1"
                   className="rounded-2xl shadow-2xl"
                 />
                 <img
-                  src="https://plus.unsplash.com/premium_photo-1707074548959-12771d64799a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cXVhcnR6aXRlfGVufDB8fDB8fHww"
+                  src="https://plus.unsplash.com/premium_photo-170-707454-8959-12771d64799a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cXVhcnR6aXRlfGVufDB8fDB8fHww"
                   alt="Quartz 2"
                   className="rounded-2xl shadow-2xl mt-8"
                 />
@@ -526,7 +537,7 @@ const Quartz = () => {
         </div>
       </section>
 
-      {/* ðŸ† Why Buyers Choose Ochnology â€” Quartz */}
+      {/*  Why Buyers Choose Ochnology  Quartz */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-6">
@@ -635,7 +646,7 @@ const Quartz = () => {
                   Submit RFQ
                 </Link>
                 <a
-                  href="https://wa.me/919258720699?text=I%20need%20Quartz%20from%20India.%20Please%20share%20pricing%20and%20grade%20details."
+                  href="https://wa.me/919-258720-699?text=I%20need%20Quartz%20from%20India.%20Please%20share%20pricing%20and%20grade%20details."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-navy text-white px-8 py-4 rounded-2xl font-black hover:bg-navy/80 transition-all flex items-center gap-3"
@@ -655,7 +666,87 @@ const Quartz = () => {
         </div>
       </section>
 
-      {/* ❓ Frequently Asked Questions */}
+      {/*   Why Buyers Choose From Us  Targeted Value */}
+      <section className="py-24 bg-navy text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy to-wine/20"></div>
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
+          <Reveal className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black mb-4 uppercase tracking-tight">
+              WHY BUYERS <span className="text-wine">CHOOSE FROM US</span>
+            </h2>
+            <div className="w-24 h-1.5 bg-wine mx-auto rounded-full mb-8"></div>
+          </Reveal>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <Reveal variant="fadeLeft">
+              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full space-y-8 group hover:bg-white/10 transition-all">
+                <h3 className="text-3xl font-black text-white flex items-center gap-4">
+                  <div className="w-14 h-14 bg-wine rounded-2xl flex items-center justify-center shrink-0 shadow-lg shadow-wine/20">
+                    <Icons.Energy />
+                  </div>
+                  For Indian Steel Mills
+                </h3>
+                <ul className="space-y-6">
+                  {[
+                    "Consistent size & chemistry across every batch",
+                    "Reliable bulk supply through multi-mine sourcing",
+                    "Material optimized specifically for furnace performance",
+                  ].map((point, i) => (
+                    <li key={i} className="flex gap-4 items-start">
+                      <div className="mt-1 bg-wine/20 p-1 rounded-full text-wine">
+                        <Icons.Check />
+                      </div>
+                      <span className="text-gray-300 text-lg font-medium leading-tight">
+                        {point}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+            <Reveal variant="fadeRight">
+              <div className="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-md h-full space-y-8 group hover:bg-white/10 transition-all">
+                <h3 className="text-3xl font-black text-white flex items-center gap-4">
+                  <div className="w-14 h-14 bg-navy rounded-2xl flex items-center justify-center shrink-0 shadow-lg shadow-navy/40 border border-white/10">
+                    <Icons.Globe />
+                  </div>
+                  For International Buyers
+                </h3>
+                <ul className="space-y-6">
+                  {[
+                    "Usance LC terms for extended credit support",
+                    "Aggregated sourcing leading to better pricing",
+                    "Strict quality assurance + pre-dispatch checks",
+                    "Complete export handling & documentation support",
+                  ].map((point, i) => (
+                    <li key={i} className="flex gap-4 items-start">
+                      <div className="mt-1 bg-wine/20 p-1 rounded-full text-wine">
+                        <Icons.Check />
+                      </div>
+                      <span className="text-gray-300 text-lg font-medium leading-tight">
+                        {point}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/*  Lead Generation / Final Trust Strip */}
+      <section className="py-12 bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-wrap justify-center gap-12 text-navy font-black uppercase text-[10px] tracking-[0.2em]">
+             <span className="flex items-center gap-3"><Icons.Check /> NABL Lab Tested</span>
+             <span className="flex items-center gap-3"><Icons.Check /> Export Grade Packing</span>
+             <span className="flex items-center gap-3"><Icons.Check /> Multi-Mine Sourcing</span>
+             <span className="flex items-center gap-3"><Icons.Check /> 48H RFQ Response</span>
+          </div>
+        </div>
+      </section>
+
+      {/*  Frequently Asked Questions */}
       <section className="py-24 bg-[#f8f9fb] border-y border-gray-100">
         <div className="max-w-4xl mx-auto px-6">
           <Reveal className="text-center mb-16">
@@ -669,7 +760,7 @@ const Quartz = () => {
             {[
               {
                 q: "What is the difference between quartz and quartzite?",
-                a: "Quartz is a naturally occurring mineral (SiO₂), while quartzite is a metamorphic rock formed from sandstone under high pressure and temperature. Quartz is typically used in powders and granules, whereas quartzite is used in lumps for industrial and refractory applications."
+                a: "Quartz is a naturally occurring mineral (SiO2), while quartzite is a metamorphic rock formed from sandstone under high pressure and temperature. Quartz is typically used in powders and granules, whereas quartzite is used in lumps for industrial and refractory applications."
               },
               {
                 q: "What industries use quartz and quartzite?",
@@ -677,11 +768,11 @@ const Quartz = () => {
               },
               {
                 q: "What specifications are important when buying quartz?",
-                a: "Key parameters include SiO₂ purity (typically 98%–99.9%), Fe₂O₃ content (critical for glass/ceramics), Particle size (powder, granules, lumps), Whiteness, and Moisture content."
+                a: "Key parameters include SiO2 purity (typically 98%99.9%), Fe2O3 content (critical for glass/ceramics), Particle size (powder, granules, lumps), Whiteness, and Moisture content."
               },
               {
                 q: "What specifications are important for quartzite?",
-                a: "Important factors include SiO₂ content (generally 95%+), Size (10–50 mm, 20–80 mm, etc.), Low impurities (Fe, Al₂O₃), and High thermal resistance (for refractory use)."
+                a: "Important factors include SiO2 content (generally 95%+), Size (1050 mm, 2080 mm, etc.), Low impurities (Fe, Al2O3), and High thermal resistance (for refractory use)."
               },
               {
                 q: "Do you supply quartz and quartzite in bulk quantities?",
@@ -709,7 +800,7 @@ const Quartz = () => {
               },
               {
                 q: "How do I choose the right quartz for my application?",
-                a: "Selection depends on your industry: Glass requires high purity and low iron. Ceramics need controlled particle size and whiteness. Ferroalloys require specific lump sizes and high SiO₂. We can guide you based on your exact requirement."
+                a: "Selection depends on your industry: Glass requires high purity and low iron. Ceramics need controlled particle size and whiteness. Ferroalloys require specific lump sizes and high SiO2. We can guide you based on your exact requirement."
               },
               {
                 q: "Why should we work with Ochnology Solutions?",
@@ -732,7 +823,7 @@ const Quartz = () => {
         </div>
       </section>
 
-      {/* 📞 Final CTA */}
+      {/*  Final CTA */}
       <section className="bg-wine py-20 text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <Reveal>
@@ -751,7 +842,7 @@ const Quartz = () => {
                 Contact Technical Sales
               </Link>
               <a
-                href="https://wa.me/919258720699"
+                href="https://wa.me/919-258720-699"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-navy text-white px-10 py-5 rounded-2xl font-black hover:bg-navy/90 transition-all flex items-center justify-center gap-3"

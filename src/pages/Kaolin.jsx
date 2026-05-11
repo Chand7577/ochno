@@ -830,6 +830,87 @@ const Kaolin = () => {
         </div>
       </section>
 
+      {/* 💎 Why Buy From Us */}
+      <section className="py-24 bg-[#fcfdfc]">
+        <div className="max-w-7xl mx-auto px-6">
+          <Reveal className="text-center mb-16">
+            <span className="text-wine font-black uppercase tracking-widest text-sm mb-4 block">
+              Section 7
+            </span>
+            <h2 className="text-4xl font-black text-navy mb-4 uppercase tracking-tight">
+              Why Buy <span className="text-wine">From Us?</span>
+            </h2>
+            <p className="text-gray-500 font-medium max-w-3xl mx-auto">
+              We ensure reliability, quality, and seamless commercial transactions
+              for our global partners.
+            </p>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Quality & Consistency */}
+            <Reveal variant="fadeUp" delay={100}>
+              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full">
+                <h3 className="text-2xl font-black text-navy uppercase mb-8 flex items-center gap-4">
+                  <span className="w-10 h-10 bg-wine rounded-xl flex items-center justify-center text-white shrink-0">
+                    <Icons.Shield />
+                  </span>
+                  Quality & Consistency
+                </h3>
+                <ul className="space-y-6">
+                  {[
+                    "Fixed mine source — consistent brightness and particle size lot to lot",
+                    "Full COA per lot: Al₂O₃%, Fe₂O₃%, brightness, whiteness, D50, moisture",
+                    "ISO brightness and whiteness tested every lot",
+                    "SGS / Intertek inspection at origin available on request",
+                    "MSDS and COO with every consignment",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1.5 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p className="text-gray-600 font-medium text-sm leading-relaxed group-hover:text-wine transition-colors">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+
+            {/* Supply & Commercial */}
+            <Reveal variant="fadeUp" delay={200}>
+              <div className="bg-navy p-10 rounded-[3rem] shadow-xl h-full relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-wine/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl"></div>
+                <h3 className="text-2xl font-black text-white uppercase mb-8 flex items-center gap-4">
+                  <span className="w-10 h-10 bg-wine rounded-xl flex items-center justify-center text-white shrink-0">
+                    <Icons.Globe />
+                  </span>
+                  Supply & Commercial
+                </h3>
+                <ul className="space-y-6">
+                  {[
+                    "All grades from one supplier — crude, washed, calcined, surface modified",
+                    "MOQ 1 MT for trial orders — easy grade qualification",
+                    "FOB Mundra / Kandla / Nhava Sheva / Kolkata",
+                    "Competitive FOB / CIF pricing to your port",
+                    "Sample with COA arranged within 3–5 days",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1.5 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p className="text-white/60 font-medium text-sm leading-relaxed group-hover:text-white transition-colors">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
       {/* 🤝 Supplier Recruitment */}
       <section className="py-24 bg-white border-b border-gray-50">
         <div className="max-w-5xl mx-auto px-6 text-center">

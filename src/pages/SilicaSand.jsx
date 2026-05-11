@@ -10,7 +10,7 @@ import {
   TableRow,
 } from "../components/ui/table.jsx";
 
-// ── Icons ──────────────────────────────────────────────────────────────────
+//  Icons 
 const Icons = {
   Glass: () => (
     <svg
@@ -137,7 +137,7 @@ const Icons = {
   ),
 };
 
-// ── Reveal Component ─────────────────────────────────────────────────────────
+//  Reveal Component 
 const Reveal = ({
   children,
   variant = "fadeUp",
@@ -208,7 +208,7 @@ const SilicaSand = () => {
 
   const specs = [
     {
-      p: "SiO₂ % min",
+      p: "SiO2 % min",
       glass: "99.5%",
       foundry: "98.0%",
       filtration: "98.0%",
@@ -216,15 +216,15 @@ const SilicaSand = () => {
       paint: "97.0%",
     },
     {
-      p: "Fe₂O₃ % max",
-      glass: "0.02–0.05%",
+      p: "Fe2O3 % max",
+      glass: "0.020.05%",
       foundry: "0.10%",
       filtration: "0.10%",
       construction: "0.30%",
       paint: "0.10%",
     },
     {
-      p: "Al₂O₃ % max",
+      p: "Al2O3 % max",
       glass: "0.50%",
       foundry: "1.00%",
       filtration: "0.80%",
@@ -232,7 +232,7 @@ const SilicaSand = () => {
       paint: "1.00%",
     },
     {
-      p: "TiO₂ % max",
+      p: "TiO2 % max",
       glass: "0.02%",
       foundry: "0.05%",
       filtration: "0.05%",
@@ -249,11 +249,11 @@ const SilicaSand = () => {
     },
     {
       p: "Loss on Ignition %",
-      glass: "≤0.2%",
-      foundry: "≤0.5%",
-      filtration: "≤0.3%",
-      construction: "≤1.0%",
-      paint: "≤0.3%",
+      glass: "<=0.2%",
+      foundry: "<=0.5%",
+      filtration: "<=0.3%",
+      construction: "<=1.0%",
+      paint: "<=0.3%",
     },
     {
       p: "Clay Content % max",
@@ -273,19 +273,19 @@ const SilicaSand = () => {
     },
     {
       p: "AFS Grain Fineness",
-      glass: "—",
-      foundry: "AFS 30–70",
-      filtration: "—",
-      construction: "—",
-      paint: "—",
+      glass: "",
+      foundry: "AFS 3070",
+      filtration: "",
+      construction: "",
+      paint: "",
     },
     {
       p: "Grain Size / Mesh",
-      glass: "150–600 µm",
-      foundry: "0.1–0.5mm",
-      filtration: "0.4–1.4mm",
-      construction: "0–4mm, 0–8mm",
-      paint: "100–300 mesh",
+      glass: "150-600 m",
+      foundry: "0.10.5mm",
+      filtration: "0.41.4mm",
+      construction: "04mm, 08mm",
+      paint: "100-300 mesh",
     },
     {
       p: "Grain Shape",
@@ -309,7 +309,7 @@ const SilicaSand = () => {
       foundry: "AFS / IS 1918",
       filtration: "AWWA B100",
       construction: "IS 383",
-      paint: "—",
+      paint: "",
     },
   ];
 
@@ -317,7 +317,7 @@ const SilicaSand = () => {
     <div className="bg-[#fcfaff] min-h-screen text-navy font-sans overflow-x-hidden">
       <Preloader />
 
-      {/* 🚀 Hero Section */}
+      {/*  Hero Section */}
       <section className="relative w-full h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-navy/90 via-navy/95 to-black/90 z-10"></div>
@@ -347,18 +347,18 @@ const SilicaSand = () => {
           <Reveal variant="fadeUp" delay={600}>
             <div className="flex flex-wrap justify-center gap-6 mb-12">
               <span className="text-xl text-gray-300 font-light border-r border-white/20 pr-6">
-                SiO₂ ≥ 99.5%
+                SiO2 &gt;= 99.5%
               </span>
               <span className="text-xl text-gray-300 font-light border-r border-white/20 pr-6">
-                Fe₂O₃ ≤ 0.02%
+                Fe2O3 &lt;= 0.02%
               </span>
               <span className="text-xl text-gray-300 font-light">
                 Exported to 80+ Countries
               </span>
             </div>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto font-light leading-relaxed mb-12 italic">
-              "Glass Grade · Foundry Grade · Filtration Grade · Construction
-              Grade · Exporting Worldwide"
+              "Glass Grade - Foundry Grade - Filtration Grade - Construction
+              Grade - Exporting Worldwide"
             </p>
           </Reveal>
           <Reveal
@@ -373,7 +373,7 @@ const SilicaSand = () => {
               Request a Quote / Sample COA
             </Link>
             <a
-              href="https://wa.me/919258720699"
+              href="https://wa.me/919-258720-699"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/5 text-white border border-white/10 px-10 py-5 rounded-2xl font-black hover:bg-white/10 transition-all backdrop-blur-md flex items-center justify-center gap-3"
@@ -393,7 +393,7 @@ const SilicaSand = () => {
                 "COA Per Lot",
                 "AFS Tested",
                 "MSDS Available",
-                "Sample in 3–5 Days",
+                "Sample in 35 Days",
               ].map((text, i) => (
                 <span
                   key={i}
@@ -407,7 +407,7 @@ const SilicaSand = () => {
         </div>
       </section>
 
-      {/* 🌍 Section: India's Global Position */}
+      {/*  Section: India's Global Position */}
       <section className="py-32 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -454,7 +454,7 @@ const SilicaSand = () => {
             <Reveal variant="zoomIn" className="relative">
               <div className="relative rounded-[3rem] overflow-hidden shadow-2xl group">
                 <img
-                  src="https://5.imimg.com/data5/ANDROID/Default/2025/3/494999850/JU/KQ/DW/35618867/product-jpeg.jpg"
+                  src="https://5.imimg.com/data5/ANDROID/Default/2025/3/494-999850/JU/KQ/DW/356-18867/product-jpeg.jpg"
                   alt="Silica Sand Mine"
                   className="w-full h-[500px] object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -473,7 +473,7 @@ const SilicaSand = () => {
         </div>
       </section>
 
-      {/* 📊 Section: Technical Specifications */}
+      {/*  Section: Technical Specifications */}
       <section className="py-32 bg-[#f8f9fb]">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="mb-16">
@@ -567,10 +567,10 @@ const SilicaSand = () => {
                   </h4>
                   <ul className="space-y-3">
                     {[
-                      "Solar Glass: Ultra-low Fe₂O₃ (≤0.02%) for max transmission.",
+                      "Solar Glass: Ultra-low Fe2O3 (<=0.02%) for max transmission.",
                       "Custom Mesh: Available for orders of 5 MT and above.",
                       "Frac Sand: High sphericity and crush resistance on request.",
-                      "COA: Includes SiO₂, Fe₂O₃, Al₂O₃, TiO₂, clay & moisture.",
+                      "COA: Includes SiO2, Fe2O3, Al2O3, TiO2, clay & moisture.",
                     ].map((note, i) => (
                       <li key={i} className="flex gap-3 text-sm text-gray-600">
                         <div className="mt-1">
@@ -592,7 +592,7 @@ const SilicaSand = () => {
             </div>
           </Reveal>
 
-          {/* 📸 Material Showcase - Added Product Image */}
+          {/*  Material Showcase - Added Product Image */}
           <Reveal variant="fadeUp" delay={200} className="mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100">
               <div className="rounded-[2rem] overflow-hidden shadow-lg border-4 border-[#f8f9fb]">
@@ -625,7 +625,7 @@ const SilicaSand = () => {
         </div>
       </section>
 
-      {/* 🏗️ Section: Applications */}
+      {/*  Section: Applications */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-24">
@@ -642,13 +642,13 @@ const SilicaSand = () => {
             {[
               {
                 t: "Glass Manufacturing",
-                d: "Primary material for float, container, solar, and fiber glass. Ultra-low iron (≤0.02%) prevents green tints in precision glass.",
+                d: "Primary material for float, container, solar, and fiber glass. Ultra-low iron (<=0.02%) prevents green tints in precision glass.",
                 icon: <Icons.Glass />,
                 grade: "Glass Grade",
               },
               {
                 t: "Foundry & Casting",
-                d: "Used to create moulds/cores for metal casting. Withstands heat >1700°C. AFS 30–70 ensures perfect surface finish.",
+                d: "Used to create moulds/cores for metal casting. Withstands heat >1700C. AFS 3070 ensures perfect surface finish.",
                 icon: <Icons.Foundry />,
                 grade: "Foundry Grade",
               },
@@ -666,7 +666,7 @@ const SilicaSand = () => {
               },
               {
                 t: "Paints & Coatings",
-                d: "Ground silica (100–300 mesh) improves abrasion resistance and matt finish as a functional extender.",
+                d: "Ground silica (100-300 mesh) improves abrasion resistance and matt finish as a functional extender.",
                 icon: <Icons.Shield />,
                 grade: "Paint Grade",
               },
@@ -696,97 +696,212 @@ const SilicaSand = () => {
         </div>
       </section>
 
-      {/* 🛡️ Section: Why Source from India? */}
+      {/*   Section: WHY BUY FROM US */}
       <section className="py-32 bg-navy text-white relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-wine/5 skew-x-12 translate-x-32"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy to-wine/20"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <div className="flex flex-col lg:flex-row gap-20">
-            <div className="lg:w-1/2">
-              <Reveal variant="fadeLeft">
-                <h2 className="text-4xl md:text-5xl font-black mb-10 leading-tight">
-                  The Indian <br />
-                  <span className="text-wine">Strategic Advantage</span>
-                </h2>
-                <div className="space-y-8">
+          <Reveal className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-black mb-6 uppercase tracking-tight">
+              WHY BUY <span className="text-wine">FROM US</span>
+            </h2>
+            <div className="w-24 h-1.5 bg-wine mx-auto rounded-full mb-8"></div>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <Reveal variant="fadeLeft">
+              <div className="bg-white/5 border border-white/10 p-12 rounded-[3.5rem] backdrop-blur-xl h-full space-y-10 group hover:bg-white/10 transition-all duration-500">
+                <div className="flex items-center gap-6">
+                  <div className="w-16 h-16 bg-wine rounded-2xl flex items-center justify-center shadow-2xl shadow-wine/40">
+                    <Icons.Shield />
+                  </div>
+                  <h3 className="text-3xl font-black text-white">Quality & Consistency</h3>
+                </div>
+                <ul className="space-y-6">
                   {[
-                    {
-                      t: "Geology Advantage",
-                      d: "Gujarat white silica sand is naturally high purity with low iron, requiring minimal beneficiation.",
-                    },
-                    {
-                      t: "Price Competitiveness",
-                      d: "Lower FOB price than Australian, US, or European origins for most grain sizes.",
-                    },
-                    {
-                      t: "Freight Advantage",
-                      d: "Strategic proximity to Gulf, East Africa, and SE Asia reduces transit time and costs.",
-                    },
-                    {
-                      t: "Export Freedom",
-                      d: "Freely exportable from India with no licensing or quotas for industrial grades.",
-                    },
-                  ].map((adv, i) => (
-                    <div key={i} className="flex gap-6">
-                      <div className="text-wine mt-1 shrink-0">
+                    "Fixed origin sourcing (Gujarat, Rajasthan, Andhra Pradesh) ensures consistent SiO2 and Fe2O3 lot to lot.",
+                    "Full COA per lot: SiO2%, Fe2O3%, Al2O3%, grain size, moisture, and clay content.",
+                    "AFS grain fineness number rigorously tested for all foundry grade shipments.",
+                    "Third-party inspection (SGS / Intertek) at origin available upon buyer request.",
+                    "Complete MSDS and Certificate of Origin (COO) provided with every single consignment.",
+                  ].map((point, i) => (
+                    <li key={i} className="flex gap-4 items-start">
+                      <div className="mt-1 bg-wine/20 p-1.5 rounded-full text-wine shrink-0">
                         <Icons.Check />
                       </div>
-                      <div>
-                        <h4 className="font-bold text-xl mb-1">{adv.t}</h4>
-                        <p className="text-gray-400 text-sm font-light">
-                          {adv.d}
-                        </p>
-                      </div>
-                    </div>
+                      <span className="text-gray-300 text-lg font-medium leading-tight">
+                        {point}
+                      </span>
+                    </li>
                   ))}
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal variant="fadeRight">
+              <div className="bg-white/5 border border-white/10 p-12 rounded-[3.5rem] backdrop-blur-xl h-full space-y-10 group hover:bg-white/10 transition-all duration-500">
+                <div className="flex items-center gap-6">
+                  <div className="w-16 h-16 bg-navy border border-white/10 rounded-2xl flex items-center justify-center shadow-2xl shadow-navy/40">
+                    <Icons.Globe />
+                  </div>
+                  <h3 className="text-3xl font-black text-white">Supply & Logistics</h3>
                 </div>
-              </Reveal>
-            </div>
-            <div className="lg:w-1/2">
-              <Reveal variant="fadeUp" className="h-full">
-                <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-12 rounded-[3rem] h-full">
-                  <h3 className="text-2xl font-black mb-8 border-l-4 border-wine pl-6">
-                    Why Source Through Us?
-                  </h3>
-                  <div className="space-y-10">
-                    <div>
-                      <h4 className="font-bold text-wine mb-2 uppercase tracking-widest text-xs">
-                        Quality Assurance
-                      </h4>
-                      <p className="text-gray-300 text-sm font-light leading-relaxed">
-                        Fixed origin sourcing (Gujarat, Rajasthan, AP) ensures
-                        consistent SiO₂ and Fe₂O₃ levels lot-to-lot.
-                        SGS/Intertek inspection available.
-                      </p>
+                <ul className="space-y-6">
+                  {[
+                    "Single-window supply for all grades: Glass, Foundry, Filtration, Construction, and Paint.",
+                    "Low MOQ of 1 MT supported  allowing easy trial before full container commitment.",
+                    "Strategic export handling from FOB Mundra, Kandla, Vizag, and Chennai ports.",
+                    "Highly competitive FOB / CIF pricing optimized for your specific destination port.",
+                    "Rapid sample dispatch within 35 days to accelerate your qualification process.",
+                  ].map((point, i) => (
+                    <li key={i} className="flex gap-4 items-start">
+                      <div className="mt-1 bg-wine/20 p-1.5 rounded-full text-wine shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <span className="text-gray-300 text-lg font-medium leading-relaxed">
+                        {point}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+
+          <Reveal variant="fadeUp" className="mt-20">
+             <div className="bg-wine/10 border border-wine/20 p-8 rounded-3xl text-center max-w-4xl mx-auto">
+                <p className="text-gray-300 text-lg">
+                   <span className="text-wine font-black uppercase tracking-widest text-sm block mb-2">Mine Owners & Processors</span>
+                   We source directly from Gujarat, Rajasthan, and Andhra Pradesh. If you have a washing and grading plant with consistent quality output (SiO2 98%, Fe2O3 0.10%) and reliable monthly capacity (Min 100 MT), partner with us for global export volumes.
+                </p>
+             </div>
+          </Reveal>
+        </div>
+      </section>
+
+
+      {/*  Section: Origin & Processing (Section 8) */}
+      <section className="py-32 bg-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6">
+          <Reveal className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-black text-navy mb-6 uppercase tracking-tight">
+              ORIGIN & <span className="text-wine">PROCESSING</span>
+            </h2>
+            <div className="w-24 h-1.5 bg-wine mx-auto rounded-full mb-8"></div>
+          </Reveal>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+             <Reveal variant="fadeLeft" className="space-y-12">
+                {[
+                  {
+                    r: "Gujarat (Kutch, Rajkot, Bharuch)",
+                    d: "Natural white silica sand  high purity, closest to Mundra and Kandla export ports; glass and foundry grade primary origin."
+                  },
+                  {
+                    r: "Rajasthan (Jaipur, Alwar, Ajmer)",
+                    d: "Quartz-rich silica sand; good for foundry, paint and construction grades."
+                  },
+                  {
+                    r: "Andhra Pradesh (Nellore, Ongole)",
+                    d: "Premium glass-grade silica with very low iron; close to Vizag and Chennai ports."
+                  }
+                ].map((region, i) => (
+                  <div key={i} className="flex gap-8 group">
+                    <div className="w-16 h-16 bg-navy/5 text-navy rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-navy group-hover:text-white transition-all duration-500">
+                       <Icons.Globe />
                     </div>
                     <div>
-                      <h4 className="font-bold text-wine mb-2 uppercase tracking-widest text-xs">
-                        Logistics Mastery
-                      </h4>
-                      <p className="text-gray-300 text-sm font-light leading-relaxed">
-                        FOB Mundra, Kandla, and Vizag. Competitive CIF pricing.
-                        Samples dispatched within 3–5 days with full COA and
-                        MSDS.
-                      </p>
-                    </div>
-                    <div className="pt-6 border-t border-white/10">
-                      <p className="text-sm font-bold text-white mb-2">
-                        Mine Owners & Processors:
-                      </p>
-                      <p className="text-gray-400 text-xs leading-relaxed">
-                        We are active buyers for SiO₂ ≥98% and Fe₂O₃ ≤0.10%.
-                        Contact our procurement team to partner for export
-                        volumes.
-                      </p>
+                       <h4 className="text-2xl font-black text-navy mb-2">{region.r}</h4>
+                       <p className="text-gray-500 text-lg leading-relaxed font-light">{region.d}</p>
                     </div>
                   </div>
+                ))}
+             </Reveal>
+
+             <Reveal variant="fadeRight">
+                <div className="bg-[#f8f9fb] p-12 rounded-[4rem] border border-gray-100 shadow-xl relative overflow-hidden">
+                   <div className="absolute top-0 right-0 w-32 h-32 bg-wine/5 rounded-full -mr-16 -mt-16"></div>
+                   <h3 className="text-3xl font-black text-navy mb-10 border-l-8 border-wine pl-8">The Processing Chain</h3>
+                   <div className="space-y-8">
+                      {[
+                        "Mining & Extraction",
+                        "Washing (Removing clay and fines)",
+                        "Drying (Solar or Rotary)",
+                        "Sizing (Precision screening / sieving)",
+                        "Magnetic Separation (For low-iron grades)",
+                        "Packaging & Quality Lab Check"
+                      ].map((step, i) => (
+                        <div key={i} className="flex items-center gap-6">
+                           <div className="w-10 h-10 bg-wine text-white rounded-xl flex items-center justify-center font-black text-sm">
+                              {i + 1}
+                           </div>
+                           <span className="text-navy font-bold text-lg">{step}</span>
+                        </div>
+                      ))}
+                   </div>
                 </div>
-              </Reveal>
-            </div>
+             </Reveal>
           </div>
         </div>
       </section>
 
-      {/* 🚚 Section: Logistics & FAQ */}
+      {/*  Section: Partner With Us (Section 7) */}
+      <section className="py-32 bg-[#fcfaff] border-y border-gray-100">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+            <Reveal variant="fadeLeft">
+               <h2 className="text-4xl md:text-5xl font-black text-navy mb-8 leading-tight uppercase tracking-tighter">
+                  Partner With Us  <br/>
+                  <span className="text-wine">Mine Owners & Processors</span>
+               </h2>
+               <p className="text-gray-600 text-xl font-light leading-relaxed mb-10 italic">
+                  "We source silica sand from Gujarat, Rajasthan and Andhra Pradesh mines and processing units. If you have a washing and grading plant with consistent quality output and reliable monthly production capacity, we want to hear from you."
+               </p>
+               <div className="bg-white p-10 rounded-[3rem] shadow-lg border border-gray-100">
+                  <h4 className="text-xs font-black text-wine uppercase tracking-[0.3em] mb-8">Verification Requirements:</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                     {[
+                        "SiO2 >=98%",
+                        "Fe2O3 <=0.10% (Lower for glass grade)",
+                        "Consistent Grain Size",
+                        "Moisture <=1%",
+                        "Clean, Free from Clay Lumps",
+                        "Minimum 100 MT/month"
+                     ].map((req, i) => (
+                        <div key={i} className="flex items-center gap-4">
+                           <Icons.Check />
+                           <span className="text-navy font-bold text-sm">{req}</span>
+                        </div>
+                     ))}
+                  </div>
+               </div>
+            </Reveal>
+
+            <Reveal variant="fadeRight">
+               <div className="bg-navy p-12 md:p-16 rounded-[4rem] text-white shadow-2xl relative overflow-hidden">
+                  <div className="absolute bottom-0 right-0 w-64 h-64 bg-wine/20 rounded-full blur-[100px] -mr-32 -mb-32"></div>
+                  <h3 className="text-3xl font-black mb-10">Procurement Enquiry</h3>
+                  <form className="space-y-6 relative z-10">
+                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <input type="text" placeholder="Your Name" className="w-full bg-white/5 border border-white/10 p-5 rounded-2xl focus:border-wine outline-none transition-all" />
+                        <input type="text" placeholder="Location of Mine/Plant" className="w-full bg-white/5 border border-white/10 p-5 rounded-2xl focus:border-wine outline-none transition-all" />
+                     </div>
+                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <input type="text" placeholder="Current Monthly Capacity" className="w-full bg-white/5 border border-white/10 p-5 rounded-2xl focus:border-wine outline-none transition-all" />
+                        <input type="text" placeholder="Contact Number" className="w-full bg-white/5 border border-white/10 p-5 rounded-2xl focus:border-wine outline-none transition-all" />
+                     </div>
+                     <textarea placeholder="Describe your grading & washing setup..." rows="4" className="w-full bg-white/5 border border-white/10 p-5 rounded-2xl focus:border-wine outline-none transition-all"></textarea>
+                     <button type="button" className="w-full bg-wine text-white py-6 rounded-2xl font-black uppercase tracking-widest hover:bg-white hover:text-wine transition-all shadow-xl shadow-wine/20">
+                        Submit Procurement Info
+                     </button>
+                  </form>
+               </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/*  Section: Logistics & FAQ */}
+
       <section className="py-32 bg-[#fcfaff]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
@@ -803,12 +918,12 @@ const SilicaSand = () => {
                     },
                     {
                       l: "20-ft FCL Capacity",
-                      v: "22–25 MT (Grade dependent)",
+                      v: "2225 MT (Grade dependent)",
                     },
                     { l: "Primary Ports", v: "Mundra, Kandla, Vizag, Chennai" },
                     { l: "HS Code", v: "2505.10 (Silica & Quartz Sands)" },
-                    { l: "Transit (Gulf)", v: "8–12 Days" },
-                    { l: "Transit (SE Asia)", v: "12–18 Days" },
+                    { l: "Transit (Gulf)", v: "8-12 Days" },
+                    { l: "Transit (SE Asia)", v: "12-18 Days" },
                   ].map((item, i) => (
                     <div key={i} className="pb-4 border-b border-gray-200">
                       <span className="text-[10px] font-black uppercase text-gray-400 block mb-1">
@@ -830,7 +945,7 @@ const SilicaSand = () => {
                   {[
                     {
                       q: "Glass vs Foundry difference?",
-                      a: "Glass grade requires high SiO₂ (≥99.5%) and ultra-low Fe₂O₃ (≤0.02%). Foundry grade focuses on grain size (AFS) and thermal stability.",
+                      a: "Glass grade requires high SiO2 (>=99.5%) and ultra-low Fe2O3 (<=0.02%). Foundry grade focuses on grain size (AFS) and thermal stability.",
                     },
                     {
                       q: "What is the AFS number?",
@@ -870,7 +985,7 @@ const SilicaSand = () => {
         </div>
       </section>
 
-      {/* 📞 Final CTA */}
+      {/*  Final CTA */}
       <section className="bg-wine py-24 text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <Reveal>
@@ -889,7 +1004,7 @@ const SilicaSand = () => {
                 Get Export Quote
               </Link>
               <a
-                href="https://wa.me/919258720699"
+                href="https://wa.me/919-258720-699"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-navy text-white px-12 py-5 rounded-2xl font-black hover:bg-navy/90 transition-all flex items-center justify-center gap-3"

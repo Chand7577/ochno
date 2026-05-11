@@ -9,6 +9,12 @@ import {
   TableHeader,
   TableRow,
 } from "../components/ui/table.jsx";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "../components/ui/accordion.jsx";
 import p2 from "../assets/p-2.jpeg";
 import p3 from "../assets/p-3.jpeg";
 import s1 from "../assets/s-1.jpeg";
@@ -264,6 +270,38 @@ const BLOGS = [
         text: "For any marine or coastal concrete application: specify minimum 10% microsilica by cementitious weight, maximum w/cm ratio of 0.36, minimum Grade M45, and 75mm cover to rebar. Request RCPT test results below 1,000 coulombs and a batch-specific TDS from the supplier confirming SiO₂ ≥ 92%. In the harshest splash zones, increase the microsilica dosage to 15% and consider the use of calcium nitrite based corrosion inhibitors in tandem with the physical barrier provided by the silica fume.",
       },
     ],
+  },
+];
+
+// ── FAQ Data ─────────────────────────────────────────────────────────────────
+const FAQS = [
+  {
+    question: "Q1. What is the difference between densified and undensified silica fume?",
+    answer: "Densified silica fume typically has bulk density around 500–700 kg/m³ for easier transport and handling, while undensified silica fume usually ranges around 250–400 kg/m³ and is commonly preferred in refractory applications.",
+  },
+  {
+    question: "Q2. What is the typical SiO₂ content available?",
+    answer: "Silica fume is commonly available in 85%, 90%, 92%, 94%, 96% and higher SiO₂ grades depending on application requirements.",
+  },
+  {
+    question: "Q3. Which industries use silica fume?",
+    answer: "Silica fume is widely used in concrete, refractories, construction chemicals, oil well cementing and specialty industrial applications.",
+  },
+  {
+    question: "Q4. Is refractory grade silica fume different from concrete grade?",
+    answer: "Yes. Refractory grades are generally undensified with controlled particle characteristics, while construction grades are often densified for easier mixing and handling.",
+  },
+  {
+    question: "Q5. What packaging options are available?",
+    answer: "25 kg bags, jumbo bags and customized export packaging options are available depending on order quantity and destination.",
+  },
+  {
+    question: "Q6. Are new foreign exporters welcome to cooperate with us?",
+    answer: "Yes. Foreign exporters who can guarantee consistent quality, competitive pricing and structured payment terms (DA/OA) are welcome to contact us for long-term cooperation.",
+  },
+  {
+    question: "Q7. What are our payment terms?",
+    answer: "RTGS against loading is preferred. Other payment structures can also be discussed depending on order size and business relationship.",
   },
 ];
 
@@ -2597,6 +2635,33 @@ const Silica = () => {
                 </a>
               </div>
             </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* 4. FAQ Section */}
+      <section className="bg-white py-24 border-t border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Reveal variant="fadeUp" duration={800}>
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-black text-[#002d52] mb-4">
+                Frequently Asked <span className="text-[#88204a]">Questions</span>
+              </h2>
+              <p className="text-gray-500 text-lg">
+                Everything you need to know about Silica Fume procurement and applications.
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal variant="fadeUp" delay={200}>
+            <Accordion type="single" collapsible>
+              {FAQS.map((faq, index) => (
+                <AccordionItem key={index} value={`item-${index}`}>
+                  <AccordionTrigger>{faq.question}</AccordionTrigger>
+                  <AccordionContent>{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </Reveal>
         </div>
       </section>

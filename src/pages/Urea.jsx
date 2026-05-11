@@ -736,41 +736,104 @@ const Urea = () => {
         </div>
       </section>
 
-      {/* 🤝 Suppliers Welcome Section */}
-      <section className="py-24 bg-navy relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
+      {/* 🤝 Section 9: Urea Exporters & Producers Welcome */}
+      <section className="py-32 bg-navy relative overflow-hidden">
+        {/* Background Decorative Elements */}
+        <div className="absolute inset-0 z-0 pointer-events-none opacity-10">
+          <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-wine rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"></div>
+          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-white rounded-full blur-[100px] translate-y-1/2 -translate-x-1/4"></div>
         </div>
-        <div className="max-w-5xl mx-auto px-6 relative z-10 text-center">
-          <Reveal variant="fadeUp">
-            <h2 className="text-4xl md:text-6xl font-black text-white mb-8 uppercase tracking-tighter italic">
-              Exporters & <span className="text-wine">Producers Welcome</span>
+
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
+          <Reveal variant="fadeUp" className="text-center mb-20">
+            <h2 className="text-5xl md:text-7xl font-black text-white mb-8 uppercase tracking-tighter italic">
+              Section 9 — Urea <span className="text-wine">Exporters &amp; Producers</span> Welcome
             </h2>
-            <p className="text-white/70 text-lg font-medium max-w-3xl mx-auto mb-12 italic">
-              India's industrial urea market is growing at 15-20% annually. We are looking for reliable partners for long-term supply programs.
+            <div className="w-32 h-1.5 bg-wine mx-auto rounded-full mb-10"></div>
+            <p className="text-white/60 text-lg md:text-xl font-medium max-w-4xl mx-auto leading-relaxed italic">
+              India is one of Asia's most open and fastest-growing markets for industrial urea — technical and AdBlue grade can both be imported and traded freely by private companies.
             </p>
-            <div className="bg-white/5 p-12 border border-white/10 rounded-3xl text-left">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-10">
-                <div>
-                  <h5 className="font-black text-white text-[10px] uppercase mb-4 underline decoration-wine underline-offset-4 tracking-[0.2em]">Technical Grade Specs</h5>
-                  <p className="text-[11px] leading-loose uppercase tracking-wider font-bold text-white/60">Urea ≥99.0% · Nitrogen ≥46% · Biuret ≤1.0% · Moisture ≤0.5% · No neem coating</p>
-                </div>
-                <div>
-                  <h5 className="font-black text-white text-[10px] uppercase mb-4 underline decoration-wine underline-offset-4 tracking-[0.2em]">AdBlue Grade Specs</h5>
-                  <p className="text-[11px] leading-loose uppercase tracking-wider font-bold text-white/60">ISO 22241 compliant · Biuret ≤0.3% · Heavy metals within limits · Prilled preferred</p>
-                </div>
-              </div>
-              <div className="mt-10 pt-10 border-t border-white/10 flex flex-col gap-8">
-                <div className="flex flex-wrap items-center justify-between gap-6">
-                  <p className="text-wine font-black italic uppercase tracking-widest text-xs">✦ Prefer credit-based flexible terms (DA / OA)</p>
-                  <Link to="/contact" className="bg-wine text-white px-8 py-4 text-xs font-black uppercase tracking-widest hover:bg-white hover:text-navy transition-all shadow-xl">Contact Sourcing</Link>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[9px] text-white/30 uppercase font-bold tracking-widest italic">
-                  <p>Send: Company · Country · Grade · Capacity · FOB Price · Payment Terms</p>
-                </div>
-              </div>
-            </div>
           </Reveal>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
+            {/* Market Context Card */}
+            <Reveal variant="fadeLeft" className="lg:col-span-5 h-full">
+              <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-12 h-full rounded-[2.5rem] flex flex-col justify-center">
+                <h4 className="text-wine font-black uppercase text-xs tracking-[0.3em] mb-8 border-b border-white/10 pb-4 italic">The India Opportunity</h4>
+                <div className="space-y-6">
+                  <p className="text-white/80 text-sm font-medium leading-loose">
+                    BS-VI norms have created permanent structural demand for AdBlue urea, and the resin and panel board industry is one of India's fastest-growing manufacturing segments. Both buy regularly and consistently — a real opportunity for suppliers who want a stable, long-term India channel.
+                  </p>
+                  <div className="bg-wine/10 p-8 border-l-4 border-wine mt-8">
+                    <p className="text-white font-black italic text-sm leading-relaxed">
+                      "✦ We prefer to build supplier relationships on credit-based flexible terms (DA / OA) — suppliers who work this way are welcome to reach out."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+
+            {/* Technical Requirements Card */}
+            <Reveal variant="fadeRight" className="lg:col-span-7 h-full">
+              <div className="bg-white p-12 h-full rounded-[2.5rem] shadow-2xl flex flex-col">
+                <h4 className="text-navy font-black uppercase text-xs tracking-[0.3em] mb-10 border-b border-navy/10 pb-4 italic">What We Need</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 flex-1">
+                  <div className="space-y-6">
+                    <h5 className="font-black text-navy uppercase text-sm mb-4 flex items-center gap-2">
+                      <div className="w-2 h-2 bg-navy rounded-full"></div> Technical Grade
+                    </h5>
+                    <ul className="space-y-4">
+                      {[
+                        "Urea ≥99.0% Purity",
+                        "Nitrogen (N) ≥46%",
+                        "Biuret ≤1.0%",
+                        "Moisture ≤0.5%",
+                        "No Neem Coating",
+                        "COA per Lot Required"
+                      ].map((item, i) => (
+                        <li key={i} className="flex gap-3 text-xs font-bold uppercase tracking-wider text-gray-500 italic">
+                          <Icons.Check /> {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="space-y-6">
+                    <h5 className="font-black text-wine uppercase text-sm mb-4 flex items-center gap-2">
+                      <div className="w-2 h-2 bg-wine rounded-full"></div> AdBlue Grade
+                    </h5>
+                    <ul className="space-y-4">
+                      {[
+                        "ISO 22241 Compliant",
+                        "Biuret ≤0.3%",
+                        "Heavy Metals within ISO limits",
+                        "Prilled Preferred",
+                        "Automotive/DEF Grade"
+                      ].map((item, i) => (
+                        <li key={i} className="flex gap-3 text-xs font-bold uppercase tracking-wider text-gray-400 italic">
+                          <Icons.Check /> {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Onboarding Checklist */}
+                <div className="mt-12 pt-10 border-t border-gray-100">
+                  <h5 className="text-[10px] font-black text-navy uppercase tracking-[0.3em] mb-4">Send us the following details:</h5>
+                  <div className="bg-gray-50 p-6 rounded-2xl">
+                    <p className="text-[11px] text-gray-500 font-bold uppercase leading-relaxed tracking-widest italic">
+                      Company · Country · Grade (technical / AdBlue / both) · Monthly capacity (MT) · FOB price · Payment terms · Contact
+                    </p>
+                  </div>
+                  <div className="mt-8 flex justify-end">
+                    <Link to="/contact" className="bg-navy text-white px-10 py-4 text-[10px] font-black uppercase tracking-widest hover:bg-wine transition-all shadow-xl rounded-full">
+                      Contact Sourcing Desk
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+          </div>
         </div>
       </section>
 

@@ -410,6 +410,24 @@ const AnthraciteCoal = () => {
                     </TableBody>
                 </Table>
             </div>
+            <div className="mt-8 space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic">
+                        * Nitrogen in CAC (0.5–1.2%) is significantly higher than GPC — unsuitable for ductile iron; safe for grey iron and general carbon steel.
+                    </p>
+                    <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic md:text-right">
+                        * Cost advantage: 35–50% cheaper per MT than GPC — the primary reason for high-volume adoption in commodity steel.
+                    </p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-white/5">
+                    <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic">
+                        * Note: Due to tight carbon molecular structure, heat absorption is slower than GPC — account for this in furnace addition timing.
+                    </p>
+                    <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic md:text-right">
+                        * COA per lot: F.C., S, N, Ash, VM, Moisture, size distribution — third-party verified on request.
+                    </p>
+                </div>
+            </div>
           </Reveal>
         </div>
       </section>
@@ -513,21 +531,23 @@ const AnthraciteCoal = () => {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <div className="space-y-4">
-                        <h4 className="font-black text-navy uppercase text-sm tracking-widest">Quality & Consistency</h4>
+                        <h4 className="font-black text-navy uppercase text-sm tracking-widest underline decoration-wine decoration-2 underline-offset-4">Quality & Consistency</h4>
                         <ul className="text-xs space-y-2 text-gray-600 font-bold uppercase">
-                            <li>• Fixed Origin (Ningxia/Inner Mongolia)</li>
-                            <li>• Moisture/Volatiles Controlled</li>
-                            <li>• Full COA Per Lot</li>
-                            <li>• SGS/Intertek Inspection</li>
+                            <li>• Fixed origin (Ningxia/Inner Mongolia)</li>
+                            <li>• Both GCA and ECA — One COA format</li>
+                            <li>• Full COA (F.C., S, N, Ash, VM, Moisture)</li>
+                            <li>• SGS / Intertek inspection at origin</li>
+                            <li>• Reference sample retained per lot</li>
                         </ul>
                     </div>
                     <div className="space-y-4">
-                        <h4 className="font-black text-wine uppercase text-sm tracking-widest">Supply & Commercial</h4>
+                        <h4 className="font-black text-wine uppercase text-sm tracking-widest underline decoration-navy decoration-2 underline-offset-4">Supply & Commercial</h4>
                         <ul className="text-xs space-y-2 text-gray-600 font-bold uppercase">
-                            <li>• Both GCA & ECA Available</li>
-                            <li>• Ex-stock Indian Ports</li>
-                            <li>• MOQ from 2 MT</li>
-                            <li>• Competitive CIF/DAP Pricing</li>
+                            <li>• MOQ 2 MT — Trial orders welcomed</li>
+                            <li>• Ex-stock JNPT/Mundra — 3–7 day delivery</li>
+                            <li>• Fresh import 30–40 days (non-stock)</li>
+                            <li>• Competitive CIF / DAP pricing</li>
+                            <li>• Reliable payment settlement</li>
                         </ul>
                     </div>
                 </div>
@@ -562,26 +582,30 @@ const AnthraciteCoal = () => {
                 <p className="text-gray-600 text-lg font-medium leading-relaxed mb-6">
                     India consumes millions of tonnes of calcined anthracite annually — and we're one of the importers bringing it in. If you have consistent quality and workable terms, there's good volume here for you.
                 </p>
+                <p className="text-gray-600 text-lg font-medium leading-relaxed mb-6">
+                    India's 600+ induction furnace units and hundreds of EAF steel plants make it one of Asia's largest markets for CAC. We move material fast through our active buyer network and we prefer long-term supplier relationships over one-off spot deals.
+                </p>
                 <p className="text-gray-600 text-lg font-medium leading-relaxed mb-12">
-                    We prefer long-term supplier relationships and work on D/P or open account terms for suppliers who qualify. Flexible payment terms is the difference between a one-time trial and a relationship that grows.
+                    We work on D/P or open account terms for suppliers who qualify. If you're only comfortable with LC or full advance on every shipment, you'll find most serious Indian importers — including us — already working with suppliers who don't require that. Flexible payment terms is the difference between a one-time trial and a relationship that grows.
                 </p>
                 <div className="bg-navy p-10 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
-                        <h4 className="text-wine font-black uppercase text-sm tracking-widest mb-4">Quality Requirements</h4>
-                        <ul className="text-white/60 text-xs space-y-2 font-medium">
-                            <li>• GCA: F.C. ≥90% · S ≤0.5% · Ash ≤8%</li>
+                        <h4 className="text-wine font-black uppercase text-sm tracking-widest mb-4 italic">What we need from you</h4>
+                        <ul className="text-white/60 text-xs space-y-3 font-medium">
+                            <li>• GCA: F.C. ≥90% (SGS/BV COA) · S ≤0.5% · Ash ≤8% · VM ≤2.5%</li>
                             <li>• ECA: F.C. ≥95% · S ≤0.3% · Ash ≤4.5%</li>
-                            <li>• Primary Size: 1–5mm</li>
-                            <li>• Secondary Sizes: 0–1mm, 3–8mm</li>
+                            <li>• Sizes: 1–5mm primary · 0–1mm and 3–8mm secondary</li>
+                            <li>• Packing: 25kg bags or 1MT jumbo bags</li>
                         </ul>
                     </div>
                     <div>
-                        <h4 className="text-white font-black uppercase text-sm tracking-widest mb-4">Send Us</h4>
-                        <ul className="text-white/60 text-xs space-y-2 font-medium">
+                        <h4 className="text-white font-black uppercase text-sm tracking-widest mb-4 italic">Send us</h4>
+                        <ul className="text-white/60 text-xs space-y-3 font-medium">
                             <li>• Company & Location</li>
-                            <li>• Monthly Supply Capacity</li>
-                            <li>• F.C./S/Ash % Specs</li>
-                            <li>• FOB Price & Payment Terms</li>
+                            <li>• Monthly capacity</li>
+                            <li>• GCA or ECA · F.C./S/Ash %</li>
+                            <li>• FOB price · Payment terms offered</li>
+                            <li>• Direct Contact Information</li>
                         </ul>
                     </div>
                 </div>

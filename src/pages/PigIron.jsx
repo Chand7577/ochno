@@ -212,9 +212,9 @@ const PigIron = () => {
           </Reveal>
           <Reveal variant="fadeUp" delay={600}>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto font-light leading-relaxed">
-              Basic, Foundry, SG Nodular & High Purity Grades export from India.
-              Fe 92%+ · C 3.5–4.5% · FOB Goa / Vizag / Nhava Sheva. Reliable
-              supply for Middle East foundries and Bangladesh steel mills.
+              Indian Pig Iron — Basic, Foundry, SG Nodular & High Purity Grades — Export to Middle East, Southeast Asia & Beyond.
+              <br />
+              <span className="text-white font-medium">Fe 92%+  ·  C 3.5–4.5%  ·  BIS IS 13602 compliant  ·  Container lots from 20 MT  ·  FOB Goa / Vizag / Nhava Sheva</span>
             </p>
           </Reveal>
           <Reveal variant="fadeUp" delay={800}>
@@ -261,27 +261,27 @@ const PigIron = () => {
             {[
               {
                 value: "8-9 Mn MT",
-                label: "Annual India Output",
-                sub: "Merchant/Exportable surplus",
+                label: "India's Annual Output",
+                sub: "Merchant / exportable surplus",
               },
               {
-                value: "All Grades",
-                label: "Grades available",
-                sub: "Basic, FG1-FG4, SG, HPPI",
+                value: "BIS Certified",
+                label: "IS 13602 Compliant",
+                sub: "Foundry, Basic, SG & Special",
               },
               {
-                value: "15+ Countries",
-                label: "Export Network",
-                sub: "Global Supply Chain",
+                value: "0.95 MTPA",
+                label: "Major Merchant Plant",
+                sub: "Sesa Vedanta (Goa) & Others",
               },
               {
                 value: "20 MT",
                 label: "Min. FCL Order",
-                sub: "Container lots",
+                sub: "approx 400-500 pigs",
               },
               {
                 value: "15 Days",
-                label: "Lead Time",
+                label: "Rapid Lead Time",
                 sub: "Order to container loading",
               },
             ].map((stat, idx) => (
@@ -314,9 +314,7 @@ const PigIron = () => {
             </h2>
             <div className="w-24 h-1 bg-wine mx-auto rounded-full mb-6"></div>
             <p className="text-gray-500 max-w-4xl mx-auto font-medium text-lg leading-relaxed">
-              BIS IS 13602:1992 consolidates all major grades. Physical form:
-              ingots / pigs ~5–8 kg each. Standard Indian pig size: 140mm ×
-              140mm × 70mm.
+              All grades are commercially available from Indian blast furnace plants. Physical form: ingots / pigs — approx 5–8 kg each · size 140mm × 140mm × 70mm (standard Indian pig).
             </p>
           </Reveal>
 
@@ -581,9 +579,12 @@ const PigIron = () => {
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Reveal className="text-center mb-16">
             <h2 className="text-4xl font-black mb-4">
-              Buyer <span className="text-wine">Advantages & Logistics</span>
+              Why Buy <span className="text-wine">From Us?</span>
             </h2>
             <div className="w-24 h-1 bg-wine mx-auto rounded-full mb-8"></div>
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto font-light leading-relaxed">
+              We leverage India's massive blast furnace capacity and strategic port locations to provide consistent, high-purity Pig Iron for global foundry and steelmaking applications.
+            </p>
           </Reveal>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -591,49 +592,26 @@ const PigIron = () => {
               <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full space-y-10">
                 <div>
                   <h3 className="text-xl font-bold text-wine mb-6 flex items-center gap-3">
-                    <Icons.Check /> Quality & Technical
+                    <Icons.Check /> Quality & Consistency
                   </h3>
                   <ul className="space-y-4 text-gray-300 text-sm">
-                    <li>
-                      • Fixed plant source — same blast furnace origin, stable
-                      chemistry lot to lot
-                    </li>
-                    <li>
-                      • Full COA: C, Si, Mn, S, P, Ti provided with every
-                      shipment
-                    </li>
-                    <li>
-                      • BIS-certified & grade-certified material from merchant
-                      BF plants
-                    </li>
-                    <li>
-                      • SGS / Intertek inspection at loading port available on
-                      request
-                    </li>
-                    <li>
-                      • Trial lot with full COA available before long-term
-                      commitment
-                    </li>
-                    <li>
-                      • Technical data sheet per grade with typical casting
-                      properties
-                    </li>
+                    <li>• Fixed plant source — same blast furnace origin, stable chemistry lot to lot</li>
+                    <li>• Full COA: C, Si, Mn, S, P, Ti per shipment — no surprises in your furnace</li>
+                    <li>• BIS IS 13602 — grade-certified material from merchant BF plants</li>
+                    <li>• SGS / Intertek inspection at loading port available on request</li>
+                    <li>• Reference sample retained per lot — traceable for any quality query</li>
                   </ul>
                 </div>
                 <div className="pt-6 border-t border-white/10">
                   <h3 className="text-xl font-bold text-wine mb-6 flex items-center gap-3">
-                    <Icons.Docs /> Documentation
+                    <Icons.TrendingUp /> Technical Support
                   </h3>
                   <ul className="space-y-4 text-gray-300 text-sm">
-                    <li>
-                      • Full Set required: BL, COA, Packing List, Commercial
-                      Invoice, COO, MSDS
-                    </li>
-                    <li>
-                      • Grade certification documentation included as per BIS IS
-                      13602
-                    </li>
-                    <li>• Bank-compliant documents for smooth LC processing</li>
+                    <li>• Grade selection support — share your application, we recommend</li>
+                    <li>• Chemistry customisation for regular buyers of 50 MT+/month</li>
+                    <li>• Technical data sheet per grade with typical casting properties</li>
+                    <li>• Trial lot with full COA available before long-term commitment</li>
+                    <li>• Metallurgical queries answered — we understand foundry applications</li>
                   </ul>
                 </div>
               </div>
@@ -643,59 +621,25 @@ const PigIron = () => {
               <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full space-y-10">
                 <div>
                   <h3 className="text-xl font-bold text-wine mb-6 flex items-center gap-3">
-                    <Icons.TrendingUp /> Supply & Commercial
+                    <Icons.Check /> Supply & Pricing
                   </h3>
                   <ul className="space-y-4 text-gray-300 text-sm">
-                    <li>
-                      • Direct plant source — no middlemen, competitive FOB
-                      factory gate pricing
-                    </li>
-                    <li>
-                      • Container lots from 20 MT — no vessel minimum required
-                    </li>
-                    <li>
-                      • Long-term supply contracts available — fix volume and
-                      price cycles
-                    </li>
-                    <li>
-                      • Multiple grades from one supplier — simplifies your
-                      procurement process
-                    </li>
-                    <li>
-                      • Flexible incoterms: FOB, CFR, CIF | Payment Terms: TT,
-                      *LC (Letter of Credit)
-                    </li>
+                    <li>• Direct plant source — no middlemen, competitive FOB factory gate pricing</li>
+                    <li>• Container lots from 20 MT — no vessel minimum required</li>
+                    <li>• Long-term supply contracts available — fix volume and price cycles</li>
+                    <li>• Multiple grades from one supplier — simplifies your procurement process</li>
                   </ul>
                 </div>
                 <div className="pt-6 border-t border-white/10">
                   <h3 className="text-xl font-bold text-wine mb-6 flex items-center gap-3">
-                    <Icons.Box /> Logistics Detail
+                    <Icons.Docs /> Logistics & Documentation
                   </h3>
-                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-300 text-sm font-medium">
-                    <li className="bg-white/5 p-3 rounded-xl border border-white/5 uppercase text-[10px] tracking-widest text-center">
-                      <span className="block text-wine font-black mb-1">
-                        Ports:
-                      </span>{" "}
-                      Mormugao (Goa), Vizag, Nhava Sheva, Chennai
-                    </li>
-                    <li className="bg-white/5 p-3 rounded-xl border border-white/5 uppercase text-[10px] tracking-widest text-center">
-                      <span className="block text-wine font-black mb-1">
-                        Container:
-                      </span>{" "}
-                      20 MT (approx 400–500 pigs per FCL)
-                    </li>
-                    <li className="bg-white/5 p-3 rounded-xl border border-white/5 uppercase text-[10px] tracking-widest text-center">
-                      <span className="block text-wine font-black mb-1">
-                        Lead Time:
-                      </span>{" "}
-                      15 Days from order to loading
-                    </li>
-                    <li className="bg-white/5 p-3 rounded-xl border border-white/5 uppercase text-[10px] tracking-widest text-center">
-                      <span className="block text-wine font-black mb-1">
-                        Status:
-                      </span>{" "}
-                      Palletised or loose available
-                    </li>
+                  <ul className="space-y-4 text-gray-300 text-sm">
+                    <li>• Export from Mormugao (Goa), Vizag, Nhava Sheva, Chennai</li>
+                    <li>• 20 MT container: ~400–500 pigs per FCL, palletised or loose</li>
+                    <li>• Full docs: BL, COA, Packing List, Commercial Invoice, COO, MSDS</li>
+                    <li>• Flexible incoterms: FOB, CFR, CIF | Payment Terms: TT, LC</li>
+                    <li>• Lead time: 15 days from order to container loading</li>
                   </ul>
                 </div>
               </div>
@@ -709,62 +653,76 @@ const PigIron = () => {
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
             <h2 className="text-4xl font-black text-navy mb-4">
-              Partner With Us —{" "}
-              <span className="text-wine">Supplier Advantages</span>
+              Partner With Us — <span className="text-wine">Supplier Advantages</span>
             </h2>
             <div className="w-24 h-1 bg-wine mx-auto rounded-full mb-8" />
             <p className="text-gray-500 max-w-2xl mx-auto font-medium">
-              We consistently help Indian BF plants achieve better price
-              realisation through expert export channels.
+              We consistently help Indian blast furnace plants achieve better price realisation and reliable offtake through professional export channels.
             </p>
           </Reveal>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
             <Reveal variant="fadeLeft">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12">
-                {[
-                  {
-                    t: "Better Pricing",
-                    d: "Consistently above domestic rates with grade-linked premiums for HPPI and low P grades.",
-                  },
-                  {
-                    t: "Reliable Offtake",
-                    d: "Monthly committed purchases. We absorb demand variation so your production flow is stable.",
-                  },
-                  {
-                    t: "No Deductions",
-                    d: "Transparent quality assessment. No arbitrary deductions without verifiable COA evidence.",
-                  },
-                  {
-                    t: "Logistics Handled",
-                    d: "We manage all export documentation, freight booking, compliance and customs clearance.",
-                  },
-                  {
-                    t: "Payment Cycle",
-                    d: "Settlement on committed dates aligned to your despatch schedule. No payment delays.",
-                  },
-                  {
-                    t: "Technical Guidance",
-                    d: "Guidance on meeting specific export grade specs and chemistry verification before you commit.",
-                  },
-                ].map((item, i) => (
-                  <div key={i} className="group h-full">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12 h-full">
+                <div className="space-y-8">
+                  <div className="group">
                     <h4 className="text-base font-black text-navy mb-2 flex items-center gap-2">
                       <span className="w-1.5 h-6 bg-wine rounded-full group-hover:h-8 transition-all"></span>
-                      {item.t}
+                      Better Price Realisation
                     </h4>
-                    <p className="text-gray-500 text-sm leading-relaxed font-medium pl-3.5 border-l border-gray-100">
-                      {item.d}
-                    </p>
+                    <ul className="text-gray-500 text-sm leading-relaxed space-y-2 pl-3.5 border-l border-gray-100">
+                      <li>• Export market pricing — consistently above domestic foundry rates</li>
+                      <li>• Grade-linked pricing — HPPI and low P grades earn meaningful premium</li>
+                      <li>• Consistent monthly buying — no boom-bust in your despatch volumes</li>
+                      <li>• No arbitrary quality deductions without COA evidence</li>
+                    </ul>
                   </div>
-                ))}
+                  <div className="group">
+                    <h4 className="text-base font-black text-navy mb-2 flex items-center gap-2">
+                      <span className="w-1.5 h-6 bg-wine rounded-full group-hover:h-8 transition-all"></span>
+                      Reliable Offtake
+                    </h4>
+                    <ul className="text-gray-500 text-sm leading-relaxed space-y-2 pl-3.5 border-l border-gray-100">
+                      <li>• Monthly committed purchase quantity — plan your blast furnace campaign</li>
+                      <li>• We absorb export demand variation — your production moves consistently</li>
+                      <li>• Long-term supply agreement for plants wanting volume certainty</li>
+                      <li>• We handle all export documentation, freight and compliance</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="space-y-8">
+                  <div className="group">
+                    <h4 className="text-base font-black text-navy mb-2 flex items-center gap-2">
+                      <span className="w-1.5 h-6 bg-wine rounded-full group-hover:h-8 transition-all"></span>
+                      Payment That Works
+                    </h4>
+                    <ul className="text-gray-500 text-sm leading-relaxed space-y-2 pl-3.5 border-l border-gray-100">
+                      <li>• Payment on committed timelines — always know your settlement date</li>
+                      <li>• Structured payment cycle aligned to your casting schedule</li>
+                      <li>• No delays — we operate on confirmed export receivables</li>
+                      <li>• Transparent settlement — bank transfer with clear invoice reference</li>
+                    </ul>
+                  </div>
+                  <div className="group">
+                    <h4 className="text-base font-black text-navy mb-2 flex items-center gap-2">
+                      <span className="w-1.5 h-6 bg-wine rounded-full group-hover:h-8 transition-all"></span>
+                      Partnership & Support
+                    </h4>
+                    <ul className="text-gray-500 text-sm leading-relaxed space-y-2 pl-3.5 border-l border-gray-100">
+                      <li>• Free lab testing of your material before you commit</li>
+                      <li>• Technical guidance on meeting export grade specifications</li>
+                      <li>• Access to international buyer network for additional channels</li>
+                      <li>• No exclusivity — supply us alongside existing buyers</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </Reveal>
 
             <Reveal variant="fadeRight">
-              <div className="bg-[#f8f9fb] p-8 md:p-12 rounded-[3.5rem] border border-gray-100 shadow-sm sticky top-10">
+              <div className="bg-[#f8f9fb] p-8 md:p-12 rounded-[3.5rem] border border-gray-100 shadow-sm">
                 <h4 className="text-2xl font-black text-navy mb-2 tracking-tight">
-                  Pig Iron Supplier Inquiry
+                  Supplier Inquiry Form
                 </h4>
                 <p className="text-gray-400 text-xs font-semibold mb-8 uppercase tracking-widest">
                   Blast Furnace / Merchant Plants
@@ -775,19 +733,13 @@ const PigIron = () => {
                       <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-2">
                         Company Name
                       </label>
-                      <Input
-                        placeholder="Company Name"
-                        className="bg-white text-navy border-gray-100 focus:border-wine"
-                      />
+                      <Input placeholder="Company Name" className="bg-white border-gray-100 focus:border-wine" />
                     </div>
                     <div className="space-y-1">
                       <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-2">
                         Plant Location (State)
                       </label>
-                      <Input
-                        placeholder="Plant Location"
-                        className="bg-white text-navy border-gray-100 focus:border-wine"
-                      />
+                      <Input placeholder="Plant Location" className="bg-white border-gray-100 focus:border-wine" />
                     </div>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -795,19 +747,13 @@ const PigIron = () => {
                       <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-2">
                         Grade Produced
                       </label>
-                      <Input
-                        placeholder="Grade Produced"
-                        className="bg-white text-navy border-gray-100 focus:border-wine"
-                      />
+                      <Input placeholder="Basic / Foundry / SG" className="bg-white border-gray-100 focus:border-wine" />
                     </div>
                     <div className="space-y-1">
                       <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-2">
                         Monthly Output (MT)
                       </label>
-                      <Input
-                        placeholder="Monthly Output"
-                        className="bg-white text-navy border-gray-100 focus:border-wine"
-                      />
+                      <Input placeholder="Monthly Output" className="bg-white border-gray-100 focus:border-wine" />
                     </div>
                   </div>
                   <div className="space-y-1">
@@ -824,19 +770,11 @@ const PigIron = () => {
                     <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest pl-2">
                       Contact Number
                     </label>
-                    <Input
-                      type="tel"
-                      placeholder="Contact Number"
-                      className="bg-white text-navy border-gray-100 focus:border-wine"
-                    />
+                    <Input type="tel" placeholder="Contact Number" className="bg-white border-gray-100 focus:border-wine" />
                   </div>
                   <Button type="submit" variant="wine" className="w-full">
                     Start Partnership Enquiry
                   </Button>
-                  <p className="text-center text-[10px] text-gray-400 font-bold mt-4 uppercase tracking-tighter">
-                    * Non-exclusive partnership. No commitment without signed
-                    trial lot contract.
-                  </p>
                 </form>
               </div>
             </Reveal>
@@ -848,9 +786,8 @@ const PigIron = () => {
       <section className="py-24 bg-[#f8f9fb]">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-black text-navy mb-4">
-              India's Pig Iron Industry{" "}
-              <span className="text-wine">Advantage</span>
+            <h2 className="text-3xl md:text-4xl font-black text-navy mb-4 uppercase tracking-tighter">
+              India's Pig Iron Industry — <span className="text-wine">Why Source From India</span>
             </h2>
             <div className="w-24 h-1 bg-wine mx-auto rounded-full" />
           </Reveal>
@@ -859,35 +796,32 @@ const PigIron = () => {
             <Reveal variant="fadeLeft">
               <div className="space-y-6 text-gray-600 leading-relaxed font-medium text-sm">
                 <p>
-                  India's annual production of merchant pig iron stands at{" "}
+                  India's annual pig iron production stands at{" "}
                   <span className="text-wine font-black tracking-widest underline decoration-2 decoration-wine/20">
                     ~8–9 Million MT
                   </span>
-                  . Significant exportable surplus comes from advanced BF plants
-                  in{" "}
+                  . Significant exportable surplus comes from advanced merchant plants in{" "}
                   <span className="text-navy font-bold">
-                    Goa, Chhattisgarh (Raipur / Bhilai), Jharkhand, and Odisha
+                    Goa, Chhattisgarh (Raipur / Bhilai cluster), Jharkhand, West Bengal, and Odisha
                   </span>
                   .
                 </p>
                 <p>
-                  Major producers like{" "}
-                  <span className="text-navy font-bold">Sesa Vedanta</span>{" "}
-                  (Goa, 0.95 MTPA) ensure consistent quality and low tramp
-                  element content (Clean iron units).
+                  Indian pig iron is competitively priced vs Brazilian, Russian and Ukrainian origins. Major producers like{" "}
+                  <span className="text-navy font-bold">Sesa Vedanta</span> (Goa, 0.95 MTPA capacity) ensure consistent quality with low tramp element content (clean iron units).
                 </p>
                 <div className="bg-white p-6 rounded-[2rem] border border-gray-200 shadow-sm space-y-6">
                   <h5 className="text-navy font-black text-xs uppercase tracking-widest border-b border-gray-100 pb-3 flex items-center gap-2">
-                    <Icons.Check /> Strategic Competitiveness vs Brazil/Russia
+                    <Icons.Check /> Strategic Advantages
                   </h5>
                   <div className="grid grid-cols-2 gap-y-4 gap-x-2">
                     {[
-                      "Clean Iron Units",
-                      "BIS Certified",
-                      "Low Mn & P Available",
-                      "Direct FCL Access",
+                      "BIS IS 13602 Certified",
+                      "Low Tramp Elements",
+                      "Stable BF Chemistry",
+                      "Direct Container Lots",
                       "Freight Advantage",
-                      "Prompt Despatch",
+                      "Reliable Lead Times",
                     ].map((adv, i) => (
                       <div
                         key={i}
@@ -905,7 +839,7 @@ const PigIron = () => {
               <div className="bg-navy rounded-[3rem] p-12 text-white relative overflow-hidden shadow-2xl">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-wine/30 to-transparent opacity-50" />
                 <h4 className="text-xl font-black mb-8 flex items-center gap-3 relative z-10 uppercase tracking-widest text-wine">
-                  <Icons.MapPin /> Active Export Markets
+                  <Icons.MapPin /> Export Markets Served
                 </h4>
                 <div className="flex flex-wrap gap-2 relative z-10">
                   {[
@@ -930,9 +864,7 @@ const PigIron = () => {
                   ))}
                 </div>
                 <p className="mt-10 text-white/50 text-[10px] leading-relaxed italic relative z-10 font-light">
-                  Indian pig iron is favored for its reliable chemistry and
-                  proximity to Gulf and Southeast Asian ports—providing a
-                  distinct freight advantage.
+                  Indian pig iron is favored for its reliable chemistry and proximity to Gulf and Southeast Asian ports — providing a distinct freight advantage vs Brazil or Russia.
                 </p>
               </div>
             </Reveal>
@@ -953,32 +885,32 @@ const PigIron = () => {
           <Accordion type="single" collapsible className="w-full space-y-4">
             {[
               {
-                q: "1. What types of pig iron are available?",
-                a: "We supply: Basic Pig Iron for steelmaking, Foundry Grade (FG1-FG4) for castings, and SG Grade for ductile iron (Foundry and special HPPI available).",
+                q: "Q1. What types of pig iron are available?",
+                a: "We supply: Basic Pig Iron for steelmaking, Foundry Grade for castings, and SG Grade for ductile iron.",
               },
               {
-                q: "2. Why is silicon (Si) content so important in Foundry grades?",
-                a: "Silicon controls casting properties. Higher Si leads to better fluidity for intricate parts, while lower Si is preferred for high-strength engineering castings. We provide graded Si ranges as per your requirement.",
+                q: "Q2. Why is silicon (Si) important?",
+                a: "Silicon controls casting properties. Higher Si → better fluidity; Lower Si → higher strength.",
               },
               {
-                q: "3. What is SG pig iron used for and what are its controls?",
-                a: "SG pig iron is for ductile (nodular) iron castings. It maintains extremely low Manganese (<0.3%) and Sulphur (<0.03%) to ensure successful nodularisation.",
+                q: "Q3. What is SG pig iron used for?",
+                a: "SG pig iron is used for ductile (nodular) iron castings, requiring extremely low sulphur and controlled chemistry to ensure reliable nodularisation.",
               },
               {
-                q: "4. What is the minimum order quantity (MOQ)?",
-                a: "Minimum bulk export order is typically one container (20–25 MT). Full FCL lots ensure the best freight viability.",
+                q: "Q4. What is the minimum order quantity?",
+                a: "Minimum order is typically one container (20–25 MT) to ensure export logistics viability.",
               },
               {
-                q: "5. Do we provide detailed test reports?",
-                a: "Yes, every export shipment is accompanied by a full COA (Certificate of Analysis) covering C, Si, Mn, S, P, Ti, and Fe. Pre-shipment inspection by SGS or Intertek is also available.",
+                q: "Q5. Do we provide test reports?",
+                a: "Yes, we provide a full COA (Certificate of Analysis) with every shipment and can arrange pre-shipment samples if required.",
               },
               {
-                q: "6. Is Indian pig iron reliability comparable to other origins?",
-                a: "Indian pig iron from major merchant plants like Sesa Vedanta is known for consistent quality and stable chemistry. It has effectively replaced Russian and Brazilian origins in several Gulf and SE Asian foundries.",
+                q: "Q6. Is Indian pig iron reliable?",
+                a: "Yes, Indian pig iron is known for consistent quality and stable supply, effectively replacing Brazilian and Russian origins in many global markets.",
               },
               {
-                q: "7. What are the payment terms and typical delivery timeline?",
-                a: "We operate on TT / LC terms. Delivery is usually 15 days from order confirmation to loading at Mormugao, Vizag, or Nhava Sheva ports.",
+                q: "Q7. What are the payment terms and delivery time?",
+                a: "We work with TT / LC. Delivery is usually 15 days from order confirmation to container loading at major Indian ports.",
               },
             ].map((faq, i) => (
               <AccordionItem

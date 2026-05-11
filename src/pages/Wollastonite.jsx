@@ -228,7 +228,8 @@ const Wollastonite = () => {
           </Reveal>
           <Reveal variant="fadeUp" delay={400}>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto font-light leading-relaxed">
-              Metallurgy - Shipped Worldwide.
+              High-Aspect-Ratio Acicular Grade for Ceramics, Plastics, Paints &
+              Metallurgy — <span className="text-white font-medium">Shipped Worldwide.</span>
             </p>
           </Reveal>
 
@@ -410,15 +411,23 @@ const Wollastonite = () => {
             className="mt-16 bg-navy text-white rounded-3xl p-8 flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-white/20"
           >
             <div className="flex-1 py-4 md:py-0 md:px-8 text-center flex justify-center items-center flex-col">
-              <span className="text-4xl font-black text-wine mb-2">48 Hrs</span>
+              <span className="text-4xl font-black text-wine mb-2">15,000+</span>
               <span className="text-sm text-gray-300 font-medium">
-                Sample Lead Time
+                MT Exported Per Year
               </span>
             </div>
             <div className="flex-1 py-4 md:py-0 md:px-8 text-center flex justify-center items-center flex-col">
-              <span className="text-4xl font-black text-wine mb-2">15-20</span>
+              <span className="text-4xl font-black text-wine mb-2">25+</span>
               <span className="text-sm text-gray-300 font-medium">
-                Days Bulk Dispatch
+                Years of Processing & Export
+              </span>
+            </div>
+            <div className="flex-1 py-4 md:py-0 md:px-8 text-center flex justify-center items-center flex-col">
+              <span className="text-4xl font-black text-wine mb-2">
+                48 Hrs
+              </span>
+              <span className="text-sm text-gray-300 font-medium">
+                Samples Lead Time
               </span>
             </div>
             <div className="flex-1 py-4 md:py-0 md:px-8 text-center flex justify-center items-center flex-col">
@@ -426,7 +435,7 @@ const Wollastonite = () => {
                 Ex-Stock
               </span>
               <span className="text-sm text-gray-300 font-medium">
-                Available
+                Bulk Port Availability
               </span>
             </div>
           </Reveal>
@@ -571,37 +580,37 @@ const Wollastonite = () => {
             {[
               {
                 t: "Ceramics & Tiles",
-                d: "Largest market. Flux in ceramic body - reduces firing temp by 50-100 deg C, controls shrinkage, improves green strength. Ideal for fast-fire wall tiles, sanitaryware.",
+                d: "Largest market. Primary flux in ceramic bodies — reduces firing temperatures by 50–100°C (significant energy saving). Controls shrinkage, improves green strength, and ideal for fast-fire wall tiles, sanitaryware, and technical glazes. High thermal expansion coefficient compatibility.",
                 icon: <Icons.Ceramics />,
               },
               {
                 t: "Plastics & Polymer Compounds",
-                d: "HAR grade reinforces nylon (PA6/PA66), PP, ABS. Improves flexural modulus, reduces warpage. Surface-treated grade improves matrix adhesion, supplementing glass fibre.",
+                d: "HAR grade reinforces nylon (PA6/PA66), polypropylene, and ABS — improves flexural modulus, reduces warpage, and enhances dimensional stability. Replaces or supplements glass fibre at lower cost and lower equipment abrasion. Surface-treated grade improves matrix adhesion.",
                 icon: <Icons.Plastic />,
               },
               {
                 t: "Paints & Coatings",
-                d: "Functional extender replacing TiO2 partially. Improves scrub resistance, reduces cracking in exterior paints. In anti-corrosion acts as barrier pigment.",
+                d: "Functional extender replacing TiO₂ partially. Improves scrub resistance, reduces gloss where needed, and flattens sheen. In anti-corrosion coatings, acts as a barrier pigment due to needle-like orientation. Reduces cracking in exterior paints.",
                 icon: <Icons.Paint />,
               },
               {
                 t: "Friction Materials",
-                d: "Replaces asbestos as reinforcing fibre in brake pads. Improves thermal stability, reduces brake fade, meets environmental regulations.",
+                d: "Superior asbestos replacement as reinforcing fibre in brake pads and linings. Improves thermal stability, reduces brake fade, and meets stringent global environmental regulations. Major growth segment in asbestos phase-out markets.",
                 icon: <Icons.Friction />,
               },
               {
                 t: "Metallurgy",
-                d: "Steel/iron foundry: lump/crushed grade as flux. Lowers slag melting point, improves fluidity, acts as slag conditioner in EAF/BOF or welding flux.",
+                d: "Lump/crushed grade used as flux in steel and iron foundries. Lowers slag melting point, improves slag fluidity, and acts as an efficient slag conditioner in EAF / BOF processes. Also critical in high-quality welding flux formulations.",
                 icon: <Icons.Metallurgy />,
               },
               {
                 t: "Sealants & Adhesives",
-                d: "Improves thixotropy in sealants, reduces slump. Used in construction boards as filler for fibre cement panels.",
+                d: "Improves thixotropy in sealants and reduces slump. Widely used in construction boards as a primary functional filler for high-performance fibre cement panels.",
                 icon: <Icons.Sealants />,
               },
               {
                 t: "Agriculture",
-                d: "Slowly releases calcium and silicon. Used as soil amendment in silicon-deficient soils. Growing niche in India's agricultural market.",
+                d: "Slowly releases essential calcium and silicon — used as a superior soil amendment in silicon-deficient soils. A growing technical niche for sustainable soil health management.",
                 icon: <Icons.Agriculture />,
               },
             ].map((app, i) => (
@@ -626,87 +635,136 @@ const Wollastonite = () => {
         </div>
       </section>
 
-      {/* Why Buy From Us - Buyer Advantages */}
+      {/* 🤝 Section 6: Why Buy From Us */}
       <section className="py-24 bg-navy text-white relative overflow-hidden">
         <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-wine/10 rounded-full blur-[120px] -ml-48 -mt-48"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Reveal className="text-center mb-16">
+            <span className="text-wine font-black uppercase tracking-widest text-sm mb-4 block">
+              Section 6
+            </span>
             <h2 className="text-4xl md:text-5xl font-black mb-4 uppercase tracking-tight">
-              Why Buy <span className="text-wine">From Us</span>
+              Why Buy <span className="text-wine">From Us?</span>
             </h2>
             <div className="w-24 h-1.5 bg-wine mx-auto rounded-full mb-6"></div>
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto font-light">
-              Buyer advantages that make the difference for consistent, high-performance wollastonite supply.
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto font-light leading-relaxed">
+              We leverage India's vast reserves and our technical processing expertise to provide consistent, high-performance Wollastonite for global industrial applications.
             </p>
           </Reveal>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Card 1 */}
             <Reveal variant="fadeLeft">
-              <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full">
-                <h3 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
-                  <div className="w-10 h-10 bg-wine rounded-xl flex items-center justify-center shrink-0">
+              <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full space-y-8">
+                <h3 className="text-2xl font-black text-white flex items-center gap-4">
+                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
                     <Icons.Check />
                   </div>
-                  Quality &amp; Consistency
+                  Quality & Consistency
                 </h3>
-                <ul className="space-y-4 text-gray-300 text-sm leading-relaxed">
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Fixed processor source in Rajasthan/Gujarat - consistent CaSiO3 purity, brightness and aspect ratio lot to lot</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Full chemistry per lot: CaSiO3, SiO2, CaO, Fe2O3, Al2O3, MgO, TiO2, LOI - no guesswork</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Dedicated HAR processing lines using impact mills - needle length preserved, aspect ratio guaranteed</li>
+                <ul className="space-y-4 text-gray-300 text-sm font-medium">
+                  {[
+                    "Fixed mine source — same geology, same chemistry, lot to lot",
+                    "In-house XRF and particle size lab — every lot tested before dispatch",
+                    "COA with every shipment — no chasing for documents",
+                    "SGS / Intertek pre-shipment inspection available on request",
+                    "Reference sample retained 12 months per lot",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p className="group-hover:text-white transition-colors">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </Reveal>
 
-            {/* Card 2 */}
             <Reveal variant="fadeRight">
-              <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full">
-                <h3 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
-                  <div className="w-10 h-10 bg-wine rounded-xl flex items-center justify-center shrink-0">
+              <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full space-y-8">
+                <h3 className="text-2xl font-black text-white flex items-center gap-4">
+                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
                     <Icons.Check />
                   </div>
-                  Supply &amp; Commercial
+                  Pricing & Supply Reliability
                 </h3>
-                <ul className="space-y-4 text-gray-300 text-sm leading-relaxed">
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>All 6 grades available - Standard, Fine, HAR, ST-HAR, Lump/Crushed, Ultra-fine - from one supplier</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Samples dispatched within <strong className="text-white">48 hours</strong> - standard grades ex-stock</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Bulk dispatch in <strong className="text-white">15-20 days</strong>; ex-stock available for standard grades</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>TT and LC payment terms - flexibility based on order volume and long-term partnership</li>
+                <ul className="space-y-4 text-gray-300 text-sm font-medium">
+                  {[
+                    "Direct mine access — no middleman margin built in",
+                    "Long-term pricing contracts available — protects your cost of goods",
+                    "Ex-stock at Indian port for urgent orders — no 45-day wait",
+                    "Competitive vs Chinese wollastonite — similar quality, better supply chain visibility",
+                    "No minimum quantity increase without 30-day prior notice",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p className="group-hover:text-white transition-colors">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </Reveal>
 
-            {/* Card 3 */}
             <Reveal variant="fadeLeft" delay={100}>
-              <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full">
-                <h3 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
-                  <div className="w-10 h-10 bg-wine rounded-xl flex items-center justify-center shrink-0">
+              <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full space-y-8">
+                <h3 className="text-2xl font-black text-white flex items-center gap-4">
+                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
                     <Icons.Check />
                   </div>
                   Technical Support
                 </h3>
-                <ul className="space-y-4 text-gray-300 text-sm leading-relaxed">
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Custom mesh sizing and surface treatment (coupling agents) optimization for your specific polymer matrix</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Particle size distribution (PSD) analysis and aspect ratio validation provided with technical datasheets</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Dedicated technical guidance to assist with formulation adjustments when replacing glass fiber or TiO2</li>
+                <ul className="space-y-4 text-gray-300 text-sm font-medium">
+                  {[
+                    "Grade recommendation based on your exact application",
+                    "Custom mesh, aspect ratio or surface treatment developed for MOQ 2 MT+",
+                    "Technical data sheets and application notes provided",
+                    "Trial sample with full COA before any bulk commitment",
+                    "Application testing support — we work with your R&D team",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p className="group-hover:text-white transition-colors">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </Reveal>
 
-            {/* Card 4 */}
             <Reveal variant="fadeRight" delay={100}>
-              <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full">
-                <h3 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
-                  <div className="w-10 h-10 bg-wine rounded-xl flex items-center justify-center shrink-0">
+              <div className="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] backdrop-blur-md h-full space-y-8">
+                <h3 className="text-2xl font-black text-white flex items-center gap-4">
+                  <div className="w-12 h-12 bg-wine rounded-2xl flex items-center justify-center shrink-0">
                     <Icons.Check />
                   </div>
-                  Logistics &amp; Compliances
+                  Logistics & Compliance
                 </h3>
-                <ul className="space-y-4 text-gray-300 text-sm leading-relaxed">
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Close proximity to Mundra and Pipavav ports for rapid, cost-effective global dispatch</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Customized packaging options: 25kg, 50kg bags, or jumbo bags (1 MT / 1.25 MT) with proper palletization</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>Full REACH compliance readiness and strict adherence to international environmental standards</li>
-                  <li className="flex gap-3"><span className="text-wine shrink-0 mt-0.5">-</span>COA, MSDS and detailed packing list provided proactively with every single consignment</li>
+                <ul className="space-y-4 text-gray-300 text-sm font-medium">
+                  {[
+                    "Export from Mundra / Nhava Sheva / Chennai — all major lanes covered",
+                    "LCL available — no need to fill a full container for trials",
+                    "Full compliance documentation ready — no delays at your end",
+                    "Flexible incoterms: FOB, CIF, CFR, DDP for regular buyers",
+                    "DHL sample dispatch within 2-3 days — qualify your grade quickly",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p className="group-hover:text-white transition-colors">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </Reveal>
@@ -714,122 +772,124 @@ const Wollastonite = () => {
         </div>
       </section>
 
-      {/* Partner With Us - Seller / Mine Advantages */}
+      {/* 🤝 Section 7: Partner With Us */}
       <section className="py-24 bg-[#f8f9fb]">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
+            <span className="text-wine font-black uppercase tracking-widest text-sm mb-4 block">
+              Section 7
+            </span>
             <h2 className="text-4xl md:text-5xl font-black text-navy mb-4 uppercase tracking-tight">
               Partner <span className="text-wine">With Us</span>
             </h2>
             <div className="w-24 h-1.5 bg-wine mx-auto rounded-full mb-6"></div>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto font-light">
-              Are you a wollastonite mine owner, crusher or grinding unit in Rajasthan or Gujarat? We offer consistent, well-priced export offtake.
+              Are you a Wollastonite mine owner, crusher, or grinding unit in Rajasthan or Gujarat? We offer consistent, premium-priced export offtake.
             </p>
           </Reveal>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-            {/* Card 1 */}
             <Reveal variant="fadeLeft">
-              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full flex flex-col">
-                <h3 className="text-2xl font-black text-navy mb-6">Mine Owners &amp; Crushers</h3>
-                <p className="text-gray-500 mb-6 leading-relaxed flex-grow">
-                  India holds ~40% of global wollastonite reserves. We source directly from Rajasthan (Sirohi, Dungarpur, Pali) and Gujarat (Chhota Udaipur, Bharuch). If you have a consistent mine or crushing operation, we want to hear from you.
-                </p>
-                <div className="bg-gray-50 p-4 rounded-2xl mb-6">
-                  <div className="text-wine font-bold text-xs uppercase mb-2">What We Need from Mine / Crusher</div>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>- CaSiO3 {">=90%"} . Brightness {">=78"} . Fe2O3 {"<=0.6%"}</li>
-                    <li>- Consistent lump / crushed grade supply</li>
-                    <li>- Monthly capacity & pricing (ex-mine/ex-works)</li>
-                    <li>- Location and proximity to Mundra / Pipavav port</li>
-                  </ul>
-                </div>
+              <div className="bg-white p-12 rounded-[3rem] shadow-xl border border-gray-100 h-full flex flex-col">
+                <h3 className="text-2xl font-black text-navy mb-6">Better Price Realisation</h3>
+                <ul className="space-y-4 text-gray-600 text-sm font-medium mb-8">
+                  {[
+                    "Export market pricing — consistently 15-25% above what local ceramic factories pay",
+                    "We buy consistently month-on-month — no seasonal price crashes",
+                    "Grade-based pricing — better quality gets better price, fairly evaluated",
+                    "No arbitrary deductions or quality rejections without XRF evidence",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p>{item}</p>
+                    </li>
+                  ))}
+                </ul>
                 <Link
                   to="/contact"
-                  className="inline-block text-center bg-navy text-white px-8 py-4 rounded-xl font-bold hover:bg-wine transition-colors mt-auto"
+                  className="mt-auto w-full text-center bg-navy text-white px-8 py-5 rounded-2xl font-bold hover:bg-wine transition-all shadow-lg"
                 >
-                  Partner With Us {"->"}
+                  Register as Supplier {"->"}
                 </Link>
               </div>
             </Reveal>
 
-            {/* Card 2 */}
             <Reveal variant="fadeRight">
-              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full flex flex-col">
-                <h3 className="text-2xl font-black text-navy mb-6">Grinding Processors</h3>
-                <p className="text-gray-500 mb-6 leading-relaxed flex-grow">
-                  We are looking for established grinding units that can produce HAR, Fine and Ultra-fine grades consistently for export offtake. If you have a dedicated impact mill line for HAR preservation, we would especially like to hear from you.
-                </p>
-                <div className="bg-gray-50 p-4 rounded-2xl mb-6">
-                  <div className="text-wine font-bold text-xs uppercase mb-2">What We Need from Processor</div>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>- HAR grade (10:1-15:1) . Fine (325 mesh) . UF (D50 5-10um)</li>
-                    <li>- CaSiO3 {">=93-95%"} . Brightness {">=84"} . Fe2O3 {"<=0.3%"}</li>
-                    <li>- Surface treatment capability (coupling agent) preferred</li>
-                    <li>- Monthly output capacity . COA for each lot</li>
-                  </ul>
-                </div>
+              <div className="bg-white p-12 rounded-[3rem] shadow-xl border border-gray-100 h-full flex flex-col">
+                <h3 className="text-2xl font-black text-navy mb-6">Reliable, Flexible Offtake</h3>
+                <ul className="space-y-4 text-gray-600 text-sm font-medium mb-8">
+                  {[
+                    "Monthly committed purchase quantity — plan your production with confidence",
+                    "We absorb seasonal demand variation — your output doesn't sit in stock",
+                    "Trial supply welcome — start with a single truck load, grow from there",
+                    "We handle all export paperwork, documentation and freight — zero burden on you",
+                    "Long-term supply agreement available for mines wanting volume certainty",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p>{item}</p>
+                    </li>
+                  ))}
+                </ul>
                 <Link
                   to="/contact"
-                  className="inline-block text-center bg-wine text-white px-8 py-4 rounded-xl font-bold hover:bg-navy transition-colors mt-auto"
+                  className="mt-auto w-full text-center bg-wine text-white px-8 py-5 rounded-2xl font-bold hover:bg-navy transition-all shadow-lg"
                 >
-                  Discuss Offtake {"->"}
+                  Discuss Export Offtake {"->"}
                 </Link>
               </div>
             </Reveal>
 
-            {/* Card 3 */}
             <Reveal variant="fadeLeft" delay={100}>
-              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full flex flex-col">
+              <div className="bg-white p-12 rounded-[3rem] shadow-xl border border-gray-100 h-full flex flex-col">
                 <h3 className="text-2xl font-black text-navy mb-6">Payment Terms That Work For You</h3>
-                <p className="text-gray-500 mb-6 leading-relaxed flex-grow">
-                  We believe in building long-term, mutually beneficial relationships with our supply partners. A key part of that is ensuring financial stability and predictable cash flow for your operations.
-                </p>
-                <div className="bg-gray-50 p-4 rounded-2xl mb-6">
-                  <div className="text-wine font-bold text-xs uppercase mb-2">Our Financial Commitment</div>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>- Prompt, reliable payment cycles tailored to your needs</li>
-                    <li>- Transparent settlement terms to protect working capital</li>
-                    <li>- Advance payments available for dedicated volume allocation</li>
-                    <li>- Credit-based flexibility for proven, consistent partners</li>
-                  </ul>
-                </div>
-                <Link
-                  to="/contact"
-                  className="inline-block text-center bg-navy text-white px-8 py-4 rounded-xl font-bold hover:bg-wine transition-colors mt-auto"
-                >
-                  Discuss Terms {"->"}
-                </Link>
+                <ul className="space-y-4 text-gray-600 text-sm font-medium mb-8">
+                  {[
+                    "Payment on committed timelines — always know when to expect your funds",
+                    "Structured payment schedule aligned to your production cycle",
+                    "No payment delays — we run on export receivables, not local market credit cycles",
+                    "Transparent settlement — bank transfer with clear invoice reference every time",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p>{item}</p>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </Reveal>
 
-            {/* Card 4 */}
             <Reveal variant="fadeRight" delay={100}>
-              <div className="bg-white p-10 rounded-[3rem] shadow-xl border border-gray-100 h-full flex flex-col">
-                <h3 className="text-2xl font-black text-navy mb-6">Support &amp; Partnership</h3>
-                <p className="text-gray-500 mb-6 leading-relaxed flex-grow">
-                  Beyond simply buying material, we work closely with our partners to improve quality, efficiency, and market readiness. We bridge the gap between local mining and global export standards.
-                </p>
-                <div className="bg-gray-50 p-4 rounded-2xl mb-6">
-                  <div className="text-wine font-bold text-xs uppercase mb-2">How We Support You</div>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>- Dedicated logistics support for smooth port transfers</li>
-                    <li>- Guidance on international quality & packing standards</li>
-                    <li>- Collaborative approach to yield and processing improvements</li>
-                    <li>- Consistent off-take commitments to scale your business</li>
-                  </ul>
-                </div>
-                <Link
-                  to="/contact"
-                  className="inline-block text-center bg-wine text-white px-8 py-4 rounded-xl font-bold hover:bg-navy transition-colors mt-auto"
-                >
-                  Grow With Us {"->"}
-                </Link>
+              <div className="bg-white p-12 rounded-[3rem] shadow-xl border border-gray-100 h-full flex flex-col">
+                <h3 className="text-2xl font-black text-navy mb-6">Support & Partnership</h3>
+                <ul className="space-y-4 text-gray-600 text-sm font-medium mb-8">
+                  {[
+                    "Free lab testing of your ore sample — know your grade before you quote",
+                    "Technical guidance on processing to meet export specs",
+                    "We help you get ISO / documentation if needed for long-term partnership",
+                    "No exclusivity demanded — supply us alongside your existing buyers",
+                    "Referral to other export opportunities within our network",
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 group">
+                      <div className="mt-1 shrink-0">
+                        <Icons.Check />
+                      </div>
+                      <p>{item}</p>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </Reveal>
           </div>
         </div>
       </section>
+
 
       {/* FAQ Section */}
       <section className="py-24 bg-white border-y border-gray-100">

@@ -434,27 +434,49 @@ const Bentonite = () => {
             </Reveal>
 
             <Reveal variant="fadeLeft">
-              <h3 className="text-4xl font-black text-navy uppercase italic mb-10">Why buy <span className="text-wine">from us</span></h3>
-              <div className="bg-navy p-10 rounded-[2.5rem] shadow-xl space-y-10 text-white">
-                <div>
-                  <h4 className="text-wine font-black uppercase text-xs tracking-[0.2em] mb-4">Quality & consistency</h4>
-                  <ul className="space-y-3">
-                    {["Fixed Kutch / Rajasthan source — consistent montmorillonite lot to lot", "Full COA per lot: montmorillonite %, swelling index, moisture, viscosity, screen residue", "API 13A Section 9 & 11 compliance certificate per consignment", "SGS / Intertek pre-shipment inspection available on request", "MSDS, COO, packing list with every shipment"].map((li, i) => (
-                      <li key={i} className="flex gap-3 text-sm font-medium text-gray-300">
-                        <span className="text-wine">•</span> {li}
+              <h3 className="text-4xl font-black text-navy uppercase italic mb-10 tracking-tight">Why buy <span className="text-wine">from us</span></h3>
+              <div className="bg-navy p-10 rounded-[2.5rem] shadow-xl text-white">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                  <div className="space-y-6">
+                    <h4 className="text-wine font-black uppercase text-xs tracking-[0.2em] border-b border-white/10 pb-4">Supply & Quality</h4>
+                    <ul className="space-y-4">
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> Fixed Kutch / Rajasthan source — consistent montmorillonite lot to lot
                       </li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="text-wine font-black uppercase text-xs tracking-[0.2em] mb-4">Supply & logistics</h4>
-                  <ul className="space-y-3">
-                    {["All grades from one supplier — API, OCMA, foundry, civil, calcium", "MOQ 2 MT — easy trial before full container commitment", "Ex-stock at Mundra / Kandla — 3–7 day delivery", "Competitive FOB / CIF pricing to your port", "Sample dispatched within 3–5 days"].map((li, i) => (
-                      <li key={i} className="flex gap-3 text-sm font-medium text-gray-300">
-                        <span className="text-wine">•</span> {li}
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> Full COA per lot: mont %, swelling, viscosity, screen residue
                       </li>
-                    ))}
-                  </ul>
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> API 13A Section 9 & 11 compliance per consignment
+                      </li>
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> SGS / Intertek pre-shipment inspection available on request
+                      </li>
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> Sample dispatched within 3–5 days with full documentation
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="space-y-6">
+                    <h4 className="text-wine font-black uppercase text-xs tracking-[0.2em] border-b border-white/10 pb-4">Logistics & Commercial</h4>
+                    <ul className="space-y-4">
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> Container lots from 20 MT — no need to fill a vessel
+                      </li>
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> FOB Mundra / Kandla / Chennai — all major export ports
+                      </li>
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> 50kg bags or 1MT jumbo bags — your choice of packaging
+                      </li>
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> MSDS, BL, COA, packing list — complete documentation set
+                      </li>
+                      <li className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-300 italic">
+                        <span className="text-wine">•</span> Payment on committed timelines — reliable settlement
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </Reveal>

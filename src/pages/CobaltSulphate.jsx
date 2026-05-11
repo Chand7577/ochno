@@ -449,7 +449,65 @@ const CobaltSulphate = () => {
         </div>
       </section>
 
-      {/* 🤝 Section 7: Foreign Suppliers Welcome */}
+      {/* 🤝 Section 6: Why buy from us */}
+      <section className="py-24 bg-[#fcfaff]">
+        <div className="max-w-7xl mx-auto px-6">
+          <Reveal className="mb-16">
+            <h2 className="text-4xl font-black text-navy uppercase italic tracking-tight">
+              Why buy <span className="text-wine">from us</span>
+            </h2>
+            <div className="w-24 h-1.5 bg-wine rounded-full mt-4"></div>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <Reveal variant="fadeLeft" className="h-full">
+              <div className="bg-white border border-gray-100 p-12 rounded-[3rem] shadow-sm hover:shadow-xl transition-all h-full relative group">
+                <div className="absolute top-0 right-0 p-8 opacity-5 scale-150 group-hover:scale-110 transition-transform duration-700">
+                  <Icons.Shield />
+                </div>
+                <h3 className="text-2xl font-black text-wine uppercase tracking-[0.2em] mb-10 border-b border-gray-100 pb-4 italic">
+                  Quality & consistency
+                </h3>
+                <ul className="space-y-6">
+                  {[
+                    "Both virgin and recycled grades from one supplier",
+                    "Full COA per lot: Co%, Fe, Ni, Cu, Mn, Na, Cl⁻, moisture, pH",
+                    "MSDS format with every consignment",
+                    "Battery-grade precision with industrial-grade cost options"
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 items-start text-navy font-medium italic">
+                      <span className="text-wine text-xl">•</span> {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal variant="fadeRight" className="h-full">
+              <div className="bg-white border border-gray-100 p-12 rounded-[3rem] shadow-sm hover:shadow-xl transition-all h-full relative group">
+                <div className="absolute top-0 right-0 p-8 opacity-5 scale-150 group-hover:scale-110 transition-transform duration-700">
+                  <Icons.Factory />
+                </div>
+                <h3 className="text-2xl font-black text-navy uppercase tracking-[0.2em] mb-10 border-b border-gray-100 pb-4 italic">
+                  Supply & commercial
+                </h3>
+                <ul className="space-y-6">
+                  {[
+                    "MOQ 25 kg for trial orders — no large commitment",
+                    "Competitive pricing — virgin and recycled price options",
+                    "Sample with COA dispatched within 3–5 days",
+                    "Drum, bag supply options available"
+                  ].map((item, i) => (
+                    <li key={i} className="flex gap-4 items-start text-navy font-medium italic">
+                      <span className="text-wine text-xl">•</span> {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="bg-[#f8f9fb] rounded-[4rem] p-12 md:p-20 relative overflow-hidden border border-gray-100">

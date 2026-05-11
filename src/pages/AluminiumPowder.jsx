@@ -603,11 +603,11 @@ const AluminiumPowder = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { r: "Middle East", m: "UAE, Saudi, Qatar, Oman", u: "Roofing, anti-corrosive coatings, foundry, construction." },
-              { r: "Southeast Asia", m: "Indonesia, Vietnam, Malaysia", u: "Agrochemicals (RP grade), general industrial, decorative." },
-              { r: "Africa", m: "Nigeria, Kenya, Egypt, SA", u: "Pyrotechnics (SSS), agrochemicals, paint & coatings." },
-              { r: "Eastern Europe", m: "Poland, Romania, etc.", u: "Automotive pigments (35L), powder metallurgy, industrial." },
-              { r: "South Asia", m: "Bangladesh, Sri Lanka, Nepal", u: "Leafing paste for coatings, general industrial powder." },
+              { r: "Middle East", m: "UAE, Saudi, Qatar, Oman", u: "High demand for roofing & anti-corrosive coatings (10L/20L paste), foundry fluxes, and construction (atomized coarse)." },
+              { r: "Southeast Asia", m: "Indonesia, Vietnam, Malaysia", u: "Agrochemical formulations (RP grade), general industrial powder (DDD), and decorative metallic coatings." },
+              { r: "Africa", m: "Nigeria, Kenya, Egypt, SA", u: "Sparklers & pyrotechnics (SSS Flakes), agrochemical precursors (RP grade), and industrial paint/coatings." },
+              { r: "Eastern Europe", m: "Poland, Romania, Turkey", u: "Automotive paint pigments (35L paste), powder metallurgy components (atomized fine), and industrial sintering." },
+              { r: "South Asia", m: "Bangladesh, Sri Lanka, Nepal", u: "Construction coatings (leafing paste), general industrial aluminium powder, and decorative finishes." },
             ].map((market, i) => (
               <Reveal key={i} delay={i * 100} className="border border-white/10 p-8 rounded-3xl hover:bg-white/5 transition-colors">
                 <h4 className="text-wine font-black text-xl mb-2">{market.r}</h4>
@@ -627,25 +627,29 @@ const AluminiumPowder = () => {
               <h2 className="text-4xl font-black text-navy mb-8 uppercase tracking-tight">
                 Quality & <span className="text-wine">Supply Advantage</span>
               </h2>
-              <div className="space-y-8">
-                {[
-                  { t: "Consistency", d: "Fixed Indian manufacturer source ensuring consistent particle size and bulk density lot to lot." },
-                  { t: "Compliance", d: "Full COA (Size, Purity, Moisture) and MSDS per IMDG / ADR format provided with every lot." },
-                  { t: "Flexibility", d: "MOQ 25 kg for trials with custom particle sizes and packaging available for regular orders." },
-                  { t: "FOB / CIF", d: "FOB Mundra / Nhava Sheva / Chennai — all major export ports with competitive pricing." },
-                  { t: "Lead Time", d: "Ex-stock 7–14 days; production order 21–30 days for large quantities." },
-                  { t: "Samples", d: "Sample with COA arranged within 3–5 days for product qualification." },
-                ].map((item, i) => (
-                  <div key={i} className="flex gap-4">
-                    <div className="w-12 h-12 bg-wine/10 rounded-xl flex items-center justify-center shrink-0">
-                      <Icons.Check />
-                    </div>
-                    <div>
-                      <h4 className="font-black text-navy uppercase text-sm mb-1">{item.t}</h4>
-                      <p className="text-gray-500 text-xs leading-relaxed">{item.d}</p>
-                    </div>
-                  </div>
-                ))}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-8">
+                <div className="space-y-6">
+                  <h4 className="font-black text-navy uppercase text-sm tracking-widest underline decoration-wine decoration-2 underline-offset-4 mb-4">Quality & Consistency</h4>
+                  <ul className="text-xs space-y-3 text-gray-600 font-bold uppercase">
+                    <li>• Fixed Indian manufacturer source</li>
+                    <li>• Consistent particle size & bulk density</li>
+                    <li>• Full COA (Size, Purity, Moisture)</li>
+                    <li>• All 3 categories from one supplier</li>
+                    <li>• MSDS per IMDG / ADR format</li>
+                    <li>• SGS / Intertek inspection at origin</li>
+                  </ul>
+                </div>
+                <div className="space-y-6">
+                  <h4 className="font-black text-wine uppercase text-sm tracking-widest underline decoration-navy decoration-2 underline-offset-4 mb-4">Supply & Commercial</h4>
+                  <ul className="text-xs space-y-3 text-gray-600 font-bold uppercase">
+                    <li>• MOQ 25 kg — Easy trial orders</li>
+                    <li>• Custom particle size & packaging</li>
+                    <li>• FOB Mundra / Nhava Sheva / Chennai</li>
+                    <li>• Competitive FOB / CIF pricing</li>
+                    <li>• Sample with COA in 3–5 days</li>
+                    <li>• Reliable hazmat documentation</li>
+                  </ul>
+                </div>
               </div>
             </Reveal>
 

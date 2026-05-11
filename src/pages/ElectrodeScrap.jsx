@@ -524,13 +524,23 @@ const ElectrodeScrap = () => {
                 </TableBody>
               </Table>
             </div>
-            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-              <p className="text-[10px] text-white/40 uppercase font-black tracking-widest">
-                * Quality consistency varies by electrode grade (RP, HP, UHP).
-              </p>
-              <p className="text-[10px] text-white/40 uppercase font-black tracking-widest text-right">
-                * HP/UHP origin preferred for lower S/N values.
-              </p>
+            <div className="mt-8 space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic">
+                        * Quality consistency varies by electrode grade (RP, HP, UHP) and origin; HP/UHP gives lower and more consistent S/N values.
+                    </p>
+                    <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic md:text-right">
+                        * S and N are significantly better than anthracite — suitable for standard ductile iron where ultra-low N is not mandatory.
+                    </p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-white/5">
+                    <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic">
+                        * Cost vs GPC: 20–35% cheaper per MT at similar F.C. and S levels — strong value for cost-sensitive buyers.
+                    </p>
+                    <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic md:text-right">
+                        * COA per lot: F.C., S, N, Ash, VM, Moisture, size analysis — we pre-qualify suppliers by electrode grade.
+                    </p>
+                </div>
             </div>
           </Reveal>
         </div>
@@ -611,24 +621,24 @@ const ElectrodeScrap = () => {
             {[
               {
                 title: "EAF Steelmaking",
-                desc: "Primary use — added during charging or as trim. Standard and premium grades active across Raipur, Vizag clusters.",
+                desc: "Primary use — added during charging or as trim. Active across Raipur, Vizag clusters; buyers outgrowing anthracite often switch here for better consistency."
               },
               {
                 title: "Induction Furnace",
-                desc: "Strong demand from mid-size IF units (20–50T) in Mandi Gobindgarh, Muzaffarnagar for commodity billet production.",
+                desc: "Strong demand in Mandi Gobindgarh, Muzaffarnagar, Rajkot; buyers needing better quality than GCA without paying full GPC pricing for commodity billets."
               },
               {
                 title: "Grey Iron Foundries",
-                desc: "Consistent carbon equivalent control without the nitrogen penalty of anthracite in cupola and IF furnaces.",
+                desc: "Consistent carbon equivalent control without the nitrogen penalty of anthracite in cupola and IF furnaces."
               },
               {
                 title: "Ductile Iron Foundries",
-                desc: "Suitable where S ≤0.08% and N ≤0.05% is acceptable. First upgrade step for those outgrowing anthracite.",
+                desc: "Suitable where S ≤0.08% and N ≤0.05% is acceptable. First upgrade step for those outgrowing anthracite."
               },
               {
                 title: "Ladle Additions",
-                desc: "0–1mm fine powder grade added during tapping for precise carbon trim — fast dissolution.",
-              },
+                desc: "0–1mm fine powder grade added during tapping for precise carbon trim — fast dissolution and controllable addition quantity."
+              }
             ].map((app, idx) => (
               <Reveal key={idx} variant="fadeUp" delay={100 * idx}>
                 <div className="bg-gray-50 p-8 h-full border hover:border-wine transition-all group">
@@ -654,25 +664,27 @@ const ElectrodeScrap = () => {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <div className="space-y-4">
-                  <h4 className="font-black text-navy uppercase text-sm tracking-widest">
+                  <h4 className="font-black text-navy uppercase text-sm tracking-widest underline decoration-wine decoration-2 underline-offset-4">
                     Quality & Consistency
                   </h4>
                   <ul className="text-xs space-y-2 text-gray-600 font-bold uppercase">
-                    <li>• HP/UHP Source Selection</li>
-                    <li>• Full COA Per Lot</li>
-                    <li>• 3rd Party Verified</li>
-                    <li>• Consolidated FCL with GPC</li>
+                    <li>• Source selection by electrode grade</li>
+                    <li>• HP/UHP origin for tighter S/N</li>
+                    <li>• Full COA (F.C., S, N, Ash, VM, Moisture)</li>
+                    <li>• SGS / Intertek inspection available</li>
+                    <li>• Consolidated FCL with GPC (Save Freight)</li>
                   </ul>
                 </div>
                 <div className="space-y-4">
-                  <h4 className="font-black text-wine uppercase text-sm tracking-widest">
+                  <h4 className="font-black text-wine uppercase text-sm tracking-widest underline decoration-navy decoration-2 underline-offset-4">
                     Supply & Commercial
                   </h4>
                   <ul className="text-xs space-y-2 text-gray-600 font-bold uppercase">
-                    <li>• MOQ 2 MT Trial</li>
+                    <li>• MOQ 2 MT — Easy trial orders</li>
                     <li>• 20–35% Cheaper than GPC</li>
-                    <li>• 3–7 Day Port Delivery</li>
-                    <li>• Flexible Payment Terms</li>
+                    <li>• Ex-stock Port (3–7 Day Delivery)</li>
+                    <li>• Competitive CIF / DAP pricing</li>
+                    <li>• Reliable payment settlement</li>
                   </ul>
                 </div>
               </div>
@@ -719,7 +731,7 @@ const ElectrodeScrap = () => {
                 India's steel and foundry sector runs on recarburizers — and electrode scrap sits in the sweet spot between anthracite (cheap but dirty) and GPC (clean but expensive). Buyers who have outgrown anthracite but are watching margins come to electrode scrap. That means steady, growing demand — and we are positioned to move it.
               </p>
               <p className="text-gray-600 text-base font-medium leading-relaxed">
-                We offer DA or open account terms to suppliers who qualify with consistent COAs. One thing we've learned: suppliers who require LC or advance on every consignment lose out to those who don't — because Indian importers have options, and workable payment terms is often the deciding factor. If your terms are flexible, you'll find us a reliable, growing buyer.
+                We offer D/P or open account terms to suppliers who qualify with consistent COAs. One thing we've learned: suppliers who require LC or advance on every consignment lose out to those who don't — because Indian importers have options, and workable payment terms is often the deciding factor. If your terms are flexible, you'll find us a reliable, growing buyer.
               </p>
             </div>
 

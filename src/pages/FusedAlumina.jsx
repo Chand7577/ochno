@@ -18,7 +18,7 @@ import {
 import { Button } from "../components/ui/button.jsx";
 import { Badge } from "../components/ui/badge.jsx";
 
-// ── Icons ──────────────────────────────────────────────────────────────────
+//  Icons 
 const Icons = {
   Check: () => (
     <svg
@@ -123,7 +123,7 @@ const Icons = {
   ),
 };
 
-// ── Reveal Component ─────────────────────────────────────────────────────────
+//  Reveal Component 
 const Reveal = ({
   children,
   variant = "fadeUp",
@@ -170,7 +170,7 @@ const FusedAlumina = () => {
     <div className="bg-[#f8f9fb] min-h-screen text-navy font-sans overflow-x-hidden">
       <Preloader />
 
-      {/* 🚀 Hero Section */}
+      {/*  Hero Section */}
       <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy/90 to-wine/20"></div>
@@ -198,8 +198,8 @@ const FusedAlumina = () => {
               <Reveal variant="fadeUp" delay={600}>
                 <p className="text-xl text-gray-300 max-w-2xl mb-10 font-light leading-relaxed">
                   Reliable Supply for Indian Abrasive, Refractory & Blasting
-                  Industry. High-purity WFA (Al₂O₃ ≥99.5%) and tough BFA (Al₂O₃
-                  ≥95%) across all FEPA sizes.
+                  Industry. High-purity WFA (Al2O3 &gt;=99.5%) and tough BFA (Al2O3
+                  &gt;=95%) across all FEPA sizes.
                 </p>
               </Reveal>
 
@@ -241,7 +241,7 @@ const FusedAlumina = () => {
                 className="mt-12 flex items-center gap-6"
               >
                 <a
-                  href="https://wa.me/919315826476"
+                  href="https://wa.me/919-315826-476"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-4 text-white/60 hover:text-white transition-colors"
@@ -281,7 +281,7 @@ const FusedAlumina = () => {
                         Grade: WFA
                       </h3>
                       <p className="text-white/60 text-sm">
-                        Al₂O₃ ≥99.5% | White Corundum | Ultra-high purity
+                        Al2O3 &gt;=99.5% | White Corundum | Ultra-high purity
                       </p>
                     </div>
                   </div>
@@ -294,7 +294,7 @@ const FusedAlumina = () => {
                         Refractory
                       </h3>
                       <p className="text-white/60 text-sm">
-                        Aggregates 0–8mm | High-alumina castables
+                        Aggregates 08mm | High-alumina castables
                       </p>
                     </div>
                   </div>
@@ -309,7 +309,7 @@ const FusedAlumina = () => {
                         Grade: BFA
                       </h3>
                       <p className="text-white/60 text-sm">
-                        Al₂O₃ ≥95% | Brown Corundum | Tough & Impact resistant
+                        Al2O3 &gt;=95% | Brown Corundum | Tough & Impact resistant
                       </p>
                     </div>
                   </div>
@@ -322,7 +322,7 @@ const FusedAlumina = () => {
                         FEPA Grit
                       </h3>
                       <p className="text-white/60 text-sm">
-                        F4–F220 Macro | P12–P1200 Micro | JIS | ANSI
+                        F4F220 Macro | P12P1200 Micro | JIS | ANSI
                       </p>
                     </div>
                   </div>
@@ -336,7 +336,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* 📊 Section 2 — Trust Bar */}
+      {/*  Section 2  Trust Bar */}
       <section className="relative z-20 -mt-10 max-w-7xl mx-auto px-6">
         <div className="bg-white rounded-[2.5rem] shadow-2xl p-10 grid grid-cols-2 md:grid-cols-5 gap-8 border border-gray-100">
           {[
@@ -364,7 +364,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* 📸 Section 2.5 — Material Gallery */}
+      {/*  Section 2.5  Material Gallery */}
       <section className="py-24 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
@@ -401,7 +401,7 @@ const FusedAlumina = () => {
             <Reveal variant="zoomIn" delay={250}>
               <div className="group relative aspect-square overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all hover:shadow-wine/20">
                 <img
-                  src="https://5.imimg.com/data5/SELLER/Default/2026/3/589032528/KE/LV/CH/8146802/white-fused-alumina-500x500.jpg"
+                  src="https://5.imimg.com/data5/SELLER/Default/2026/3/589-032528/KE/LV/CH/814-6802/white-fused-alumina-500x500.jpg"
                   alt="White Fused Alumina Powder"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
@@ -420,7 +420,7 @@ const FusedAlumina = () => {
             <Reveal variant="zoomIn" delay={400}>
               <div className="group relative aspect-square overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all hover:shadow-navy/20">
                 <img
-                  src="https://5.imimg.com/data5/SELLER/Default/2024/3/396114254/ED/AB/EI/128036965/brown-fused-alumina-powder.jpg"
+                  src="https://5.imimg.com/data5/SELLER/Default/2024/3/396-114254/ED/AB/EI/128-036965/brown-fused-alumina-powder.jpg"
                   alt="Brown Fused Alumina Powder"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
@@ -439,7 +439,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* ⚪ Section 3 — White Fused Alumina (WFA) */}
+      {/*  Section 3  White Fused Alumina (WFA) */}
       <section className="py-32 bg-white overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -453,16 +453,16 @@ const FusedAlumina = () => {
               <div className="w-24 h-1.5 bg-wine rounded-full mb-10"></div>
               <p className="text-gray-600 text-lg leading-relaxed mb-8 font-medium">
                 Produced by fusing high-purity Bayer process alumina in an
-                electric arc furnace at over 2000°C. The result is α-Al₂O₃
+                electric arc furnace at over 2000C. The result is -Al2O3
                 corundum of ultra-high purity and white color. WFA is highly
                 friable (self-sharpening), making it mandatory for precision
                 grinding where zero iron contamination is critical.
               </p>
               <div className="space-y-4 mb-10">
                 {[
-                  "Zero iron contamination — essential for Stainless/Titanium",
+                  "Zero iron contamination  essential for Stainless/Titanium",
                   "Self-sharpening grain for cool cutting action",
-                  "Critical low Na₂O content for refractory stability",
+                  "Critical low Na2O content for refractory stability",
                   "Full COA with detailed sieve distribution per lot",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
@@ -502,19 +502,19 @@ const FusedAlumina = () => {
                     <TableBody>
                       {[
                         {
-                          p: "Al₂O₃ % min",
-                          a: "≥99.0%",
-                          r: "≥99.5%",
-                          m: "≥99.5%",
+                          p: "Al2O3 % min",
+                          a: "&gt;=99.0%",
+                          r: "&gt;=99.5%",
+                          m: "&gt;=99.5%",
                         },
-                        { p: "SiO₂ % max", a: "0.10%", r: "0.06%", m: "0.05%" },
+                        { p: "SiO2 % max", a: "0.10%", r: "0.06%", m: "0.05%" },
                         {
-                          p: "Fe₂O₃ % max",
+                          p: "Fe2O3 % max",
                           a: "0.08%",
                           r: "0.06%",
                           m: "0.05%",
                         },
-                        { p: "Na₂O % max", a: "0.40%", r: "0.30%", m: "0.25%" },
+                        { p: "Na2O % max", a: "0.40%", r: "0.30%", m: "0.25%" },
                         { p: "CaO % max", a: "0.05%", r: "0.02%", m: "0.02%" },
                         { p: "Mohs Hardness", a: "9", r: "9", m: "9" },
                         {
@@ -525,15 +525,15 @@ const FusedAlumina = () => {
                         },
                         {
                           p: "Melting Point",
-                          a: "2050°C",
-                          r: "2050°C",
-                          m: "2050°C",
+                          a: "2050C",
+                          r: "2050C",
+                          m: "2050C",
                         },
                         {
                           p: "Bulk Density",
                           a: "1.75-1.95",
                           r: "1.80-2.00",
-                          m: "—",
+                          m: "",
                         },
                       ].map((row, i) => (
                         <TableRow
@@ -563,7 +563,7 @@ const FusedAlumina = () => {
                       Available Sizes
                     </p>
                     <p className="text-white text-xs font-medium">
-                      FEPA F12–F220 | Refractory 0–8mm | D50 1–45µm
+                      FEPA F12F220 | Refractory 08mm | D50 145m
                     </p>
                   </div>
                   <div className="flex gap-2">
@@ -587,7 +587,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* 🟤 Section 4 — Brown Fused Alumina (BFA) */}
+      {/*  Section 4  Brown Fused Alumina (BFA) */}
       <section className="py-32 bg-[#f8f9fb] overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -617,20 +617,20 @@ const FusedAlumina = () => {
                     <TableBody>
                       {[
                         {
-                          p: "Al₂O₃ % min",
+                          p: "Al2O3 % min",
                           a: "95.0%",
                           r: "97.0%",
                           m: "95.0%",
                         },
                         {
-                          p: "TiO₂ %",
+                          p: "TiO2 %",
                           a: "2.0-3.8%",
                           r: "1.5-2.5%",
                           m: "2.0-3.5%",
                         },
-                        { p: "SiO₂ % max", a: "1.5%", r: "1.0%", m: "1.5%" },
+                        { p: "SiO2 % max", a: "1.5%", r: "1.0%", m: "1.5%" },
                         {
-                          p: "Fe₂O₃ % max",
+                          p: "Fe2O3 % max",
                           a: "0.30%",
                           r: "0.20%",
                           m: "0.30%",
@@ -651,9 +651,9 @@ const FusedAlumina = () => {
                         },
                         {
                           p: "Melting Point",
-                          a: "1950°C",
-                          r: "1950°C",
-                          m: "1950°C",
+                          a: "1950C",
+                          r: "1950C",
+                          m: "1950C",
                         },
                       ].map((row, i) => (
                         <TableRow
@@ -682,14 +682,14 @@ const FusedAlumina = () => {
                     <p className="text-gray-400 text-[10px] uppercase font-black tracking-widest mb-1">
                       Macro sizes
                     </p>
-                    <p className="text-navy text-xs font-black">FEPA F4–F220</p>
+                    <p className="text-navy text-xs font-black">FEPA F4F220</p>
                   </div>
                   <div className="p-4 bg-gray-50 rounded-2xl">
                     <p className="text-gray-400 text-[10px] uppercase font-black tracking-widest mb-1">
                       Refractory
                     </p>
                     <p className="text-navy text-xs font-black">
-                      0–8mm aggregates
+                      08mm aggregates
                     </p>
                   </div>
                 </div>
@@ -720,7 +720,7 @@ const FusedAlumina = () => {
               <div className="w-24 h-1.5 bg-wine rounded-full mb-10"></div>
               <p className="text-gray-600 text-lg leading-relaxed mb-8 font-medium">
                 Produced by fusing calcined bauxite with anthracite and iron
-                scrap at ~2000–2200°C. TiO₂ from bauxite remains as a toughening
+                scrap at ~200-02200C. TiO2 from bauxite remains as a toughening
                 agent, giving BFA its characteristic brown color and exceptional
                 impact resistance. It's the "workhorse" abrasive for heavy-duty
                 grinding of steel and alloys.
@@ -729,7 +729,7 @@ const FusedAlumina = () => {
                 {[
                   {
                     t: "Toughness Agent",
-                    d: "TiO₂ content (2.5-3.8%) makes the grain survive heavy feed rates.",
+                    d: "TiO2 content (2.5-3.8%) makes the grain survive heavy feed rates.",
                   },
                   {
                     t: "Cost Effective",
@@ -762,7 +762,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* ⚖️ Section 5 — Selection Guide */}
+      {/*  Section 5  Selection Guide */}
       <section className="py-32 bg-navy relative overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,#88204a_0%,transparent_50%)]"></div>
@@ -771,7 +771,7 @@ const FusedAlumina = () => {
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Reveal className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight">
-              WFA vs BFA — <span className="text-wine">WHICH DO YOU NEED?</span>
+              WFA vs BFA  <span className="text-wine">WHICH DO YOU NEED?</span>
             </h2>
             <div className="w-24 h-1.5 bg-wine mx-auto rounded-full mb-8"></div>
             <p className="text-gray-400 text-lg max-w-3xl mx-auto font-light">
@@ -815,7 +815,7 @@ const FusedAlumina = () => {
               {
                 m: "High-Temp Refractory",
                 g: "WFA Refractory",
-                d: "Purer grade (1600°C+); better slag resistance.",
+                d: "Purer grade (1600C+); better slag resistance.",
               },
               {
                 m: "Standard Refractory",
@@ -856,7 +856,7 @@ const FusedAlumina = () => {
               Not sure which grade is right for you?
             </h3>
             <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-              Share your material, application and surface finish requirement —
+              Share your material, application and surface finish requirement 
               our technical team will confirm the exact grade and grit size.
             </p>
             <Link to="/contact">
@@ -868,7 +868,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* 🏭 Section 6 — Industry Applications */}
+      {/*  Section 6  Industry Applications */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-left mb-20 flex flex-col md:flex-row items-end justify-between gap-8">
@@ -903,7 +903,7 @@ const FusedAlumina = () => {
               },
               {
                 t: "Surface Blasting / Shot Blasting",
-                d: "BFA F16–F46 for structural steel, bridges, and pipelines. Low-iron BFA for aerospace and aluminium profiles.",
+                d: "BFA F16F46 for structural steel, bridges, and pipelines. Low-iron BFA for aerospace and aluminium profiles.",
                 icon: <Icons.Check />,
               },
               {
@@ -913,7 +913,7 @@ const FusedAlumina = () => {
               },
               {
                 t: "Lapping and Polishing",
-                d: "WFA micro-powder (F280–F1200) for optical glass, watch crystals, and semiconductor wafers.",
+                d: "WFA micro-powder (F280F1200) for optical glass, watch crystals, and semiconductor wafers.",
                 icon: <Icons.Chart />,
               },
               {
@@ -945,12 +945,12 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* ⭐ Section 7 — Buyer Advantages */}
+      {/*  Section 7  Buyer Advantages */}
       <section className="py-32 bg-[#f8f9fb]">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-black text-navy mb-6 uppercase tracking-tight">
-              WHY BUY FROM US —{" "}
+              WHY BUY FROM US {" "}
               <span className="text-wine">BUYER ADVANTAGES</span>
             </h2>
             <div className="w-24 h-1.5 bg-wine mx-auto rounded-full"></div>
@@ -961,37 +961,41 @@ const FusedAlumina = () => {
               {
                 t: "Quality & Consistency",
                 items: [
-                  "Fixed plant source (No trading mix)",
-                  "Full COA with every single lot",
-                  "Magnetic material verified <0.05%",
-                  "SGS/Intertek inspection available",
+                  "Fixed plant source  same factory, consistent chemistry lot to lot",
+                  "Full COA: chemistry + FEPA sieve distribution per lot",
+                  "Magnetic material verified <0.05%  critical for wheel manufacturers",
+                  "SGS/Intertek inspection at origin available on request",
+                  "Reference sample retained per lot",
                 ],
               },
               {
                 t: "Supply Reliability",
                 items: [
-                  "WFA & BFA from one supplier",
-                  "Multiple FEPA sizes in stock",
-                  "Ex-stock delivery (3-7 days)",
-                  "Long-term supply contracts",
+                  "Both WFA and BFA from one supplier  single point of contact",
+                  "Multiple FEPA grit sizes in stock at Indian port",
+                  "Ex-stock delivery 37 days for stocked grades",
+                  "Fresh import 3040 days for non-stock sizes",
+                  "Long-term supply contracts available",
                 ],
               },
               {
                 t: "Technical Support",
                 items: [
-                  "Grade & grit recommendations",
-                  "Custom narrow sieve distributions",
-                  "Trial 100-500kg orders supported",
-                  "Formulation queries answered",
+                  "Grade and grit size recommendation for your specific application",
+                  "Custom narrow sieve distributions on request",
+                  "Technical data sheets per grade",
+                  "Trial 100-500 kg before bulk commitment",
+                  "Abrasive and refractory formulation queries supported",
                 ],
               },
               {
                 t: "Commercial & Logistics",
                 items: [
-                  "Competitive CIF / DAP pricing",
-                  "25kg & 1MT jumbo bag options",
-                  "LCL from 500kg for trials",
-                  "REACH, MSDS, COA standard",
+                  "Competitive CIF / DAP pricing  landed cost at your plant",
+                  "25kg bags and 1MT jumbo bags available",
+                  "LCL from 500kg for trial orders",
+                  "REACH, MSDS, COA documentation standard",
+                  "Payment on committed timelines",
                 ],
               },
             ].map((section, i) => (
@@ -1019,7 +1023,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* 🤝 Section 8 — Foreign Supplier Partnership */}
+      {/*  Section 8  Foreign Supplier Partnership */}
       <section className="py-32 bg-navy text-white overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -1041,8 +1045,8 @@ const FusedAlumina = () => {
                 <div className="p-6 bg-white/5 border border-white/10 rounded-2xl">
                   <h4 className="font-bold mb-2">What we evaluate:</h4>
                   <p className="text-gray-400 text-sm">
-                    Material is evaluated on TiO₂ (BFA), Na₂O (WFA) and sieve
-                    consistency, not just Al₂O₃. We welcome manufacturers from
+                    Material is evaluated on TiO2 (BFA), Na2O (WFA) and sieve
+                    consistency, not just Al2O3. We welcome manufacturers from
                     China, Malaysia, Japan and other origins.
                   </p>
                 </div>
@@ -1051,7 +1055,7 @@ const FusedAlumina = () => {
                   <p className="text-gray-400 text-sm">
                     We prefer partners aligned with stable supply cycles and
                     ongoing volume commitments. Lot-wise COA and controlled
-                    magnetic content (≤0.05%) are mandatory.
+                    magnetic content (&lt;=0.05%) are mandatory.
                   </p>
                 </div>
               </div>
@@ -1094,7 +1098,7 @@ const FusedAlumina = () => {
                   </select>
                   <input
                     type="text"
-                    placeholder="Al₂O₃ %"
+                    placeholder="Al2O3 %"
                     className="w-full h-12 bg-gray-50 border border-gray-100 rounded-xl px-4 text-sm focus:outline-none focus:border-wine"
                   />
                 </div>
@@ -1127,12 +1131,12 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* 📉 Section 9 — Market Context */}
+      {/*  Section 9  Market Context */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal variant="fadeUp" className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-black text-navy mb-6 uppercase tracking-tight">
-              INDIA'S FUSED ALUMINA MARKET —{" "}
+              INDIA'S FUSED ALUMINA MARKET {" "}
               <span className="text-wine">WHY IMPORTS ARE ESSENTIAL</span>
             </h2>
             <div className="w-24 h-1.5 bg-wine mx-auto rounded-full"></div>
@@ -1150,9 +1154,9 @@ const FusedAlumina = () => {
                 Global Leader
               </h4>
               <p className="text-gray-600 font-medium leading-relaxed">
-                India is the world's largest importer of Brown Fused Alumina,
-                leading globally with 6,000+ shipments annually, ahead of
-                Vietnam and Indonesia.
+                India is the world's largest importer of brown fused alumina  leading globally
+                with 6,061 import shipments in the past 12 months, ahead of Vietnam (1,719) and
+                Indonesia (689).
               </p>
             </Reveal>
             <Reveal
@@ -1166,10 +1170,15 @@ const FusedAlumina = () => {
                 </span>
                 Supply Gap
               </h4>
-              <p className="text-gray-400 font-medium leading-relaxed">
-                India does not produce WFA or BFA domestically at commercial
-                scale. 99% of imports originate from China, making reliable
-                supply channels critical.
+              <p className="text-gray-400 font-medium leading-relaxed mb-4">
+                India does not produce WFA or BFA domestically at commercial scale  no large
+                electric arc furnace fused alumina plant exists; 99% of India's imports
+                originate from China.
+              </p>
+              <p className="text-gray-300 text-xs font-medium leading-relaxed border-t border-white/10 pt-4">
+                India's abrasive industry is large and growing: the Rajkot cluster alone has 200+
+                grinding wheel manufacturers; coated abrasives, refractory castables, precision casting
+                and blasting media are all large volume segments.
               </p>
             </Reveal>
             <Reveal
@@ -1184,9 +1193,9 @@ const FusedAlumina = () => {
                 Supply Security
               </h4>
               <p className="text-gray-600 font-medium leading-relaxed">
-                Post-COVID, Indian buyers are actively looking beyond China. We
-                facilitate supply diversification from Malaysia and Japan
-                origins.
+                Supply diversification demand: Indian buyers are actively looking beyond China after
+                COVID supply disruptions  Malaysia and Japan origin gaining attention, creating
+                opportunity for non-China suppliers.
               </p>
             </Reveal>
           </div>
@@ -1206,19 +1215,19 @@ const FusedAlumina = () => {
                 <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest mb-2">
                   WFA Abrasive Grade
                 </p>
-                <p className="text-3xl font-black text-navy">$600 – $1,100</p>
+                <p className="text-3xl font-black text-navy">$600  $1,100</p>
               </div>
               <div className="p-8">
                 <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest mb-2">
                   WFA High-Purity Refractory
                 </p>
-                <p className="text-3xl font-black text-wine">$900 – $1,600</p>
+                <p className="text-3xl font-black text-wine">$900  $1,600</p>
               </div>
               <div className="p-8">
                 <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest mb-2">
                   BFA Regular Grade
                 </p>
-                <p className="text-3xl font-black text-navy">$400 – $700</p>
+                <p className="text-3xl font-black text-navy">$400  $700</p>
               </div>
             </div>
             <div className="bg-navy p-4 text-center">
@@ -1230,7 +1239,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* 📋 Section 12 — Dual Contact Forms */}
+      {/*  Section 12  Dual Contact Forms */}
       <section className="py-32 bg-white relative">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-20">
@@ -1369,7 +1378,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* ❓ FAQs Section */}
+      {/*  FAQs Section */}
       <section className="py-32 bg-[#f8f9fb]">
         <div className="max-w-4xl mx-auto px-6">
           <Reveal className="text-center mb-20">
@@ -1383,19 +1392,19 @@ const FusedAlumina = () => {
             {[
               {
                 q: "What is the difference between white and brown fused alumina?",
-                a: "WFA is high purity (>99.5% Al₂O₃), iron-free, and highly friable, making it ideal for precision grinding of stainless steel and alloy steel. BFA is tougher and more cost-effective (95% Al₂O₃), containing TiO₂ as a toughening agent, suitable for general-purpose grinding of carbon steel and blasting.",
+                a: "WFA is high purity (>99.5% Al2O3), iron-free, and highly friable, making it ideal for precision grinding of stainless steel and alloy steel. BFA is tougher and more cost-effective (95% Al2O3), containing TiO2 as a toughening agent, suitable for general-purpose grinding of carbon steel and blasting.",
               },
               {
                 q: "What grit sizes are available?",
-                a: "We supply a full range of FEPA F-grits (F4–F220) for abrasives and refractory aggregate sizes from 0–1mm to 5–8mm. Micro-powders (F280–F1200) and custom narrow sieve distributions are also available on request.",
+                a: "We supply a full range of FEPA F-grits (F4F220) for abrasives and refractory aggregate sizes from 01mm to 58mm. Micro-powders (F280F1200) and custom narrow sieve distributions are also available on request.",
               },
               {
-                q: "Why is TiO₂ important in BFA?",
-                a: "TiO₂ acts as a toughening agent. Higher TiO₂ (2.5–3.8%) creates a tougher grain for heavy-duty grinding wheels, while lower TiO₂ (1.5–2.0%) results in a sharper cutting grain preferred for coated abrasives (sandpaper/belts).",
+                q: "Why is TiO2 important in BFA?",
+                a: "TiO2 acts as a toughening agent. Higher TiO2 (2.53.8%) creates a tougher grain for heavy-duty grinding wheels, while lower TiO2 (1.52.0%) results in a sharper cutting grain preferred for coated abrasives (sandpaper/belts).",
               },
               {
                 q: "What is the minimum order and lead time?",
-                a: "The minimum order quantity is 500 kg (trial possible). For stock material at JNPT or Mundra, delivery takes 3–10 days. Fresh imports for non-stock sizes typically require 30–40 days.",
+                a: "The minimum order quantity is 500 kg (trial possible). For stock material at JNPT or Mundra, delivery takes 310 days. Fresh imports for non-stock sizes typically require 3040 days.",
               },
               {
                 q: "How do import duties affect pricing?",
@@ -1424,7 +1433,7 @@ const FusedAlumina = () => {
         </div>
       </section>
 
-      {/* 🏁 Footer CTA */}
+      {/*  Footer CTA */}
       <section className="py-32 bg-navy relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy to-wine/40"></div>

@@ -696,72 +696,97 @@ const FattyAcids = () => {
                   Why Buy From <br />
                   <span className="text-wine">Ochnology?</span>
                 </h2>
-                <div className="space-y-6">
-                  {[
-                    {
-                      t: "Fixed Origin Consistency",
-                      d: "Malaysia/Indonesia for PFAD, Russia/Finland for TOFA. No origin blending.",
-                    },
-                    {
-                      t: "Full Technical Support",
-                      d: "MSDS, TDS, and COA provided with every lot. RSPO certification available.",
-                    },
-                    {
-                      t: "Local Supply Chain",
-                      d: "Ex-stock at JNPT/Mundra for standard grades with competitive CIF/DAP pricing.",
-                    },
-                    {
-                      t: "Rapid Sampling",
-                      d: "Samples dispatched within 3-5 days to your R&D lab for testing.",
-                    },
-                  ].map((f, i) => (
-                    <div key={i} className="flex gap-6">
-                      <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center flex-shrink-0 text-wine">
-                        <Icons.Check />
-                      </div>
-                      <div>
-                        <h4 className="font-black text-navy uppercase text-xs mb-1">
-                          {f.t}
-                        </h4>
-                        <p className="text-gray-500 text-sm">{f.d}</p>
-                      </div>
-                    </div>
-                  ))}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                  <div className="space-y-6">
+                    <h4 className="text-wine font-black uppercase text-[10px] tracking-[0.2em] border-b border-gray-100 pb-4 italic">Quality & Consistency</h4>
+                    <ul className="space-y-4">
+                      {[
+                        "Fixed origin per product — Malaysia/Indonesia (PFAD), Russia/Finland (TOFA)",
+                        "Full COA per lot: FFA %, acid value, iodine value, colour, moisture",
+                        "MSDS and technical data sheet with every lot",
+                        "RSPO certification available for PFAD on request",
+                        "SGS / Intertek inspection at origin available"
+                      ].map((item, i) => (
+                        <li key={i} className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-500 italic">
+                          <span className="text-wine">•</span> {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="space-y-6">
+                    <h4 className="text-navy font-black uppercase text-[10px] tracking-[0.2em] border-b border-gray-100 pb-4 italic">Supply & Commercial</h4>
+                    <ul className="space-y-4">
+                      {[
+                        "All five fatty acid categories from one supplier",
+                        "MOQ 1 MT drums for specialty · 20 MT flexibag for PFAD",
+                        "Ex-stock at JNPT / Mundra for standard grades",
+                        "Competitive CIF / DAP pricing to your plant",
+                        "Sample dispatched within 3–5 days"
+                      ].map((item, i) => (
+                        <li key={i} className="flex gap-3 text-xs font-bold uppercase tracking-wide text-gray-500 italic">
+                          <span className="text-navy">•</span> {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </Reveal>
 
             <Reveal
               variant="fadeLeft"
-              className="bg-navy p-12 rounded-[3rem] text-white shadow-3xl"
+              className="bg-navy p-10 md:p-14 rounded-[3rem] text-white shadow-3xl relative overflow-hidden"
             >
-              <h3 className="text-3xl font-black uppercase italic mb-8">
-                Foreign <span className="text-wine">Suppliers</span>
+              <div className="absolute top-0 right-0 p-12 opacity-5 scale-150 rotate-12">
+                <Icons.Globe />
+              </div>
+              <h3 className="text-3xl font-black uppercase italic mb-8 relative z-10">
+                Section 9 — Foreign <span className="text-wine">Suppliers</span> Welcome
               </h3>
-              <p className="text-white/60 mb-10 font-medium leading-relaxed">
-                India's industries are growing rapidly. If you produce PFAD,
-                TOFA, or Stearic acid and seek a stable Indian buyer, we provide
-                a reliable, long-term partnership.
+              <p className="text-white/60 mb-10 font-medium leading-relaxed relative z-10">
+                India's soap, detergent, paints and rubber industries are growing rapidly — and they consume fatty acids in large, consistent volumes. We provide a stable, long-term Indian channel for global producers.
               </p>
-              <div className="space-y-6 mb-12">
-                <div className="flex items-center gap-4 text-sm font-bold">
-                  <div className="w-2 h-2 bg-wine rounded-full"></div>
-                  <span>Credit-based flexible terms (DA / OA)</span>
+              
+              <div className="space-y-10 mb-12 relative z-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div>
+                    <h5 className="text-[10px] font-black text-wine uppercase tracking-widest mb-4">What We Look For:</h5>
+                    <ul className="space-y-3">
+                      {[
+                        "Credit-based flexible terms (DA / OA)",
+                        "Regular and consistent shipment schedules",
+                        "Long-term business relationship commitment"
+                      ].map((text, i) => (
+                        <li key={i} className="flex gap-3 items-start">
+                          <Icons.Check />
+                          <span className="text-white/70 text-[10px] font-bold uppercase tracking-wider">{text}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-4">Specs We Need:</h5>
+                    <ul className="text-[9px] font-bold uppercase tracking-widest text-white/40 space-y-2">
+                      <li>• PFAD: FFA ≥70% · Malaysia/Indonesia</li>
+                      <li>• TOFA: Acid ≥185 · Russia/Finland/USA</li>
+                      <li>• Stearic: Purity/Titre per grade</li>
+                      <li>• RBFA: FFA ≥60% · India origin</li>
+                      <li>• Oleic: Chain/Purity per grade</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="flex items-center gap-4 text-sm font-bold">
-                  <div className="w-2 h-2 bg-wine rounded-full"></div>
-                  <span>Regular and consistent shipment schedules</span>
-                </div>
-                <div className="flex items-center gap-4 text-sm font-bold text-wine">
-                  <Icons.Globe />
-                  <span className="uppercase tracking-widest text-[10px]">
-                    Malaysian, Indonesian, Russian & European origins preferred
-                  </span>
+
+                <div className="bg-white/5 p-6 border-l-4 border-wine">
+                  <h5 className="text-[10px] font-black text-white uppercase tracking-widest mb-2">Send us:</h5>
+                  <p className="text-white/30 text-[9px] font-medium leading-loose uppercase tracking-widest italic">
+                    Company · Country · Product(s) · Grade · Monthly Capacity (MT) · FOB Price · Packaging · Payment Terms · Contact
+                  </p>
                 </div>
               </div>
+
               <Link
                 to="/contact"
-                className="w-full bg-wine py-6 text-center block text-[10px] font-black uppercase tracking-[0.3em] hover:bg-white hover:text-navy transition-all"
+                className="w-full bg-wine py-6 text-center block text-[10px] font-black uppercase tracking-[0.3em] hover:bg-white hover:text-navy transition-all relative z-10"
               >
                 Collaborate with us
               </Link>

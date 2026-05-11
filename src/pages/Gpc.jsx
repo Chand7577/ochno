@@ -294,8 +294,13 @@ const Gpc = () => {
                     </TableBody>
                 </Table>
             </div>
-            <div className="mt-8">
-                <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic text-center">Note: 1–5mm is the most widely used size — balances fast dissolution with easy handling and minimal fines dust.</p>
+            <div className="mt-8 space-y-4">
+                <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic text-center">
+                    Note: 1–5mm is the most widely used size — balances fast dissolution with easy handling and minimal fines dust.
+                </p>
+                <p className="text-[10px] text-white/40 uppercase font-black tracking-widest italic text-center">
+                    COA per lot: F.C., S, N, Ash, VM, Moisture, size analysis — all parameters tested, not just F.C. | Graphitization degree verified per lot — ask us for the test method used.
+                </p>
             </div>
           </Reveal>
         </div>
@@ -318,7 +323,8 @@ const Gpc = () => {
                     { t: "High Absorption", d: "90–95% rate — graphite structure dissolves rapidly. Less material per heat, more predictable pickup." },
                     { t: "Improved Nucleation", d: "Graphite nuclei promote nodule formation in ductile iron and improve distribution in grey iron." },
                     { t: "Reduces Pig Iron", d: "Higher carbon recovery from scrap allows increased scrap usage, reducing expensive pig iron in the charge." },
-                    { t: "Extends Lining Life", d: "Clean dissolution with no slag protects furnace and ladle linings, reducing maintenance costs." }
+                    { t: "Extends Lining Life", d: "Clean dissolution, no slag — protects furnace and ladle linings and reduces consumption over time." },
+                    { t: "Lower Total Cost", d: "Higher price per tonne offset by better recovery (90%+), reduced rework, and tighter chemistry control heat to heat." }
                 ].map((item, i) => (
                     <Reveal key={i} variant="fadeUp" delay={100 * i}>
                         <div className="bg-white p-10 h-full shadow-xl border-t-4 border-navy hover:border-wine transition-all">
@@ -389,21 +395,23 @@ const Gpc = () => {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <div className="space-y-4">
-                        <h4 className="font-black text-navy uppercase text-sm tracking-widest">Quality & Consistency</h4>
+                        <h4 className="font-black text-navy uppercase text-sm tracking-widest underline decoration-wine decoration-2 underline-offset-4">Quality & Consistency</h4>
                         <ul className="text-xs space-y-2 text-gray-600 font-bold uppercase">
-                            <li>• Fixed Plant Source in China</li>
-                            <li>• Graphitization Degree Verified</li>
-                            <li>• Full COA Per Lot</li>
-                            <li>• SGS/Intertek Inspection</li>
+                            <li>• Fixed Plant Source in China — Same Furnace</li>
+                            <li>• Graphitization Degree Verified Per Lot</li>
+                            <li>• Full COA (F.C., S, N, Ash, VM, Moisture)</li>
+                            <li>• SGS / Intertek Inspection Available</li>
+                            <li>• Reference Sample Retained 12 Months</li>
                         </ul>
                     </div>
                     <div className="space-y-4">
-                        <h4 className="font-black text-wine uppercase text-sm tracking-widest">Supply & Commercial</h4>
+                        <h4 className="font-black text-wine uppercase text-sm tracking-widest underline decoration-navy decoration-2 underline-offset-4">Supply & Commercial</h4>
                         <ul className="text-xs space-y-2 text-gray-600 font-bold uppercase">
-                            <li>• All 3 Grades Available</li>
-                            <li>• Ex-stock Indian Ports</li>
-                            <li>• LCL trial from 500kg</li>
-                            <li>• Competitive CIF/DAP Pricing</li>
+                            <li>• All 3 GPC Grades — Single Point Supply</li>
+                            <li>• 1–5mm Always Ex-Stock Indian Ports</li>
+                            <li>• Specialty Sizes (30–40 Day Lead Time)</li>
+                            <li>• LCL trial from 500kg available</li>
+                            <li>• Competitive CIF / DAP / Ex-Stock Pricing</li>
                         </ul>
                     </div>
                 </div>
@@ -413,11 +421,20 @@ const Gpc = () => {
                     <div className="absolute top-0 right-0 w-24 h-24 bg-wine -translate-y-12 translate-x-12 rotate-45"></div>
                     <h3 className="text-3xl font-black uppercase italic mb-6">Logistics Overview</h3>
                     <ul className="text-white/70 font-medium space-y-3 text-sm">
-                        <li>• Packaging: 25/50kg or 1MT Jumbo Bags</li>
-                        <li>• One 20-ft FCL: approx 22–23 MT</li>
-                        <li>• Ports: JNPT / Nhava Sheva, Mundra</li>
-                        <li>• Transit from China: 15–20 days sea</li>
+                        <li>• Packaging: 25kg / 50kg bags in 1MT jumbo bags, or direct 1MT jumbo bags</li>
+                        <li>• One 20-ft FCL: approx 22–23 MT of bagged GPC</li>
+                        <li>• Ports: JNPT / Nhava Sheva (primary), Mundra, Hazira</li>
+                        <li>• Transit from China: 15–20 days sea freight</li>
+                        <li>• HS Code: 2713.12 (calcined petroleum coke) — GPC may also clear under 3801 depending on grade declaration</li>
                     </ul>
+                    <div className="mt-8 border-t border-white/10 pt-6">
+                        <span className="text-[10px] font-black uppercase text-wine tracking-widest block mb-4">Direct Delivery Clusters:</span>
+                        <div className="flex flex-wrap gap-2">
+                            {["Raipur", "Mandi Gobindgarh", "Muzaffarnagar", "Rajkot", "Coimbatore", "Pune"].map(c => (
+                                <span key={c} className="text-[9px] px-2 py-1 bg-white/5 border border-white/10 rounded font-bold uppercase tracking-wider">{c}</span>
+                            ))}
+                        </div>
+                    </div>
                     <div className="flex items-center gap-4 mt-8">
                         <Icons.Truck />
                         <span className="font-black uppercase tracking-widest text-wine text-sm">Ex-Stock: 3–7 Days Delivery</span>
@@ -436,16 +453,17 @@ const Gpc = () => {
                     GPC Producers & <span className="text-wine">Export Partners</span>
                 </h2>
                 <p className="text-gray-600 text-lg font-medium leading-relaxed mb-12">
-                    We are regular monthly importers with an active Indian buyer network. We offer D/P or open account terms to qualified suppliers. Flexible payment terms are essential for building volume in the Indian market.
+                    We are regular monthly importers with an active Indian buyer network — your material moves fast. We offer D/P or open account terms to qualified suppliers. Suppliers insisting on LC or full advance for every shipment find it hard to build volume in India — flexible payment terms is what makes a supply relationship work here.
                 </p>
                 <div className="bg-navy p-10 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                     <div>
-                        <h4 className="text-wine font-black uppercase text-sm tracking-widest mb-4">Quality Requirements</h4>
+                        <h4 className="text-wine font-black uppercase text-sm tracking-widest mb-4">What We Need</h4>
                         <ul className="text-white/60 text-xs space-y-2 font-medium">
                             <li>• F.C. ≥98.5% (SGS/BV COA)</li>
                             <li>• S ≤0.05% · N ≤0.03%</li>
                             <li>• Graphitization ≥95%</li>
                             <li>• Size: 1–5mm (≥90% in range)</li>
+                            <li>• Packing: 1MT jumbo bags</li>
                         </ul>
                     </div>
                     <div>
@@ -453,7 +471,7 @@ const Gpc = () => {
                         <ul className="text-white/60 text-xs space-y-2 font-medium">
                             <li>• Company Profile & Location</li>
                             <li>• Monthly Supply Capacity</li>
-                            <li>• Detailed F.C./S/N Analysis</li>
+                            <li>• Detailed F.C./S/N %</li>
                             <li>• Current FOB Price Offer</li>
                         </ul>
                     </div>
